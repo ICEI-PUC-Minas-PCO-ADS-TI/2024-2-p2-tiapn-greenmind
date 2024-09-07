@@ -1,25 +1,32 @@
-# Nome do projeto
+Green Mind 
 
 `CURSO: Análise e Desenvolvimento de Sistemas`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações para Processos de Negócios`
 
-`Xº semestre/ANO`
+`2º semestre/2024`
 
+Resumo. é um aplicativo inovador destinado a promover práticas sustentáveis e
+aumentar a conscientização ambiental. Por meio de conteúdo educativo interativo,
+quizzes e desafios, o aplicativo visa engajar usuários de todas as idades na adoção
+de hábitos ecológicos, contribuindo para a preservação do meio ambiente e a
+construção de um futuro mais sustentável. 
 Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Christian Sena Gomes 
+* Diego Romero Ribeiro Chaves 
+* Gabriel Henrique Duarte Ferraz
+* Lara Melo Damas
+* João Pedro dos Santos Martins
+* Marcela Ferreira dos Anjos 
+* Samuel Andrade Neto
+* Victor Bryan Ferreira Lopes 
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+* Amália Soares Vieira Vasconcelos 
 
 ## Instruções de utilização
 
