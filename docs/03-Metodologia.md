@@ -75,6 +75,9 @@ Atualizado em: 21/04/2024
 | Victor Bryan  | Documentação Contexto |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 | Victor Bryan  | Personas |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 | Victor Bryan  | Caso de Uso |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Samuel Andrade  | Persona |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Samuel Andrade  | Documentação Contexto |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Samuel Andrade  | Mapa De Stakeholters |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 
 #### Sprint 2
 
