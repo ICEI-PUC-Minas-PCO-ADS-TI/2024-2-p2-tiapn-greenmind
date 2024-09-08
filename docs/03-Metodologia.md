@@ -72,7 +72,9 @@ Atualizado em: 21/04/2024
 | Diego Chaves       | Personas  |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 | Gabriel Henrique  | Documentação Contexto  |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 | Gabriel Henrique  | Casos de Uso|    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
-| Gabriel Henrique  | Slides |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Victor Bryan  | Documentação Contexto |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Victor Bryan  | Personas |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Victor Bryan  | Caso de Uso |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 
 #### Sprint 2
 
