@@ -67,7 +67,10 @@ Atualizado em: 21/04/2024
 | Christian Sena Gomes        | Documentação Contexto | 16/08/2024     | 08/09/2024 | ✔️    | 08/09/2024      |
 | Christian Sena Gomes        | Requisitos    | 16/08/2024     | 08/09/2024 | ✔️    |  08/09/2024               |
 | Christian Sena Gomes        | Casos de uso  | 16/08/2024     | 08/09/2024 | ✔️     | 08/09/2024                |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Diego Chaves       | Documentação Contexto  |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Diego Chaves       | Requisitos  |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Diego Chaves       | Personas  |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+|                    | Documentação Contexto  |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 
 #### Sprint 2
 
