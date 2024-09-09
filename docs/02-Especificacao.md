@@ -65,13 +65,13 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário faça login/cadastro | ALTA | 
-|RF-002| Permitir que o usuário comente em publicações  | MÉDIA |
+|RF-002| Permitir que o usuário comente em publicações  | BAIXA |
 |RF-003| Permitir que o usuário jogue quizzes  | MÉDIA |
-|RF-004| Permitir que o usuário gerencie o seu perfil  | MÉDIA |
+|RF-004| Permitir que o usuário gerencie o seu perfil  | BAIXA |
 |RF-005| Permitir que o usuário pague para ser premium  | MÉDIA |
 |RF-006| Permitir que o usuário administrador gerencie os usuários  | MÉDIA |
-|RF-007| Permitir que o usuário administrador crie publicações  | MÉDIA |
-|RF-008| Permitir que o usuário administrador exclua publicações  | MÉDIA |
+|RF-007| Permitir que o usuário administrador crie publicações  | ALTA |
+|RF-008| Permitir que o usuário administrador exclua publicações  | ALTA |
 
 ### Requisitos não funcionais
 
