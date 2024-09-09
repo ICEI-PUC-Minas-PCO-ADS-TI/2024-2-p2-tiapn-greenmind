@@ -77,12 +77,12 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser compatível com os sistemas operacionais Android e iOS | MÉDIA | 
-|RNF-002| Deve ter um tempo de resposta de no máximo 2 segundos |  BAIXA | 
-|RNF-003| Deve suportar um grande número de usuários simultâneos |  BAIXA | 
+|RNF-001| O site deve ser compatível com os sistemas operacionais Android e iOS | ALTA | 
+|RNF-002| Deve ter um tempo de resposta de no máximo 2 segundos |  MÉDIA | 
+|RNF-003| Deve suportar um grande número de usuários simultâneos |  MÉDIA | 
 |RNF-004| Deve ser intuitivo |  BAIXA | 
-|RNF-005| O sistema deve ter uma disponibilidade mínima de 99,9% |  BAIXA | 
-|RNF-006| Deve ser responsivo em dispositivos móveis e desktops |  BAIXA | 
+|RNF-005| O sistema deve ter uma disponibilidade mínima de 99,9% |  MÉDIA | 
+|RNF-006| Deve ser responsivo em dispositivos móveis e desktops |  ALTA | 
 |RNF-007| Deve permitir atualizações frequentes sem interrupções significativas no serviço. |  BAIXA | 
 
 ## Restrições
