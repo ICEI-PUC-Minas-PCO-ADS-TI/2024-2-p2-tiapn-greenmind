@@ -81,6 +81,9 @@ Atualizado em: 21/04/2024
 | João Pedro dos Santos  | Documentação Contexto |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 | João Pedro dos Santos  | Requisitos |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 | João Pedro dos Santos  | Slide |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Lara Damas  | Documentação Contexto |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Lara Damas  | Personas |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
+| Lara Damas  | Mapa de Stakeholders |    16/08/2024        | 08/09/2024 | ✔️    |   08/09/2024    |
 
 #### Sprint 2
 
