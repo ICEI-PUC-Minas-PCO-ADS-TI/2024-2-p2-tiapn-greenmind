@@ -110,10 +110,11 @@ Atualizado em: 21/04/2024
 | João Pedro        | Relatório  |  28/09/2024    | 30/09/2024 | ✔️    |   30/09/2024    |
 | João Pedro        | Slides  |  26/09/2024    | 30/09/2024 | ✔️    |   30/09/2024    |
 | Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
-| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
 | Marcela Anjos        | AS-IS e TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
 | Samuel Andrade        | Slide  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
 | Samuel Andrade        | TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Christian Sena Gomes        | AS-IS e TO-BE Água e Luz  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Christian Sena Gomes        | Modelagem processos de negócio (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
 
 
 
