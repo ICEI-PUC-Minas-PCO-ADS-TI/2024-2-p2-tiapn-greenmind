@@ -104,8 +104,13 @@ Atualizado em: 21/04/2024
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Lara Damas        | AS-IS e TO-BE Água e Luz   | 26/09/2024     | 30/09/2024 | ✔️    | 30/09/2024      |
 | Lara Damas        | AS-IS e TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Victor Bryan        | AS-IS e TO-BE Água e Luz  | 26/09/2024     | 30/09/2024 | ✔️     |   30/09/2024              |
+| Victor Bryan        | AS-IS e TO-BE Alimentos  |  26/09/2024    | 30/09/2024 | ✔️    |   30/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
 
 
 Legenda:
