@@ -1,9 +1,8 @@
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
  
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 2. 
-Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN._
+O processo de Redução de Desperdícios Alimentares apresenta diversas oportunidades de melhoria, tais como: maior eficiência na coleta de informações sobre os alimentos desperdiçados, automação na análise das causas do desperdício, e maior engajamento nas ações educativas e práticas de conscientização. Além disso, a implementação de um monitoramento contínuo com feedback em tempo real poderia otimizar a tomada de decisões e a aplicação de novas estratégias para garantir que os objetivos de redução sejam atingidos de forma mais eficiente.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](../images/process.png "Modelo BPMN do Processo 2.")
+![Exemplo de um Modelo BPMN do PROCESSO 2](docs/images/process2tobe.png "Modelo BPMN do Processo 2.")
 
 
 #### Detalhamento das atividades
@@ -41,10 +40,12 @@ _* **Tabela** - campo formado por uma matriz de valores_
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+ Dados de Consumo             | Caixa de Texto | Informar quantidade e tipo       |               |
+| Feedback da Comunidade       | Caixa de Texto | Comentários opcionais            |               |
+| Nome do Workshop             | Caixa de Texto | Mínimo de 5 caracteres           |               |
+| Data do Workshop             | Data           | Formato dd/mm/yyyy               |               |
+| Nome da Família Participante | Caixa de Texto | Mínimo de 3 caracteres           |               |
+| Compromisso Ambiental        | Caixa de Texto | Detalhamento das ações comprometidas |             |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
