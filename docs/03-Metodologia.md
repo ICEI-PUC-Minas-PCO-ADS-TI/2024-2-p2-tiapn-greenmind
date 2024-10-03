@@ -115,6 +115,8 @@ Atualizado em: 21/04/2024
 | Samuel Andrade        | TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
 | Christian Sena Gomes        | AS-IS e TO-BE Água e Luz  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
 | Christian Sena Gomes        | Modelagem processos de negócio (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
+| Gabriel Henrique       | Slides  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Gabriel Henrique        | Metodologia (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
 
 
 
