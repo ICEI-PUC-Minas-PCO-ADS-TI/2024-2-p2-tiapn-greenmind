@@ -1,67 +1,38 @@
 ### 3.3.1 Processo 1 – NOME DO PROCESSO
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
-Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
+O processo de Redução de Consumo de Água e Energia pode ser aprimorado em diversos aspectos. Algumas oportunidades de melhoria incluem: a automação da coleta de dados, maior engajamento dos alunos no monitoramento do consumo, uso de tecnologia para fornecer feedback em tempo real, e ajustes contínuos nas estratégias com base em análises mais precisas. Além disso, a integração de relatórios digitais e a implementação de um sistema de acompanhamento das metas podem garantir uma maior eficácia na redução do desperdício
  
-![Exemplo de um Modelo BPMN do PROCESSO 1](../images/process.png "Modelo BPMN do Processo 1.")
+![Exemplo de um Modelo BPMN do PROCESSO 1](docs/images/process1tobe.png "Modelo BPMN do Processo 1.")
 
-#### Detalhamento das atividades
-
-_Descreva aqui cada uma das propriedades das atividades do processo 1. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
 
 _Os tipos de dados a serem utilizados são:_
 
-_* **Área de texto** - campo texto de múltiplas linhas_
+_* **Área de texto** - chat entre equipe e comunidade escolar_
 
-_* **Caixa de texto** - campo texto de uma linha_
-
-_* **Número** - campo numérico_
-
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
-
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
-
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
+_* **Data** - A Coleta de dados ocorrerá mensalmente_
 
 _* **Imagem** - campo contendo uma imagem_
 
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
+_* **Seleção única** -  Escolher um status de aprovação ("Aprovado", "Em Revisão", "Recusado").
 
 _* **Arquivo** - campo de upload de documento_
 
-_* **Link** - campo que armazena uma URL_
 
-_* **Tabela** - campo formado por uma matriz de valores_
+_* **Tabela** -  facilitando a visualização de múltiplos dados ao mesmo tempo_
 
 
 **Nome da atividade 1**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+ Chat entre a equipe e a comunidade | Área de texto   | Deve oferecer sugestões de redução de consumo | null          |
+| Feedbacks de rejeição        | Caixa de texto | A sugestão deve ser negada       | null          |
+| Combinar encontro para inspeção | Data e Hora    | A proposta de inspeção deve ser aceita | null      |
+| Enviar imagens para verificação de práticas | Imagem        | Deve haver imagens de práticas atuais | null       |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
-
-
-**Nome da atividade 2**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
-
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| Enviar mensagem      | Verificar imagens das práticas      | Mensagem   |
+| Enviar feedback      | Receber feedback                    | Mensagem   |
+| Agendar inspeção     | Realizar inspeção                   | Date       |
+| Enviar imagens       | Verificar imagens das práticas      | Imagem     |

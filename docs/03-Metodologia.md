@@ -3,11 +3,19 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+A metodologia de trabalho adotada para o projeto "GreenMind" segue princípios ágeis com foco no Scrum, permitindo uma abordagem flexível e iterativa. A equipe se organiza em sprints curtos, possibilitando entregas contínuas e ajustes ao longo do desenvolvimento.
 
 ## Relação de ambientes de trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+
+| Ambiente                            | Plataforma                         | Link de acesso                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind                        |
+| Documentos do projeto               | Word                            | http://....                            |
+| Projeto de interface                | Figma                              | https://www.figma.com/files/team/1409007676093007271/recents-and-sharing/recently-viewed?fuid=1352005878152333410                            |
+| Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/15                           |
+| Hospedagem                          | Vercel                             | http://....                            |
 
 ## Controle de versão
 
@@ -94,10 +102,22 @@ Atualizado em: 21/04/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Página inicial   | 01/02/2024     | 07/03/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | CSS unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| Lara Damas        | AS-IS e TO-BE Água e Luz   | 26/09/2024     | 30/09/2024 | ✔️    | 30/09/2024      |
+| Lara Damas        | AS-IS e TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Victor Bryan        | AS-IS e TO-BE Água e Luz  | 26/09/2024     | 30/09/2024 | ✔️     |   30/09/2024              |
+| Victor Bryan        | AS-IS e TO-BE Alimentos  |  26/09/2024    | 30/09/2024 | ✔️    |   30/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
+| João Pedro        | Relatório  |  28/09/2024    | 30/09/2024 | ✔️    |   30/09/2024    |
+| João Pedro        | Slides  |  26/09/2024    | 30/09/2024 | ✔️    |   30/09/2024    |
+| Victor Bryan        | Modelagem processos de negócio (github)  |  27/09/2024    | 30/09/2024 | ✔️    |   29/09/2024    |
+| Marcela Anjos        | AS-IS e TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Samuel Andrade        | Slide  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Samuel Andrade        | TO-BE Alimentos  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Christian Sena Gomes        | AS-IS e TO-BE Água e Luz  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Christian Sena Gomes        | Modelagem processos de negócio (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
+| Gabriel Henrique       | Slides  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
+| Gabriel Henrique        | Metodologia (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
+
 
 
 Legenda:
