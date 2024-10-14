@@ -65,13 +65,24 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário faça login/cadastro | ALTA | 
-|RF-002| Permitir que o usuário comente em publicações  | BAIXA |
+|RF-002| Permitir que o usuário comente em publicações  | MÉDIA |
 |RF-003| Permitir que o usuário jogue quizzes  | MÉDIA |
 |RF-004| Permitir que o usuário gerencie o seu perfil  | BAIXA |
-|RF-005| Permitir que o usuário pague para ser premium  | MÉDIA |
-|RF-006| Permitir que o usuário administrador gerencie os usuários  | MÉDIA |
+|RF-005| Permitir que o usuário visualize e participe de desafios   | MÉDIA |
+|RF-006| Permitir que o usuário administrador gerencie os usuários  | ALTA |
 |RF-007| Permitir que o usuário administrador crie publicações  | ALTA |
 |RF-008| Permitir que o usuário administrador exclua publicações  | ALTA |
+|RF-009| Permitir que o usuário registre consumo de água e energia | BAIXA |
+|RF-010| Permitir que o usuário visualize gráficos de consumo | BAIXA |
+|RF-011| Permitir que o usuário acesse o mapa de pontos de reciclagem  | MÉDIA |
+|RF-012| Permitir que o usuário calcule sua pegada ecológica | ALTA |
+|RF-013| Permitir que o usuário faça download de placas educativas | BAIXA |
+|RF-014| Permitir que o usuário administre seus favoritos | BAIXA |
+|RF-015| Permitir que o usuário receba notificações sobre novos conteúdos e desafios | BAIXA |
+|RF-016| Permitir que o usuário visualize e acesse conteúdos favoritos | BAIXA |
+|RF-017| Permitir que o usuário visualize relatórios personalizados sobre sua redução de desperdício | BAIXA |
+|RF-018| Permitir que o usuário compartilhe conquistas nas redes sociais | BAIXA |
+|RF-019| Permitir que parceiros solicitem anúncios na plataforma | ALTA |
 
 ### Requisitos não funcionais
 
