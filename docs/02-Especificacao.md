@@ -4,48 +4,45 @@
 
 ## Personas
 
-Persona 1: João, 16 anos, Estudante do Ensino Médio
-Objetos Físicos e Digitais: 
-•	caderno, livros escolares, smartphone, laptop;
-Objetivos Chave:
-•	 aprender sobre práticas sustentáveis para projetos escolares e aplicar em casa;
-Por que Ele Precisa do Serviço:
-•	 para obter informações acessíveis e práticas aplicáveis à sua faixa etária e vida diária;
-Como Devemos Tratá-lo:
-•	 De forma empática e encorajadora, com conteúdos interativos, educativos e divertidos.
+**Persona 1: João, 16 anos, Estudante do Ensino Médio**
+- **Objetos Físicos e Digitais:** 
+  Caderno, livros escolares, smartphone, laptop;
+- **Objetivos Chave:**
+  Aprender sobre práticas sustentáveis para projetos escolares e aplicar em casa;
+- **Por que Ele Precisa do Serviço:**
+  Para obter informações acessíveis e práticas aplicáveis à sua faixa etária e vida diária;
+- **Como Devemos Tratá-lo:**
+  De forma empática e encorajadora, com conteúdos interativos, educativos e divertidos.
 
-Persona 2: Maria, 32 anos, Engenheira Ambiental
-Objetos Físicos e Digitais: 
-•	Documentos técnicos, laptop, smartphone;
-Objetivos Chave: 
-•	Manter-se atualizada sobre novas práticas sustentáveis e aplicá-las na vida profissional e pessoal;
-Por que Ela Precisa do Serviço: 
-•	Para acessar informações técnicas e práticas no cotidiano;
-Como Devemos Tratá-la: 
-•	Com profissionalismo, fornecendo conteúdo de alta qualidade e respeitando seu nível de conhecimento.
+**Persona 2: Maria, 32 anos, Engenheira Ambiental**
+- **Objetos Físicos e Digitais:** 
+  Documentos técnicos, laptop, smartphone;
+- **Objetivos Chave:** 
+  Manter-se atualizada sobre novas práticas sustentáveis e aplicá-las na vida profissional e pessoal;
+- **Por que Ela Precisa do Serviço:** 
+  Para acessar informações técnicas e práticas no cotidiano;
+- **Como Devemos Tratá-la:** 
+  Com profissionalismo, fornecendo conteúdo de alta qualidade e respeitando seu nível de conhecimento.
 
-Persona 3: Ana, 45 anos, Dona de Casa
-Objetos Físicos e Digitais: 
-•	Utensílios domésticos, smartphone, computador de mesa.
-Objetivos Chave:
-•	 Aprender maneiras econômicas de aplicar sustentabilidade em casa.
-Por que Ela Precisa do Serviço: 
-•	Para obter dicas práticas e fáceis de incorporar à rotina diária.
-•	Como Devemos Tratá-la: Com empatia e praticidade, oferecendo soluções rápidas e acessíveis.
+**Persona 3: Ana, 45 anos, Dona de Casa**
+- **Objetos Físicos e Digitais:** 
+  Utensílios domésticos, smartphone, computador de mesa.
+- **Objetivos Chave:**
+  Aprender maneiras econômicas de aplicar sustentabilidade em casa.
+- **Por que Ela Precisa do Serviço:** 
+  Para obter dicas práticas e fáceis de incorporar à rotina diária.
+- **Como Devemos Tratá-la:**
+  Com empatia e praticidade, oferecendo soluções rápidas e acessíveis.
 
-Persona 4: Lucas Martins, 30 anos, Designer Gráfico Freelance
-Objetos Físicos e Digitais:
-Físicos: 
-•	Ferramentas de design gráfico, materiais de jardinagem, computador, livros sobre design sustentável.
-Digitais: 
-•	Software de design, blogs e sites sobre design sustentável, vídeos tutoriais, redes sociais para designers.
-Objetivos Chave:
-•	Integrar práticas sustentáveis em seus projetos de design gráfico e em sua vida pessoal.
-Por que Ele Precisa do Serviço:
-•	Para aprender e aplicar soluções sustentáveis que sejam criativas e viáveis tanto para seus clientes quanto para seus projetos pessoais.
-Como Devemos Tratá-lo:
-•	Ofereça recursos e tutoriais sobre design gráfico sustentável, com ideias práticas para integrar práticas ecológicas em seus projetos.
-•	Forneça exemplos de casos de sucesso e ferramentas que facilitem a aplicação dessas práticas em seu trabalho diário.
+**Persona 4: Lucas Martins, 30 anos, Designer Gráfico Freelance**
+- **Objetos Físicos e Digitais:**
+  Ferramentas de design gráfico, materiais de jardinagem, computador, livros sobre design sustentável, blogs e sites sobre design sustentável. 
+- **Objetivos Chave:**
+  Integrar práticas sustentáveis em seus projetos de design gráfico e em sua vida pessoal.
+- **Por que Ele Precisa do Serviço:**
+  Para aprender e aplicar soluções sustentáveis que sejam criativas e viáveis tanto para seus clientes quanto para seus projetos pessoais.
+- **Como Devemos Tratá-lo:**
+  Ofereça recursos e tutoriais sobre design gráfico sustentável, com ideias práticas para integrar práticas ecológicas em seus projetos, forneça exemplos de casos de sucesso e ferramentas que facilitem a aplicação dessas práticas em seu trabalho diário.
 
 ## Histórias de usuários
 
