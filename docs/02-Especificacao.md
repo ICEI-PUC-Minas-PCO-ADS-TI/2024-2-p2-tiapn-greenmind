@@ -53,7 +53,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |Estudante do ensino médio  | Acessar conteúdos  educativos sobre reciclagem e práticas sustentáveis.           | Aplicar esses conhecimentos em um projeto escolar e em casa, tornando minhas ações mais conscientes e ajudando a criar um impacto positivo no meio ambiente.     |
 |Engenheira ambiental       |Fazer desafios/quizzes para entender meu impacto no meio ambiente                 | Implementar essas práticas em meus projetos profissionais e compartilhar conhecimentos com meus colegas de trabalho, influenciando positivamente a comunidade. |
 |Dona de casa | Acessar sugestões de como reduzir o desperdício de alimentos e usar produtos ecológicos na cozinha. | Tornar minha casa mais sustentável de maneira prática e econômica. |
-| Estudante Universitário e Jovem Ativista Ambiental |  Promover ações de conscientização ambiental | Para aprender ferramentas que facilitem a organização de eventos comunitários e a mobilização de seus seguidores.|
+| Estudante Universitário e Jovem Ativista Ambiental |  Promover ações de conscientização ambiental | Quero usar o mapa de pontos de reciclagem para organizar ações comunitárias de coleta seletiva.|
 
 ## Requisitos
 
