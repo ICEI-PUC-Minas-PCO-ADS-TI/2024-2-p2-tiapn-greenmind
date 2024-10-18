@@ -34,15 +34,15 @@
 - **Como Devemos Tratá-la:**
   Com empatia e praticidade, oferecendo soluções rápidas e acessíveis.
 
-**Persona 4: Lucas Martins, 30 anos, Designer Gráfico Freelance**
+**Persona 4: Lucas Martins, 20 anos, Estudante Universitário e Jovem Ativista Ambiental**
 - **Objetos Físicos e Digitais:**
-  Ferramentas de design gráfico, materiais de jardinagem, computador, livros sobre design sustentável, blogs e sites sobre design sustentável. 
+  Smartphone, computador, aplicativos de redes sociais, materiais educativos sobre reciclagem e sustentabilidade,ferramentas para organização de eventos comunitários.
 - **Objetivos Chave:**
-  Integrar práticas sustentáveis em seus projetos de design gráfico e em sua vida pessoal.
+  Promover ações de conscientização ambiental, expandir seu conhecimento sobre práticas sustentáveis e organizar eventos comunitários de coleta seletiva para engajar sua comunidade na reciclagem e redução de desperdício.
 - **Por que Ele Precisa do Serviço:**
-  Para aprender e aplicar soluções sustentáveis que sejam criativas e viáveis tanto para seus clientes quanto para seus projetos pessoais.
+  Quero usar o mapa de pontos de reciclagem para organizar ações comunitárias de coleta seletiva.
 - **Como Devemos Tratá-lo:**
-  Ofereça recursos e tutoriais sobre design gráfico sustentável, com ideias práticas para integrar práticas ecológicas em seus projetos, forneça exemplos de casos de sucesso e ferramentas que facilitem a aplicação dessas práticas em seu trabalho diário.
+  Ofereça recursos educativos acessíveis e interativos, como quizzes e desafios, com ênfase em temas relacionados à reciclagem e redução de desperdício. Proporcione ferramentas para o planejamento e compartilhamento de eventos comunitários, além de mapas de pontos de reciclagem que ele possa divulgar para seus seguidores e participantes.
 
 ## Histórias de usuários
 
@@ -50,10 +50,10 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Estudante do ensino médio  | Acessar vídeos educativos sobre reciclagem e práticas sustentáveis.           | Aplicar esses conhecimentos em um projeto escolar e em casa, tornando minhas ações mais conscientes e ajudando a criar um impacto positivo no meio ambiente.     |
-|Engenheira ambiental       | Ler artigos técnicos e assistir a webinars sobre agricultura sustentável.                 | Implementar essas práticas em meus projetos profissionais e compartilhar conhecimentos com meus colegas de trabalho, influenciando positivamente a comunidade. |
+|Estudante do ensino médio  | Acessar conteúdos  educativos sobre reciclagem e práticas sustentáveis.           | Aplicar esses conhecimentos em um projeto escolar e em casa, tornando minhas ações mais conscientes e ajudando a criar um impacto positivo no meio ambiente.     |
+|Engenheira ambiental       |Fazer desafios/quizzes para entender meu impacto no meio ambiente                 | Implementar essas práticas em meus projetos profissionais e compartilhar conhecimentos com meus colegas de trabalho, influenciando positivamente a comunidade. |
 |Dona de casa | Acessar sugestões de como reduzir o desperdício de alimentos e usar produtos ecológicos na cozinha. | Tornar minha casa mais sustentável de maneira prática e econômica. |
-|Designer gráfico freelance | Acessar tutoriais e exemplos de design gráfico sustentável. | Aplicar soluções sustentáveis em meus projetos, oferecendo opções ecológicas e inovadoras aos meus clientes.|
+| Estudante Universitário e Jovem Ativista Ambiental |  Promover ações de conscientização ambiental | Para aprender ferramentas que facilitem a organização de eventos comunitários e a mobilização de seus seguidores.|
 
 ## Requisitos
 
