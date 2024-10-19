@@ -10,8 +10,11 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
  ## User flow
 
 Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
+
 User Flow completo
 ![Screen flow UX (fluxo de telas) (3)](https://github.com/user-attachments/assets/c426e3e3-19cc-4414-8868-b714c8772b04)
+
+Corte da Imagem para Melhor Leitura 
 
 ![Screen flow UX (fluxo de telas) (1)](https://github.com/user-attachments/assets/7a8450af-87a5-448b-abc7-cf52a6de2db8)
 
@@ -31,7 +34,8 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, internamente, a indicação dos principais elementos de interface — tais como menus e acessos — e funcionalidades, como editar, pesquisar, filtrar e configurar, além da conexão entre esses boxes a partir do processo de interação.
 
-![Exemplo de diagrama de fluxo](images/diagrama_fluxo.jpg)
+![User Flow](https://github.com/user-attachments/assets/88e68bd2-b358-42e8-b1d9-f1ff46bc9b6d)
+
 
 > **Links úteis**:
 > - [Como criar um diagrama de fluxo de usuário](https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram)
