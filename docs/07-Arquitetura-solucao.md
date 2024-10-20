@@ -16,7 +16,8 @@ O diagrama de classes ilustra graficamente a estrutura do software e como cada u
 
 ##  Modelo de dados
 
-![MER-GREENMIND](https://github.com/user-attachments/assets/5994f23a-66d8-4652-a080-25e218a8f370)
+![Modelo de dados](https://github.com/user-attachments/assets/70f87b58-db57-4ba5-9626-908a4c2e52aa)
+
 
 
 ### Modelo ER
