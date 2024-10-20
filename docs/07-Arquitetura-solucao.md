@@ -13,7 +13,7 @@ O diagrama de classes ilustra graficamente a estrutura do software e como cada u
 
 ##  Modelo de dados
 
-![Modelo de dados](https://github.com/user-attachments/assets/70f87b58-db57-4ba5-9626-908a4c2e52aa)
+![Modelo de dados](./images/diagramapeterchen.svg)
 
 
 
