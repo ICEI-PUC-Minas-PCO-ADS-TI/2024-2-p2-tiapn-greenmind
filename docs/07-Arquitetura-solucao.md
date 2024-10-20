@@ -170,7 +170,7 @@ CREATE TABLE PontoDeReciclagem (
     id_ponto_de_reciclagem INTEGER NOT NULL PRIMARY KEY,
     horario_funcionamento DATETIME,
     tipo_material VARCHAR(45),
-    endereco VARCHAR(240),
+    endereco VARCHAR(240) NOT NULL,
     nome VARCHAR(100),
     id_usuario INTEGER,
     FOREIGN KEY (id_usuario) REFERENCES Usuario(idUsuario)
