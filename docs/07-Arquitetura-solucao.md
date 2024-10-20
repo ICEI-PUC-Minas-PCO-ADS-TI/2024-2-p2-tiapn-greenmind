@@ -1,10 +1,7 @@
 # Arquitetura da solução
 
-<span style="color:red">Pré-requisitos: <a href="05-Projeto-interface.md"> Projeto de interface</a></span>
+![diagramaImplantacao](https://github.com/user-attachments/assets/f0c225cd-5711-4b56-aec5-c23ee7ed47ea)
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![Arquitetura da Solução](images/arquitetura.png)
 
 ## Diagrama de classes
 
