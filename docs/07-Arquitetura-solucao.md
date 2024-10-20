@@ -183,19 +183,20 @@ Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](.
 
 ## Tecnologias
 
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
-| Front-end      | HTML + CSS + JS + React |
+| IDE            | Visual Studio Code |
+| Front-end      | HTML + CSS + JS + Bootstrap|
 | Back-end       | Node.js         |
 | SGBD           | MySQL           |
 | Deploy         | Vercel          |
 
-
+- **IDE | Visual Studio Code:** Editor de código que facilita o desenvolvimento fornecendo extensões e ferramentas.
+- **Front-end | HTML + CSS + JS:** HTML fornece a estrutura e o conteúdo do projeto, o CSS define o estilo e a aparência visual, o JavaScript  adiciona funcionalidades dinâmicas e interativas, o Bootstrap é um framework front-end utilizado para facilitar a estilização e padronização.
+- **Back-end | Node.js:** Permite que o JavaScript seja executado no servidor, processando dados e gerenciando a lógica do projeto.
+- **SGBD | MySQL:** Sistema de gerenciamento de banco de dados(SGBD) relacional que permite armazenar, organizar e recuperar dados.
+- **Deploy | Vercel:**  Plataforma de hospedagem que permite implantar, gerenciar e distribuir aplicações web.
+  
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foram realizados.
