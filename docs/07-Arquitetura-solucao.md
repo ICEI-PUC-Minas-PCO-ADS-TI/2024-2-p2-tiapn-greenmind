@@ -13,7 +13,7 @@ O diagrama de classes ilustra graficamente a estrutura do software e como cada u
 
 ##  Modelo de dados
 
-![Modelo de dados](./images/diagramapeterchen.svg)
+![Modelo de dados](./images/diagramapeter.svg)
 
 
 
