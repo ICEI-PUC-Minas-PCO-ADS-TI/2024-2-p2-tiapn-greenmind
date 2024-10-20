@@ -118,6 +118,17 @@ Atualizado em: 21/04/2024
 | Gabriel Henrique       | Slides  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
 | Gabriel Henrique        | Metodologia (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
 
+#### Sprint 3
+
+Atualizado em: 20/10/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Nome        | Tarefa   | 01/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
+| Nome       | Tarefa  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Nome       | Tarefa  | 01/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
+| Nome       | Tarefa  |  01/10/2024    | 20/10/2024 | ✔️    |   20/10/2024    |
+
 
 
 Legenda:
