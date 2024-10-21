@@ -148,6 +148,9 @@ Atualizado em: 20/10/2024
 | Gabriel Henrique | Diagrama Pé de Galinha | 18/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 | Gabriel Henrique | Slide  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 | Gabriel Henrique | Diagrama Entidade Relacionamento (Peter Chen) | 15/10/2024     | 20/10/2024 | ✔️    |   18/10/2024     |
+| Marcela Anjos      | Figma   | 10/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
+| Marcela Anjos      | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
+| Marcela Anjos      | Diagrama de Classes  | 11/10/2024     | 20/10/2024 | ✔️    |   18/10/2024     |
 
 
 
