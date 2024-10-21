@@ -133,6 +133,10 @@ Atualizado em: 20/10/2024
 | Samuel Andrade Neto       | Figma  | 10/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
 | Samuel Andrade Neto       | Jornada Do Usuario  |  11/10/2024    | 20/10/2024 | ✔️    |   11/10/2024    |
 | Samuel Andrade Neto       | Minimundo  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Diego Chaves        | Scripts Banco de Dados  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Diego Chaves       | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
+| Diego Chaves       | Minimundo  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Diego Chaves        | Jornada Do Usuário   | 11/10/2024     | 20/10/2024 | ✔️    | 11/10/2024      |
 
 
 
