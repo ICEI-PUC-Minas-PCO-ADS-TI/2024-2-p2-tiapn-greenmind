@@ -22,6 +22,24 @@ Corte da Imagem para Melhor Leitura
 ![User Flow](https://github.com/user-attachments/assets/88e68bd2-b358-42e8-b1d9-f1ff46bc9b6d)
 
 
+## Jornada do usuário
+Para o projeto Green Mind, foram desenvolvidas jornadas de usuário, chamadas de user journeys, que ajudam a mapear a interação dos usuários com a plataforma. Cada jornada foi dividida em quatro fases principais, que representam o caminho percorrido pelos usuários desde o primeiro contato até a aplicação prática das soluções oferecidas. Cada fase é estruturada em três aspectos: Doing (o que o usuário está fazendo), Thinking (o que está pensando) e Saying (o que está sendo dito), para fornecer uma visão completa das ações, pensamentos e diálogos durante a jornada. Essa abordagem facilita a compreensão das necessidades e expectativas dos usuários, permitindo que o desenvolvimento do projeto seja direcionado para criar uma experiência mais eficiente e satisfatória.
+
+### Jornada do João
+![userJourney1](https://github.com/user-attachments/assets/c52acae4-9a9b-4421-b954-5b90327d7f2d)
+
+### Jornada da Maria
+![userJourney2](https://github.com/user-attachments/assets/dfb9e106-2ddd-4185-b6ac-cf5795f1b321)
+
+
+### Jornada da Ana
+![userJourney3](https://github.com/user-attachments/assets/90c495c7-865b-4d53-b778-443f5b603c91)
+
+
+### Jornada do Lucas
+![userJourney4](https://github.com/user-attachments/assets/b1c4191c-7965-48fe-b9ea-c3e7fdf42355)
+
+
 ## Wireframes
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
