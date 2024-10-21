@@ -141,6 +141,9 @@ Atualizado em: 20/10/2024
 | João Pedro dos Santos         | Jornada Do Usuario  |  11/10/2024    | 20/10/2024 | ✔️    |   11/10/2024    |
 | João Pedro dos Santos         | Diagrama Entidade Relacionamento (Peter Chen)  | 12/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
 | João Pedro dos Santos         | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Victor Bryan       | Slide  | 18/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
+| Victor Bryan         | Diagrama Entidade Relacionamento (Peter Chen)  | 12/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
+| Victor Bryan         | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 
 
 
