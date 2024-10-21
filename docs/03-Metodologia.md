@@ -125,9 +125,11 @@ Atualizado em: 20/10/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Nome        | Tarefa   | 01/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
-| Nome       | Tarefa  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
-| Nome       | Tarefa  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
-| Nome       | Tarefa  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Nome        | Tarefa   | 01/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
+| Nome        | Tarefa   | 01/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
+| Christian Sena Gomes       | Diagrama de Classes  | 11/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
+| Christian Sena Gomes       | Diagrama Pé de Galinha  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Christian Sena Gomes       | Scripts Banco de Dados  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 | Samuel Andrade Neto       | Figma  | 01/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
 | Samuel Andrade Neto       | Jornada Do Usuario  |  10/10/2024    | 20/10/2024 | ✔️    |   20/10/2024    |
 | Samuel Andrade Neto       | Minimundo  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
