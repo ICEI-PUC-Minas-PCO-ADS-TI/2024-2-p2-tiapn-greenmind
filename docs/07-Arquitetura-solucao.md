@@ -210,11 +210,19 @@ Explique como a hospedagem e o lançamento da plataforma foram realizados.
 
 ## Qualidade de software
 
+<!--
 Conceituar qualidade é uma tarefa complexa, mas ela pode ser vista como um método gerencial que, por meio de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
 
 No contexto do desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem atendidas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, esse nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
 
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software. Com base nessas características e nas respectivas subcaracterísticas, identifique as subcaracterísticas que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software, considerando alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão à equipe avaliar os objetos de interesse.
+-->
+
+Nós da GreenMind temos como base para nortear o desenvolvimento do nosso projeto de software as seguintes subcaracterísticas:
+- **Disponibilidade:** A disponibilidade é um dos nossos principais focos visto que queremos fornecer ferramentas educativas e caso o site não esteja disponível podemos acabar perdendo um potencial estudante.
+- **Comportamento do tempo:** Um longo tempo de espera é exaustivo e desestimulante para o usuário que pode acabar desistindo de usar o projeto devido a lentidão do mesmo, logo é importante para nós da Greenmind tempos de resposta rápidos.
+- **Confidencialidade:** Um site tem que garantir que os seus dados confidenciais e os dados dos seus usuários vão estar protegidose isso é de extrema importância para que nós forneçamos valor aos usuários e não dor de cabeça.
+- **Interoperabilidade:** Visto que o GreenMind possui banco de dados, back-end e front-end é importante que a troca de informações e o trabalho em conjunto entre essas diferentes partes aconteça.
 
 > **Links úteis**:
 > - [ISO/IEC 25010:2011 - Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE) — System and Software Quality Models](https://www.iso.org/standard/35733.html/)
