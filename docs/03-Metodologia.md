@@ -143,7 +143,7 @@ Atualizado em: 20/10/2024
 | João Pedro dos Santos         | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 | Victor Bryan       | Slide  | 18/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
 | Victor Bryan         | Diagrama Entidade Relacionamento (Peter Chen)  | 12/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
-| Gabriel Henrique         | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Victor Bryan        | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 | Gabriel Henrique | Minimundo  | 14/10/2024     | 20/10/2024 | ✔️    |   14/10/2024     |
 | Gabriel Henrique | Diagrama Pé de Galinha | 18/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
 | Gabriel Henrique | Slide  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
