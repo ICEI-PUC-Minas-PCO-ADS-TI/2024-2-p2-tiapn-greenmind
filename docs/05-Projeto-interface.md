@@ -59,14 +59,22 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ## Interface do sistema
 
-Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma em sua versão final.
+A Calculadora de Desperdícios, apresenta uma ferramenta interativa que ajuda os usuários a calcular a quantidade de alimentos desperdiçados e o impacto ambiental gerado. Com um design intuitivo, o usuário pode selecionar itens como arroz, carne e grãos, inserir as quantidades compradas e desperdiçadas, e calcular o desperdício. O resultado mostra o percentual de desperdício e a emissão equivalente de CO2, junto com dicas para minimizar o desperdício, como armazenar alimentos corretamente e evitar compras por impulso. À direita, um gráfico de pizza ilustra a divisão do desperdício em categorias alimentos.
+
+![CALCULADORA DE DESPERDÍCIO DE ALIMENTOS](https://github.com/user-attachments/assets/7900c716-5a98-4db6-9775-fdcebb366088)
+
+A Tela Consumo Inteligente do projeto, apresenta uma ferramenta interativa que permite aos usuários monitorarem e reduzirem seu consumo de energia elétrica e água. A tela inclui campos para inserção de dados como a potência do aparelho, dias e horas de uso, além das tarifas aplicáveis, permitindo calcular o desperdício. A mensagem central "Acompanhe a Redução do Seu Consumo" reforça o objetivo da plataforma de incentivar o uso consciente de recursos naturais.
+
+![REDUÇÃO CONSUMO AGUA E LUZ](https://github.com/user-attachments/assets/a8979656-6934-4c39-8a7f-56c7f59759c2)
+
+A tela "Pegada Ecológica" apresenta uma explicação sobre o conceito de pegada ecológica, destacando o quanto de terra e mar produtivos são necessários para sustentar as necessidades humanas, como produtos, serviços e a absorção de resíduos gerados. Ela pode ser aplicada a indivíduos, empresas, cidades ou até países inteiros, sendo expressa em hectares globais (gha). Isso representa a área necessária para sustentar nosso estilo de vida. Na parte inferior, há um convite para o usuário "Descubra Sua Pegada", incentivando o cálculo do impacto do seu estilo de vida e sugerindo maneiras de reduzir essa pegada para contribuir com a preservação ambiental. Um botão verde com a frase "Calcule sua pegada" permite iniciar esse cálculo.
+![PEGADA ECOLÓGICA](https://github.com/user-attachments/assets/57fe2ea0-892b-46a7-ad3a-8c49c1368277)
+
 
 ### Tela principal do sistema
 
-Descrição da tela principal do sistema.
-
-> Insira aqui a tela principal do sistema
-
+A imagem representa a Tela Home do projeto "GreenMind", com um design que evoca sustentabilidade. No topo, há um menu com opções como "Conheça o GreenMind", "Artigos e Dicas", "Quiz Ambiental", entre outros, reforçando o foco da plataforma em práticas conscientes e educação ambiental.
+![imagem_2024-10-20_235320879](https://github.com/user-attachments/assets/8ed7a4c7-d677-4f4f-b75a-a8c041e5c16c)
 
 ###  Telas do processo 1
 
