@@ -1,34 +1,44 @@
 
-# Projeto de interface
-
-<span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados na <a href="02-Especificacao.md"> Especificação do projeto</a></span>.
 
  ## User flow
 
-Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
 
-![Exemplo de user flow](images/user_flow.jpg)
 
-> **Links úteis**:
-> - [User flow: o quê é e como fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User flow vs site maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 user flow tools & templates for smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+User Flow completo
+![Screen flow UX (fluxo de telas) (3)](https://github.com/user-attachments/assets/c426e3e3-19cc-4414-8868-b714c8772b04)
+
+Corte da Imagem para Melhor Leitura 
+
+![Screen flow UX (fluxo de telas) (1)](https://github.com/user-attachments/assets/7a8450af-87a5-448b-abc7-cf52a6de2db8)
+
+![Screen flow UX (fluxo de telas) (2)](https://github.com/user-attachments/assets/2f201b2f-ad9e-4633-81e3-ccb763a6cc36)
+
+
 
 ### Diagrama de fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo, muitas vezes sem a necessidade de desenhar o design das telas da interface. Isso permite que o design das interações seja bem planejado e tenha impacto na qualidade do design do wireframe interativo que será desenvolvido logo em seguida.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, internamente, a indicação dos principais elementos de interface — tais como menus e acessos — e funcionalidades, como editar, pesquisar, filtrar e configurar, além da conexão entre esses boxes a partir do processo de interação.
 
-![Exemplo de diagrama de fluxo](images/diagrama_fluxo.jpg)
+![User Flow](https://github.com/user-attachments/assets/88e68bd2-b358-42e8-b1d9-f1ff46bc9b6d)
 
-> **Links úteis**:
-> - [Como criar um diagrama de fluxo de usuário](https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram)
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+
+## Jornada do usuário
+Para o projeto Green Mind, foram desenvolvidas jornadas de usuário, chamadas de user journeys, que ajudam a mapear a interação dos usuários com a plataforma. Cada jornada foi dividida em quatro fases principais, que representam o caminho percorrido pelos usuários desde o primeiro contato até a aplicação prática das soluções oferecidas. Cada fase é estruturada em três aspectos: Doing (o que o usuário está fazendo), Thinking (o que está pensando) e Saying (o que está sendo dito), para fornecer uma visão completa das ações, pensamentos e diálogos durante a jornada. Essa abordagem facilita a compreensão das necessidades e expectativas dos usuários, permitindo que o desenvolvimento do projeto seja direcionado para criar uma experiência mais eficiente e satisfatória.
+
+### Jornada do João
+![userJourney1](https://github.com/user-attachments/assets/c52acae4-9a9b-4421-b954-5b90327d7f2d)
+
+### Jornada da Maria
+![userJourney2](https://github.com/user-attachments/assets/dfb9e106-2ddd-4185-b6ac-cf5795f1b321)
+
+
+### Jornada da Ana
+![userJourney3](https://github.com/user-attachments/assets/90c495c7-865b-4d53-b778-443f5b603c91)
+
+
+### Jornada do Lucas
+![userJourney4](https://github.com/user-attachments/assets/b1c4191c-7965-48fe-b9ea-c3e7fdf42355)
+
 
 ## Wireframes
 
@@ -49,14 +59,22 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ## Interface do sistema
 
-Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma em sua versão final.
+A Calculadora de Desperdícios, apresenta uma ferramenta interativa que ajuda os usuários a calcular a quantidade de alimentos desperdiçados e o impacto ambiental gerado. Com um design intuitivo, o usuário pode selecionar itens como arroz, carne e grãos, inserir as quantidades compradas e desperdiçadas, e calcular o desperdício. O resultado mostra o percentual de desperdício e a emissão equivalente de CO2, junto com dicas para minimizar o desperdício, como armazenar alimentos corretamente e evitar compras por impulso. À direita, um gráfico de pizza ilustra a divisão do desperdício em categorias alimentos.
+
+![CALCULADORA DE DESPERDÍCIO DE ALIMENTOS](https://github.com/user-attachments/assets/7900c716-5a98-4db6-9775-fdcebb366088)
+
+A Tela Consumo Inteligente do projeto, apresenta uma ferramenta interativa que permite aos usuários monitorarem e reduzirem seu consumo de energia elétrica e água. A tela inclui campos para inserção de dados como a potência do aparelho, dias e horas de uso, além das tarifas aplicáveis, permitindo calcular o desperdício. A mensagem central "Acompanhe a Redução do Seu Consumo" reforça o objetivo da plataforma de incentivar o uso consciente de recursos naturais.
+
+![REDUÇÃO CONSUMO AGUA E LUZ](https://github.com/user-attachments/assets/a8979656-6934-4c39-8a7f-56c7f59759c2)
+
+A tela "Pegada Ecológica" apresenta uma explicação sobre o conceito de pegada ecológica, destacando o quanto de terra e mar produtivos são necessários para sustentar as necessidades humanas, como produtos, serviços e a absorção de resíduos gerados. Ela pode ser aplicada a indivíduos, empresas, cidades ou até países inteiros, sendo expressa em hectares globais (gha). Isso representa a área necessária para sustentar nosso estilo de vida. Na parte inferior, há um convite para o usuário "Descubra Sua Pegada", incentivando o cálculo do impacto do seu estilo de vida e sugerindo maneiras de reduzir essa pegada para contribuir com a preservação ambiental. Um botão verde com a frase "Calcule sua pegada" permite iniciar esse cálculo.
+![PEGADA ECOLÓGICA](https://github.com/user-attachments/assets/57fe2ea0-892b-46a7-ad3a-8c49c1368277)
+
 
 ### Tela principal do sistema
 
-Descrição da tela principal do sistema.
-
-> Insira aqui a tela principal do sistema
-
+A imagem representa a Tela Home do projeto "GreenMind", com um design que evoca sustentabilidade. No topo, há um menu com opções como "Conheça o GreenMind", "Artigos e Dicas", "Quiz Ambiental", entre outros, reforçando o foco da plataforma em práticas conscientes e educação ambiental.
+![imagem_2024-10-20_235320879](https://github.com/user-attachments/assets/8ed7a4c7-d677-4f4f-b75a-a8c041e5c16c)
 
 ###  Telas do processo 1
 

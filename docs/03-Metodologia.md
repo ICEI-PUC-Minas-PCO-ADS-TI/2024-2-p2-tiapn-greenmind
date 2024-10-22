@@ -118,6 +118,40 @@ Atualizado em: 21/04/2024
 | Gabriel Henrique       | Slides  | 26/09/2024     | 30/09/2024 | ✔️    |   30/09/2024     |
 | Gabriel Henrique        | Metodologia (github)  | 27/09/2024     | 30/09/2024 | ✔️    |   29/09/2024     |
 
+#### Sprint 3
+
+Atualizado em: 20/10/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Lara Melo Damas        | Figma   | 10/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
+| Lara Melo Damas       | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
+| Lara Melo Damas        | Jornada Do Usuário   | 11/10/2024     | 20/10/2024 | ✔️    | 11/10/2024      |
+| Christian Sena Gomes       | Diagrama de Classes  | 11/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
+| Christian Sena Gomes       | Diagrama Pé de Galinha  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Christian Sena Gomes       | Scripts Banco de Dados  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Samuel Andrade Neto       | Figma  | 10/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
+| Samuel Andrade Neto       | Jornada Do Usuario  |  11/10/2024    | 20/10/2024 | ✔️    |   11/10/2024    |
+| Samuel Andrade Neto       | Minimundo  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Diego Chaves        | Scripts Banco de Dados  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Diego Chaves       | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
+| Diego Chaves       | Minimundo  | 17/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Diego Chaves        | Jornada Do Usuário   | 11/10/2024     | 20/10/2024 | ✔️    | 11/10/2024      |
+| João Pedro dos Santos       | Slide  | 18/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
+| João Pedro dos Santos         | Jornada Do Usuario  |  11/10/2024    | 20/10/2024 | ✔️    |   11/10/2024    |
+| João Pedro dos Santos         | Diagrama Entidade Relacionamento (Peter Chen)  | 12/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
+| João Pedro dos Santos         | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Victor Bryan       | Slide  | 18/10/2024     | 20/10/2024 | ✔️     |   20/10/2024              |
+| Victor Bryan         | Diagrama Entidade Relacionamento (Peter Chen)  | 12/10/2024     | 20/10/2024 | ✔️    |   19/10/2024     |
+| Victor Bryan        | Relatório  | 19/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Gabriel Henrique | Minimundo  | 14/10/2024     | 20/10/2024 | ✔️    |   14/10/2024     |
+| Gabriel Henrique | Diagrama Pé de Galinha | 18/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Gabriel Henrique | Slide  | 01/10/2024     | 20/10/2024 | ✔️    |   20/10/2024     |
+| Gabriel Henrique | Diagrama Entidade Relacionamento (Peter Chen) | 15/10/2024     | 20/10/2024 | ✔️    |   18/10/2024     |
+| Marcela Anjos      | Figma   | 10/10/2024     | 20/10/2024 | ✔️    | 20/10/2024      |
+| Marcela Anjos      | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
+| Marcela Anjos      | Diagrama de Classes  | 11/10/2024     | 20/10/2024 | ✔️    |   18/10/2024     |
+
 
 
 Legenda:
