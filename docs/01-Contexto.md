@@ -28,39 +28,13 @@ De acordo com o G1, o Brasil ficou na posição de número 81 do índice de dese
 Professores da área, ativistas, estudantes, público geral interessado em sustentabilidade
 
 Personas
-Persona 1: João, 16 anos, Estudante do Ensino Médio
-Objetos Físicos e Digitais: 
-•	caderno, livros escolares, smartphone, laptop;
-Objetivos Chave:
-•	 aprender sobre práticas sustentáveis para projetos escolares e aplicar em casa;
-Por que Ele Precisa do Serviço:
-•	 para obter informações acessíveis e práticas aplicáveis à sua faixa etária e vida diária;
-Como Devemos Tratá-lo:
-•	 De forma empática e encorajadora, com conteúdos interativos, educativos e divertidos.
+Persona 1: João, 16 anos, Estudante do Ensino Médio. João utiliza objetos físicos como caderno, livros escolares e smartphone, além de um laptop. Seus principais objetivos são aprender sobre práticas sustentáveis para projetos escolares e aplicar esses conhecimentos em casa. Ele precisa do serviço para obter informações acessíveis e práticas que sejam relevantes para sua faixa etária e vida diária. É importante que seja tratado de forma empática e encorajadora, com conteúdos interativos, educativos e divertidos.
 
-Persona 2: Maria, 32 anos, Engenheira Ambiental
-Objetos Físicos e Digitais: 
-•	Documentos técnicos, laptop, smartphone;
-Objetivos Chave: 
-•	Manter-se atualizada sobre novas práticas sustentáveis e aplicá-las na vida profissional e pessoal;
-Por que Ela Precisa do Serviço: 
-•	Para acessar informações técnicas e práticas no cotidiano;
-Como Devemos Tratá-la: 
-•	Com profissionalismo, fornecendo conteúdo de alta qualidade e respeitando seu nível de conhecimento.
+Persona 2: Maria, 32 anos, Engenheira Ambiental. Maria utiliza documentos técnicos, laptop e smartphone como objetos físicos e digitais. Seu objetivo chave é manter-se atualizada sobre novas práticas sustentáveis e aplicá-las tanto na vida profissional quanto pessoal. Ela precisa do serviço para acessar informações técnicas e práticas no cotidiano. Deve ser tratada com profissionalismo, fornecendo conteúdo de alta qualidade e respeitando seu nível de conhecimento.
 
-Persona 3: Ana, 45 anos, Dona de Casa
-Objetos Físicos e Digitais: 
-•	Utensílios domésticos, smartphone, computador de mesa.
-Objetivos Chave:
-•	 Aprender maneiras econômicas de aplicar sustentabilidade em casa.
-Por que Ela Precisa do Serviço: 
-•	Para obter dicas práticas e fáceis de incorporar à rotina diária.
-•	Como Devemos Tratá-la: Com empatia e praticidade, oferecendo soluções rápidas e acessíveis.
+Persona 3: Ana, 45 anos, Dona de Casa. Ana utiliza utensílios domésticos, smartphone e computador de mesa. Seu objetivo principal é aprender maneiras econômicas de aplicar a sustentabilidade em casa. Ela precisa do serviço para obter dicas práticas e fáceis de incorporar à sua rotina diária. É fundamental que seja tratada com empatia e praticidade, oferecendo soluções rápidas e acessíveis.
 
-Persona 4: Lucas Martins, 30 anos, Designer Gráfico Freelance
-Objetos Físicos e Digitais:
-Físicos: 
-•	Ferramentas de design gráfico, materiais de jardinagem, computador, livros sobre design sustentável.
+Persona 4: Lucas Martins, 20 anos, Estudante Universitário e Jovem Ativista Ambiental. Lucas utiliza smartphone, computador, aplicativos de redes sociais e materiais educativos sobre reciclagem e sustentabilidade, além de ferramentas para a organização de eventos comunitários. Seu objetivo é promover ações de conscientização ambiental, expandir seu conhecimento sobre práticas sustentáveis e organizar eventos comunitários de coleta seletiva. Ele precisa do serviço para utilizar o mapa de pontos de reciclagem e organizar ações comunitárias. Deve ser tratado com a oferta de recursos educativos acessíveis e interativos, como quizzes e desafios, enfatizando temas de reciclagem e redução de desperdício. Também é importante fornecer ferramentas para o planejamento e compartilhamento de eventos, além de mapas de pontos de reciclagem que ele possa divulgar.
 Digitais: 
 •	Software de design, blogs e sites sobre design sustentável, vídeos tutoriais, redes sociais para designers.
 Objetivos Chave:
