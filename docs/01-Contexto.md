@@ -45,6 +45,8 @@ Como Devemos Tratá-lo:
 •	Ofereça recursos e tutoriais sobre design gráfico sustentável, com ideias práticas para integrar práticas ecológicas em seus projetos.
 •	Forneça exemplos de casos de sucesso e ferramentas que facilitem a aplicação dessas práticas em seu trabalho diário.
 
+Mapa de Stakeholders
+
 Pessoas Fundamentais:
 
 Desenvolvedores de Software: responsáveis por construir e manter o site.
