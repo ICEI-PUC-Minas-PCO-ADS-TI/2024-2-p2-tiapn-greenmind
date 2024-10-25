@@ -45,16 +45,18 @@ Como Devemos Tratá-lo:
 •	Ofereça recursos e tutoriais sobre design gráfico sustentável, com ideias práticas para integrar práticas ecológicas em seus projetos.
 •	Forneça exemplos de casos de sucesso e ferramentas que facilitem a aplicação dessas práticas em seu trabalho diário.
 
-Mapa de Stakeholders
-1.	Pessoas Fundamentais:
-•	Desenvolvedores de Software: responsáveis por construir e manter o site;
-•	Especialistas em Educação Ambiental: fornecem o conteúdo e garantem a precisão das informações;
-•	Gerente de Projeto: coordena as diferentes equipes e garante que os prazos sejam cumpridos.
-•	Usuários Finais (Estudantes e Educadores): interagem diretamente com o site e fornecem feedback essencial para melhorias;
-2.	Pessoas Importantes:
-•	Parceiros Educacionais: instituições de ensino que adotam o site como ferramenta educativa;
-•	Organizações Ambientais: podem fornecer apoio, patrocínio ou conteúdo adicional.
-3.	Influenciadores:
-•	Influenciadores Digitais em Sustentabilidade: podem promover o site em suas redes sociais e aumentar a visibilidade;
-•	Políticos e Reguladores: podem apoiar a adoção do site em escolas públicas ou campanhas ambientais;
-•	Investidores: interessados em financiar o projeto e expandir seu alcance.
+Pessoas Fundamentais:
+
+Desenvolvedores de Software: responsáveis por construir e manter o site.
+Especialistas em Educação Ambiental: fornecem o conteúdo e garantem a precisão das informações.
+Gerente de Projeto: coordena as diferentes equipes e garante que os prazos sejam cumpridos.
+Usuários Finais (Estudantes e Educadores): interagem diretamente com o site e fornecem feedback essencial para melhorias.
+Pessoas Importantes:
+
+Parceiros Educacionais: instituições de ensino que adotam o site como ferramenta educativa.
+Organizações Ambientais: podem fornecer apoio, patrocínio ou conteúdo adicional.
+Influenciadores:
+
+Influenciadores Digitais em Sustentabilidade: podem promover o site em suas redes sociais e aumentar a visibilidade.
+Políticos e Reguladores: podem apoiar a adoção do site em escolas públicas ou campanhas ambientais.
+Investidores: interessados em financiar o projeto e expandir seu alcance.
