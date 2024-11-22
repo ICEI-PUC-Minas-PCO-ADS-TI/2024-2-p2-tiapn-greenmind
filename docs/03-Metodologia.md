@@ -152,6 +152,17 @@ Atualizado em: 20/10/2024
 | Marcela Anjos      | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
 | Marcela Anjos      | Diagrama de Classes  | 11/10/2024     | 20/10/2024 | ✔️    |   18/10/2024     |
 
+#### Sprint 4
+
+Atualizado em: 21/11/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Lara Melo Damas        | Tela Home  | 10/10/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
+| Lara Melo Damas        | Paginas de Conteúdo | 10/10/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
+
+
+
 
 
 Legenda:
