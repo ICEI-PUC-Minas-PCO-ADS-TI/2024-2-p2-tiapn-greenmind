@@ -166,6 +166,8 @@ Atualizado em: 21/11/2024
 | Gabriel Henrique      | Pegada Ecológica    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Christian Sena Gomes      | Tela Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Christian Sena Gomes      | CRUD Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Samuel Andrade     | Tela De Consumo De Agua   | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Samuel Andrade      | Tela De Consumo De Luz    | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 
 
 
