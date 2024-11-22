@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500; /* Peso médio */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Peso extra-bold */
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da imagem */
+.background-image {
+    position: fixed; /* Fixa a imagem no fundo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 295px; /* Altura que cobre o menu e um pouco abaixo */
+    background-image: url(assets/natureza.png); /* Substitua 'your-image.jpg' pelo caminho da sua imagem */
+    background-size: contain; /* Faz a imagem cobrir a área */
+    background-position: center; /* Centraliza a imagem */
+    z-index: -1; /* Envia a imagem para trás */
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+/* Estilo do cabeçalho e do menu */
+header {
+    position: relative;
+    z-index: 1; /* Garante que o menu fique acima da imagem */
+}
+
+nav {
+    background-color: rgba(4, 25, 29, 0.5);
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    text-align: center; /* Centraliza o texto */
+    max-width: 150px; /* Limita a largura de cada item do menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif; /* Adicione fontes genéricas como fallback */
+    font-weight: 500;
+    white-space: normal; /* Permite que o texto quebre a linha */
+    display: block; /* Garante que o link ocupe todo o espaço disponível no item */
+    text-align: center; /* Centraliza o texto */
+    letter-spacing: 1px;
+}
+
+.title {
+    padding-top: 50px;
+    padding-left: 70px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+}
+
+/* Estilo do formulário */
+main {
+    margin: 50px 50px 0px 150px;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+}
+
+.pergunta-container {
+    font-family: 'Arial', sans-serif;
+    margin: 15px 10px 50px 10px;
+    padding: 10px;
+    background: rgb(212 230 218);
+    border-radius: 8px;
+    width: 85%;
+}
+
+.pergunta-container p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pergunta-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.pergunta-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 15px 25px;
+    background-color:rgba(92, 128, 72, 0.8);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #06363A;
+}
+
+.resultados-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 500px;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
