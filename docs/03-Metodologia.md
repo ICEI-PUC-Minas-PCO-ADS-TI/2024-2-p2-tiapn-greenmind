@@ -159,7 +159,9 @@ Atualizado em: 21/11/2024
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Lara Melo Damas        | Tela Home  | 10/10/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
-| Lara Melo Damas        | Paginas de Conteúdo | 10/10/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
+| Lara Melo Damas        | Paginas de Conteúdo | 10/11/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
+| Diego Chaves        | Pontos de Reciclgem  | 10/11/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
+| Diego Chaves        | Tela e API OpenStreetMap  | 10/11/2024     | 20/11/2024 | ✔️    | 21/11/2024      |
 
 
 
