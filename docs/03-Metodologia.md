@@ -164,6 +164,8 @@ Atualizado em: 21/11/2024
 | Diego Chaves        | Tela e API OpenStreetMap  | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | João Pedro      | Tela Desperdício de Alimento    | 15/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Gabriel Henrique      | Pegada Ecológica    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Christian Sena Gomes      | Tela Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Christian Sena Gomes      | CRUD Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 
 
 
