@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza os itens da navbar */
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente */
+  padding: 60px 50px; /* Aumenta a espessura da navbar */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 100px; /* Aumenta a altura da navbar */
+}
+
+/* Logo */
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px; /* Adiciona um pequeno espaço à direita da logo */
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o menu horizontalmente */
+}
+
+.menu-item {
+  margin: 0 30px;
+  position: relative;
+}
+
+.menu-item a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px; /* Ajusta o tamanho da fonte */
+  transition: color 0.3s ease;
+  display: flex; /* Permite centralização usando flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  height: 100%; /* Define altura para o link ocupar o espaço do item */
+  text-align: center; /* Centraliza o texto */
+}
+
+.menu-item a:hover {
+  color: #2e5235; /* Altera a cor ao passar o mouse */
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #75B843;
+  padding: 15px;
+}
+
+.menu-item:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Imagem de fundo no topo */
+.background-image img {
+  width: 100%;
+  height: 40vh; /* Controla a altura da imagem */
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+/* Título "CONHEÇA O GREENMIND" */
+.conheca-greenmind {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Seção Nossa Equipe */
+.about-team {
+  padding: 80px 20px 20px;
+  text-align: center;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-team h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.about-team p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 20px 20px; /* Ajusta a espessura da navbar em telas menores */
+      height: 80px; /* Ajusta a altura da navbar em telas menores */
+  }
+
+  .menu-item {
+      margin: 0 15px; /* Diminui o espaçamento entre os itens do menu */
+  }
+
+  .conheca-greenmind {
+      font-size: 32px;
+  }
+
+  .about-team h2 {
+      font-size: 28px;
+  }
+
+  .about-team p {
+      font-size: 16px;
+  }
+}
+
+footer {
+  background-color: #53765f; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center;
+  padding: 40px 0; /* Aumenta o espaçamento interno */
+  margin-top: 50px; /* Espaçamento superior */
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  gap: 100px; /* Espaço entre as imagens */
+  margin-bottom: 20px; /* Espaço entre as imagens e o texto */
+}
+
+.footer-images img {
+  height: 50px; /* Define a altura das imagens */
+  width: auto; /* Mantém a proporção das imagens */
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 10px; /* Espaçamento entre o texto e as imagens */
+}
