@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Desperdício de Alimentos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <img src="./img/cropped_logo.png" alt="Greenmind Logo">
+        <nav>
+            <ul id="itens-nav">
+                <input id="menu-toggle" type="checkbox" name="menu-toggle">
+                <label id="label-menu-toggle" for="menu-toggle">&#9776;</label>
+                <li class="dropdown">
+                    <a href="#">Conheça o<br> Greenmind</a>
+                    <div class="dropdown-div">
+                        <ul>
+                            <li><a href="#nossaequipe">Nossa equipe</a></li>
+                            <li><a href="#assuntos">Assuntos abordados</a></li>
+                            <li><a href="#greenmind">O Greenmind</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Artigos e<br> Dicas</a>
+                    <div class="dropdown-div">
+                        <ul>
+                            <li><a href="#tema1">Tema 1</a></li>
+                            <li><a href="#tema2">Tema 2</a></li>
+                            <li><a href="#tema3">Tema 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Quiz<br> Ambiental</a>
+                    <div class="dropdown-div">
+                        <ul>
+                            <li><a href="#tema1">Tema 1</a></li>
+                            <li><a href="#tema2">Tema 2</a></li>
+                            <li><a href="#tema3">Tema 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Consumo<br> Inteligente</a>
+                    <div class="dropdown-div">
+                        <ul>
+                            <li><a href="#tema1">Tema 1</a></li>
+                            <li><a href="#tema2">Tema 2</a></li>
+                            <li><a href="#tema3">Tema 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#redegreenmind">Rede<br> Greenmind</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="calculadora">
+            <h1>Calculadora de Desperdício de Alimentos</h1>
+            <div class="calculadora-container">
+                <div class="formulario">
+                    <h2>Selecione e insira os itens desperdiçados</h2>
+                    <form id="desperdicio-form">
+                        <label for="item">Item:</label>
+                        <select id="item">
+                            <option value="arroz">Arroz</option>
+                            <option value="carne">Carne</option>
+                            <option value="graos">Grãos</option>
+                        </select>
+                        <br>
+                        <label for="quantidade-comprada">Quantidade comprada (kg):</label>
+                        <input type="number" id="quantidade-comprada" required>
+                        <br>
+                        <label for="quantidade-desperdiciada">Quantidade desperdiçada (kg):</label>
+                        <input type="number" id="quantidade-desperdiciada" required>
+                        <br>
+                        <button type="submit">Adicionar ao cálculo</button>
+                    </form>
+                </div>
+
+                <div class="resultado">
+                    <h3>Resumo do Desperdício:</h3>
+                    <ul id="resumo-lista">
+                        <!-- Lista de itens e desperdícios será atualizada aqui -->
+                    </ul>
+                </div>
+
+                <div class="grafico">
+                    <h3>Distribuição do Desperdício:</h3>
+                    <canvas id="grafico-despesas"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="impacto-ambiental">
+            <h2>Impacto Ambiental dos Alimentos</h2>
+            <p>Arroz: Produz 1.5 kg de CO₂ para cada kg desperdiçado.</p>
+            <p>Carne: Produz 30 kg de CO₂ por kg desperdiçado, com alto consumo de água.</p>
+            <p>Grãos: Produz 2 kg de CO₂ por kg desperdiçado.</p>
+        </section>
+
+        <section class="dicas">
+            <h2>Dicas para Reduzir o Desperdício</h2>
+            <ul>
+                <li>Armazene alimentos corretamente.</li>
+                <li>Planeje suas refeições.</li>
+                <li>Reutilize sobras em novas receitas.</li>
+                <li>Evite compras por impulso e siga uma lista.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

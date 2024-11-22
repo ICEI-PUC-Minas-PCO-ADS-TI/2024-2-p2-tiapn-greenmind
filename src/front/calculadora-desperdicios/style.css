@@ -1,0 +1,287 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header a {
+    display: inline-block;
+}
+
+header img {
+    max-width: 100%;
+}
+
+body {
+    background: url('./img/fundo.png') top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background: #04191D80;
+    font-size: 1.25rem;
+}
+
+#itens-nav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#itens-nav li {
+    padding: 20px 40px;
+    position: relative;
+    align-self: center;
+}
+
+#itens-nav li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#itens-nav li.dropdown {
+    cursor: pointer;
+}
+
+#itens-nav li.dropdown::after {
+    content: "▼";
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#itens-nav li.dropdown div.dropdown-div {
+    display: none;
+    position: relative;
+    background: #75B84366;
+    left: 0px;
+}
+
+#itens-nav li.dropdown:hover .dropdown-div {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+#itens-nav #menu-toggle {
+    display: none;
+}
+
+#itens-nav #label-menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    header {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1350px) {
+    header {
+        justify-content: space-between;
+    }
+    header img {
+        width: 100px;
+    }
+    #itens-nav li {
+        display: block;
+    }
+    #itens-nav #label-menu-toggle {
+        display: block;
+    }
+    #itens-nav #menu-toggle:checked ~ li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 30px;
+        background: #04191D;
+        color: white;
+    }
+
+    #itens-nav #menu-toggle:not(:checked) ~ li {
+        display: none;
+    }
+
+    #itens-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #04191D;
+    }
+    
+    #itens-nav li.dropdown:hover .dropdown-div {
+        display: block;
+        position: static;
+    }
+
+    #itens-nav li.dropdown div.dropdown-div  {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 500px) {
+    header img {
+        width: 50px;
+    }
+
+    #itens-nav {
+        top: 68px;
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+.calculadora {
+    text-align: center;
+    padding: 40px;
+    background-image: url('./images/background-leaves.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.calculadora h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.calculadora-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(4, 25, 29, 0.9); /* Fundo mais opaco */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario, .resultado, .grafico {
+    background-color: rgba(4, 25, 29, 0.8); /* Fundo semitransparente */
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid white; /* Borda branca */
+}
+
+h2, h3 {
+    color: #75B843;
+}
+
+button {
+    background-color: #75B843;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #639F36;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto-adicional {
+    padding: 20px;
+    margin-top: 50px;
+    background: rgba(4, 25, 29, 0.8); 
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.texto-adicional h2 {
+    margin-bottom: 10px;
+}
+
+.texto-adicional ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.texto-adicional p, .texto-adicional li {
+    margin-bottom: 10px;
+}
+
+.calculadora-container {
+    margin-bottom: 40px;
+}
+.impacto-ambiental, .dicas {
+    background-color: rgba(4, 25, 29, 0.8); /* Fundo semitransparente */
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    text-align: left;
+}
+
+.impacto-ambiental h2, .dicas h2 {
+    color: #75B843;
+    margin-bottom: 20px;
+}
+
+.impacto-ambiental ul, .dicas ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.impacto-ambiental p, .dicas p, .impacto-ambiental li, .dicas li {
+    margin-bottom: 10px;
+}
+
+.impacto-ambiental button, .dicas button {
+    background-color: #75B843;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.impacto-ambiental button:hover, .dicas button:hover {
+    background-color: #639F36;
+}
