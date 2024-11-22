@@ -1,10 +1,10 @@
 -- Criação da tabela Usuário
 CREATE TABLE Usuario (
-    idUsuario INTEGER NOT NULL PRIMARY KEY,
+    idUsuario INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(40) NOT NULL,
-    email VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL UNIQUE,
     senha VARCHAR(30) NOT NULL,
-    tipo_usuario VARCHAR(20) NOT NULL,
+    tipo_usuario VARCHAR(20) NOT NULL DEFAULT "usuario",
     data_cadastro DATE NOT NULL
 );
 -- Criação da tabela Anúncio
