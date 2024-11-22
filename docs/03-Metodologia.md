@@ -162,7 +162,7 @@ Atualizado em: 21/11/2024
 | Lara Melo Damas        | Paginas de Conteúdo | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Diego Chaves        | Pontos de Reciclgem  | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Diego Chaves        | Tela e API OpenStreetMap  | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
-| João Pedro      | Tela Disperdício de Alimento    | 15/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| João Pedro      | Tela Desperdício de Alimento    | 15/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Gabriel Henrique      | Pegada Ecológica    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 
 
