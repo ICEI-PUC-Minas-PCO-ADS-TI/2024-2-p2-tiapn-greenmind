@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Sans-Serif';
+}
+
+:root
+{
+    --blocos : #ffffff;
+    --bloco-transparente : #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagens/imagens_fundo/FundoEx.webp");
+    --texto: #ffffff;
+    --cor-botao: #000000; /* Definir a cor preta para o fundo do botão */
+    --texto-botao: #ffffff; /* Definir a cor branca para o texto do botão */
+}
+
+body
+{
+    --texto: white;
+    background-color: var(--fundo);
+    color: var(--texto); /* Definir a cor de texto global como branco */
+    text-align: center;
+}
+
+img:first-of-type
+{
+    margin: 6vh;
+}
+
+h4
+{   
+    font-weight: 400;
+    color: var(--texto); /* Texto branco */
+}
+
+h2
+{
+    font-size: calc(2.3rem + 2.1vw);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--texto); /* Texto branco */
+}
+
+#caixa_titulo
+{
+    position: relative;
+    margin: 1vh 0;
+    width: 100%;
+    padding: .5vh 0;
+    background-attachment: fixed;
+}
+
+h1
+{
+    font-size: 11rem;
+    margin-top: -30px;
+    color: var(--texto); /* Texto branco */
+}
+
+h4:last-of-type
+{
+    margin-top: 8vh;
+    font-weight: 500;
+    font-size: larger;
+    color: var(--texto); /* Texto branco */
+}
+
+div#caixa_titulo:last-of-type
+{
+    padding: 5vh;
+    text-align: left;
+}
+
+button
+{
+    padding: 3vh 0;
+    width: 30vw;
+    display: block;
+    margin: 1.5vh auto;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: filter .2s;
+    transition: top .2s;
+    top: 0;
+    font-size: 1.05rem;
+    background-color: var(--cor-botao); /* Fundo preto para o botão */
+    color: var(--texto-botao); /* Texto branco no botão */
+
+    & i
+    {
+        position: absolute;
+        vertical-align: text-top;
+        transform: scale(115%);
+        left: 5%;
+    }
+
+    &:active
+    {
+        filter: brightness(85%);
+        top: 5px;
+    }
+}
+
+button#ir_mediaGlobal
+{
+    background-color: var(--cor-botao); /* Fundo preto */
+    border: none;
+    color: var(--texto-botao); /* Texto branco */
+}
+
+button#ir_inicio
+{
+    border: 1px solid var(--texto);
+    background: none;
+    color: var(--texto); /* Texto branco */
+}
+
+button:last-of-type
+{
+    margin-bottom: 21vh;
+}
+
+#logo_inicio
+{
+    cursor: pointer;
+    transition: transform .2s;
+    &:hover
+    {
+        transform: scale(110%);
+    }
+    &:active
+    {
+        transform: scale(90%);
+    }
+}
+
+@media only screen and (max-width: 800px) 
+{
+    div#caixa_titulo:last-of-type
+    {
+
+        & p
+        {
+            width: 100%;
+        }
+    }
+
+    button
+    {
+        background-color: var(--cor-botao); /* Fundo preto */
+        padding: 2vh 1vw;
+        width: 50vw;
+        display: block;
+        margin: 1.5vh auto;
+        font-size: 1rem;
+        color: var(--texto-botao); /* Texto branco */
+    }
+
+    @media only screen and (max-width: 400px) 
+    {
+        button
+        {
+            width: 85vw;
+        }   
+    }
+}

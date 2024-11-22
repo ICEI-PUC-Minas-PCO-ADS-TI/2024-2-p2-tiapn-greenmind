@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="../Imagens/icons/favicon.ico">
+    
+    <!-- informações gerais e sistema de busca -->
+    <title>Início</title>
+    <meta name="description" content="Calcule sua Pegada Ecológica e descubra seu impacto no meio ambiente!">
+    <meta name="keywords" content="Pegada Ecológica, GreenMind">
+
+    <!-- cache -->
+    <meta
+    http-equiv="Cache-Control"
+    content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head> 
+<body>
+    <header>
+        <nav>
+            <a class="nav-link" href="#">PEGADA ECOLÓGICA</a>
+        </nav>
+        <div id="elementos-principais">
+            <div id="header-main-content">
+                <h1>Seus hábitos <br><span>Impactam</span></h1>
+                <p>Nossos hábitos são como <b>Pegadas</b> que deixamos na terra ao longo de nossas vidas.</p>
+                <p>Isso posto, esse projeto tem a missão de revelar sua <b>Pegada Ecológica</b>.</p>
+            </div>
+            <img src="../Imagens/icons/salford.png" alt="Logo GreenMind">
+        </div>
+    </header>
+    <main>
+        <section id="secao-1">
+            <h2>Beleza, mas o que é uma <span>Pegada Ecológica</span>?</h2>
+            <p>É a medida do seu impacto no meio ambiente. A <i><b>Pegada</b></i> que você deixa na terra.</p>
+            <img src="../Imagens/landing_page/Natural Resource Depletion-amico 1.webp" alt="Nature illustrations by Storyset">
+        </section>
+    
+        <section id="secao-2">
+            <h2>Mas por que eu deveria descobrir a minha <span>Pegada</span>?</h2>
+            <section>
+                <div>
+                    <h3>PROPÓSITO</h3>
+                    <p>Participando da nossa pesquisa, você estará contribuindo para um propósito maior - um mundo mais saudável e consciente.</p>
+                </div>
+                <img src="../Imagens/landing_page/International cooperation-bro 1.webp" alt="People illustrations by Storyset">
+            </section>
+            <section>
+                <div>
+                    <h3>FUTURO SUSTENTÁVEL</h3>
+                    <p>Sua contribuição é fundamental para que possamos compreender os desafios ambientais.</p>
+                </div>
+                <img src="../Imagens/landing_page/International cooperation-rafiki 1.webp" alt="People illustrations by Storyset">
+            </section>
+        </section>
+    
+        <section id="secao-3">
+            <h1>Vamos mudar o mundo 🔥</h1>
+            <div id="opcoes">
+                <div>
+                    <img src="../Imagens/landing_page/pegada-ambiental-removebg-preview 1.png" alt="Nature illustrations by Storyset">
+                    <h3>Faça a Diferença</h3>
+                    <p>Calcule sua Pegada Ecológica e Descubra seu Impacto Ambiental!</p>
+                    <button id="calcule-agora"><i>CALCULE AGORA</i></button>
+                </div>
+                <div>
+                    <img src="../Imagens/landing_page/cherry tree-pana (1) 1.webp" alt="Nature illustrations by Storyset">
+                    <h3>Visualizar Dados</h3>
+                    <p>Veja a Média Geral de todos  que já fizeram a pesquisa</p>
+                    <button id="ver-media"><i>VER MÉDIA</i></button>
+                </div>
+            </div>
+            <p><a data-open-modal><i></i></a></p>
+            <!-- modal -->
+            <dialog data-modal class="modal">
+                <h3>Como Acessar o JSON?</h3>
+                <details>
+                    <summary><h4>Método 1</h4></summary>
+                    Acessando a <a href="https://greenlight.dev.br/html/resultadoDados.php">média de todos os dias</a>
+                </details>
+                <details>
+                    <summary><h4>Método 2</h4></summary>
+                    Acessando uma <i>data específica:</i><br>
+                    <code>https://greenlight.dev.br/html/resultadoDados.php?data=<b>data-especifica</b>&data2=<b>segunda-data-especifica</b></code>
+                </details>
+                <button data-close-modal>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <p>Fechar</p>
+                </button>
+            </dialog>
+                <script>
+                    const abrir_botao = document.querySelector("[data-open-modal]")
+                    const fechar_botao = document.querySelector("[data-close-modal]")
+                    const modal = document.querySelector("[data-modal]")
+                    const ir_quiz = document.getElementById("calcule-agora");
+                    const ir_media = document.getElementById("ver-media");
+
+                    abrir_botao.addEventListener("click", () => {
+                        modal.showModal()
+                    })
+
+                    fechar_botao.addEventListener("click", () => {
+                        modal.close()
+                    })
+
+                    // redirecionamento
+                    ir_quiz.addEventListener("click", () => {
+                        location.href = "quiz.html";
+                    })
+
+                    ir_media.addEventListener("click", () => {
+                        location.href = "../resultadoDados";
+                    })
+                </script>
+        </section>
+    </main>
+</body>
+</html>
