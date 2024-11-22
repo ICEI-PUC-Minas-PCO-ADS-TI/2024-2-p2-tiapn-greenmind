@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultive um Jardim de Ervas</title>
+    <link rel="stylesheet" href="style-cultivar_jardim.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cultive um Jardim</h1>
+        <p>
+            Transforme um pequeno espaço da sua casa em um jardim aromático e funcional. 
+            Cultivar ervas como manjericão, hortelã, alecrim e cebolinha é simples e pode fazer a diferença na sua alimentação e no meio ambiente!
+        </p>
+
+        <h2>Passos para Começar</h2>
+        <ul>
+            <li>1. Escolha um local com boa iluminação, como janelas ou varandas.</li>
+            <li>2. Use vasos reciclados ou reutilizados (ex.: latas, garrafas PET).</li>
+            <li>3. Plante ervas fáceis de cuidar, como <strong>manjericão, hortelã e alecrim</strong>.</li>
+            <li>4. Regue regularmente, sem encharcar.</li>
+            <li>5. Adube o solo com compostagem caseira para melhores resultados.</li>
+        </ul>
+
+        <h2>Progresso no Cultivo</h2>
+        <p>Selecione a erva que você está cultivando e registre o seu progresso:</p>
+        <div class="input-container">
+            <label for="herb">Escolha uma erva:</label>
+            <select id="herb">
+                <option value="manjericão">Manjericão</option>
+                <option value="hortelã">Hortelã</option>
+                <option value="alecrim">Alecrim</option>
+                <option value="cebolinha">Cebolinha</option>
+                <option value="salsa">Salsa</option>
+            </select>
+            <label for="daysCultivated">Quantos dias você está cultivando?</label>
+            <input type="number" id="daysCultivated" placeholder="Ex.: 5">
+        </div>
+        <button onclick="registrarCultivo()">Registrar Progresso</button>
+
+        <h2>Histórico de Progresso</h2>
+        <ul id="progressList"></ul>
+
+        <div id="statusMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
