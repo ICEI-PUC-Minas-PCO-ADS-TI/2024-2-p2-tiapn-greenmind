@@ -27,6 +27,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `documentacao sprint-2`: versão da entrega da sprint 2 documentada
 - `sprint-3-BD`: versão para o desenvolvimento dos wireframes e banco de dados, entrega sprint 3
 - `consertando erros`: versão para a correção de erros das sprints anteriores
+- `sprint-4`: versão para o desenvolvimento dos artefatos
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
