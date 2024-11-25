@@ -14,10 +14,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A r
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind                        |
 | Projeto de interface                | Figma                              | https://www.figma.com/files/team/1409007676093007271/recents-and-sharing/recently-viewed?fuid=1352005878152333410                            |
 | Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/15                           |
-| Diagrama de caso de uso         |                    | https://...                           |
-| DER (Peter Chen)           |                   | https://...                           |
-| DER (Pé de galinha)           |                     | https://....                           |
-| Scripts SQL           | GitHub Projects                    | https://....                           |
 | Hospedagem                          | Vercel                             | http://....                            |
 
 ## Controle de versão
@@ -30,7 +26,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `documentacao`: versão da entrega da sprint 1 documentada
 - `documentacao sprint-2`: versão da entrega da sprint 2 documentada
 - `sprint-3-BD`: versão para o desenvolvimento dos wireframes e banco de dados, entrega sprint 3
-- `concertando erros`: versão para a correção de erros das sprints anteriores
+- `consertando erros`: versão para a correção de erros das sprints anteriores
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
