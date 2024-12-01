@@ -1,0 +1,150 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header a {
+    display: inline-block;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background: #04191D80;
+    font-size: 1.25rem;
+}
+
+#itens-nav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#itens-nav li {
+    padding: 20px 40px;
+    position: relative;
+    align-self: center;
+}
+
+#itens-nav li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#itens-nav li.dropdown {
+    cursor: pointer;
+}
+
+#itens-nav li.dropdown::after {
+    content: "▼";
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+#itens-nav li.dropdown div.dropdown-div {
+    display: none;
+    position: relative;
+    background: #75B84366;
+    left: 0px;
+}
+
+#itens-nav li.dropdown div.dropdown-div ul {
+    list-style: none;
+}
+
+#itens-nav li.dropdown:hover .dropdown-div {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+#itens-nav #menu-toggle {
+    display: none;
+}
+
+#itens-nav #label-menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    header {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1350px) {
+    header {
+        justify-content: space-between;
+    }
+    header img {
+        width: 100px;
+    }
+    #itens-nav li {
+        display: block;
+    }
+    #itens-nav #label-menu-toggle {
+        display: block;
+    }
+    #itens-nav #menu-toggle:checked ~ li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 30px;
+        background: #04191D;
+        color: white;
+    }
+
+    #itens-nav #menu-toggle:not(:checked) ~ li {
+        display: none;
+    }
+
+    #itens-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #04191D;
+    }
+    
+    #itens-nav li.dropdown:hover .dropdown-div {
+        display: block;
+        position: static;
+    }
+
+    #itens-nav li.dropdown div.dropdown-div  {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 500px) {
+    header img {
+        width: 50px;
+    }
+
+    #itens-nav {
+        top: 68px;
+    }
+}

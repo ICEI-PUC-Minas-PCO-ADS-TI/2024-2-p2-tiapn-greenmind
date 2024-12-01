@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/authStyle.css">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="logo-side">
+        <img src="../../assets/img/cropped_logocromfrase.png" alt="">
+    </div>
+    
+    <div class="login-side">
+        <h1>Crie sua conta</h1>
+        <div class="login-form">
+            <div>
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome" placeholder="Insira seu nome aqui">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Insira seu email aqui">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Insira sua senha aqui">
+            </div>
+            <button id="enviar">Crie sua conta</button>
+        </div>
+        <p id="resposta"></p>
+        <p>Já possui uma conta? <a href="./login.html">Login</a></p>
+    </div>
+
+    <script src="../../assets/js/cadastro.js"></script>
+</body>
+</html>
