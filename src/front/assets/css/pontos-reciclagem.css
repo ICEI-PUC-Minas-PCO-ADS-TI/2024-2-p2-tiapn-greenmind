@@ -10,37 +10,35 @@ body {
     min-height: 100vh;
     background-color: #f3f4f6;
     color: #333;
-    background-image: url(IMAGEM/fundo\ site.jpeg);
+    background-image: url(../img/fundo\ site.jpeg);
     background-size: cover;
+    background-position: center;
 }
-
 
 h2 {
     color: white;
     text-align: center;
-    margin: 40px;
     padding-bottom: 50px;
 }
-
 
 .container {
     background-color: #2c6e49;
     padding: 60px;
     border-radius: 20px;
     width: 90%;
-    max-width: 80%;
+    max-width: 60%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    color:white;
+    color: white;
     font-weight: 800;
     font-size: large;
     margin: 50px auto;
     text-align: center;
     box-sizing: border-box;
-    background-image: url(IMAGEM/sinal-de-reciclagem.png);  
+    background-image: url(../img/sinal-de-reciclagem.png);
     background-size: contain;
-    
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 
 .recycling-form {
     display: flex;
@@ -48,7 +46,6 @@ h2 {
     gap: 15px;
     margin-top: 10px;
 }
-
 
 .input-box {
     padding: 10px;
@@ -60,7 +57,6 @@ h2 {
     margin: 0 auto;
     background-color: white;
 }
-
 
 .button {
     padding: 10px;
@@ -80,7 +76,6 @@ h2 {
     background-color: #45a049;
 }
 
-
 .main-content {
     display: flex;
     justify-content: center;
@@ -89,23 +84,26 @@ h2 {
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
+    flex-wrap: wrap;
 }
-
 
 #map {
     height: 400px;
-    flex: 1;
+    width: 100%;
+    margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(97, 71, 71, 0.2);
+    display: block;
+    position: relative;
+    z-index: 1;
 }
-
-
 
 .favorites-section {
     padding: 15px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    width: 300px;
+    width: 600px;
+    margin-bottom: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     color: #2c6e49;
     text-align: center;
@@ -126,13 +124,40 @@ h2 {
     border-bottom: 1px solid #ccc;
 }
 
-
 .liked {
     color: #FF6347;
     font-weight: bold;
 }
-/* Rodapé*/
-footer{
+
+/* Rodapé */
+footer {
     color: white;
     font-size: larger;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 40px;
+        font-size: inherit;
+    }
+    .favorites-section {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .favorites-section {
+        width: 80%;
+    }
+    #map {
+        height: 300px; 
+    }
+    .button {
+        max-width: 100%;
+    }
 }

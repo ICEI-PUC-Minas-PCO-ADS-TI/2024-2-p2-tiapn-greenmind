@@ -4,45 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pontos de Reciclagem - GreenMind</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../assets/css/pontos-reciclagem.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="../../assets/css/headerStyle.css">
 </head>
 <body>
+
     <div class="container">
-        <h2>Locais de Reciclagem no Brasil</h2>
+        <h2>Pontos de Reciclagem </h2>
         <form class="recycling-form">
             <label for="state-select">Selecione o Estado:</label>
             <select id="state-select" class="input-box" onchange="updateCities()">
                
                 <option value="">Selecione o estado</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do Sul</option>
                 <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
             </select>
 
             <label for="city-select">Selecione a Cidade:</label>
@@ -56,16 +30,14 @@
 
     <div class="main-content">
         <div id="map"></div>
-
-        <div class="favorites-section">
-            <h3>Locais Favoritos</h3>
-            <ul id="favorites-list"></ul>
-        </div>
+    </div>
+    <div class="favorites-section">
+        <h3>Locais Favoritos</h3>
+        <ul id="favorites-list"></ul>
     </div>
 
     <script src="../../assets/js/pontos-reciclagem.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="../../headerTemplate.js"></script>
 </body>
 <footer>Todos os Direitos Reservados Green Mind</footer>
 </html>
