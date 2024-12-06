@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const authRoutes = require('./routes/authRoutes');
+const pontosRoutes = require('./routes/pontosRoutes');
+const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 const PORT = 3000;
@@ -18,12 +20,16 @@ app.listen(PORT, () => {
 // Processamento requests
 
 // GET
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     res.json("Tudo OK!");
 });
 
 // Rotas Cadastro e Login, backend
 app.use(authRoutes);
+// Rotas pontos de reciclagem mapa
+app.use(pontosRoutes);
+// Rotas usuários
+app.use(userRoutes);
 
 // PADRÃO, para rotas não mapeadas.
 app.use((req, res) => {

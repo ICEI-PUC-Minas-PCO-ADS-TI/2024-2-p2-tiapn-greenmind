@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenmind</title>
+    <link rel="stylesheet" href="../../assets/css/headerStyle.css">
+    <link rel="stylesheet" href="../../assets/css/perfil.css">
+</head>
+<body>
+    <div class="topo">
+        <greenmind-header>perfil</greenmind-header>
+        <h1>Perfil</h1>
+    </div>
+    
+    <main>
+        <div class="nome-logout">
+            <h1>Olá, <span id="user">fulano</span></h1>
+            <button id="logout-btn">Logout</button>
+        </div>
+        <div class="opcoes-perfil">
+            <div class="opcao opcao-perfil">
+                <h2>Mudar Nome</h2>
+                <input id="nome-input" type="text" placeholder="Novo nome">
+                <button id="nome-btn">Enviar</button>
+            </div>
+            <div class="opcao opcao-perfil">
+                <h2>Mudar Email</h2>
+                <input id="email-input" type="text" placeholder="Novo email">
+                <button id="email-btn">Enviar</button>
+            </div>
+            <div class="opcao opcao-perfil">
+                <h2>Mudar Senha</h2>
+                <input id="senha-input" type="password" placeholder="Nova senha">
+                <button id="senha-btn">Enviar</button>
+            </div>
+        </div>
+        <div style="display: none;" class="opcoes-admin">
+            <div class="opcao opcao-admin">
+                <h2>Criar publicação</h2>
+                <h3>Título</h3>
+                <input type="text" name="" id="">
+                <h3>Conteúdo</h3>
+                <textarea rows="15" name="" id=""></textarea>
+                <button>Criar</button>
+            </div>
+
+            <div id="div-usuarios" class="opcao opcao-admin">
+                <h2>Remover usuário</h2>
+                <!-- <div class="usuario">
+                    <h3 class="nome-usuario">Fulano</h3>
+                    <button>Excluir usuário</button>
+                </div>
+                <div class="usuario">
+                    <h3 class="nome-usuario">Fulano</h3>
+                    <button>Excluir usuário</button>
+                </div>
+                <div class="usuario">
+                    <h3 class="nome-usuario">Fulano</h3>
+                    <button>Excluir usuário</button>
+                </div>
+                <div class="usuario">
+                    <h3 class="nome-usuario">Fulano</h3>
+                    <button>Excluir usuário</button>
+                </div> -->
+            </div>
+        </div>
+    </main>
+
+    <script src="../../headerTemplate.js"></script>
+    <script src="../../assets/js/perfil.js"></script>
+</body>
+</html>
