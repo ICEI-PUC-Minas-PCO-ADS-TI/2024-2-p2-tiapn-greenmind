@@ -1,5 +1,6 @@
 const db = require('../db/db_connection');
 const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
 
 const secretKey = "greenmind";
 
@@ -13,6 +14,10 @@ exports.signUp = (req, res) => {
         return res.json({mensagem: "Erro! Preencha todos os dados."});
     }
 
+    if(nome.length > 40 || email.length > 50 || senha.length > 15) {
+        return res.json({mensagem: "Erro! Dados inseridos excederam o limite de caracteres."});
+    }
+
     // Não faz sentido nenhum fazer 2 requisições ao banco de dados, mudar para só uma. Faz sim.
     let query = 'SELECT COUNT(*) AS count FROM usuario WHERE email = ?';
     db.query(query, [email], (err, result) => {
@@ -23,19 +28,22 @@ exports.signUp = (req, res) => {
         }
 
         let dataHoje = new Date().toISOString().split("T")[0];
-        let query = 'INSERT INTO usuario (nome, email, senha, data_cadastro) VALUES (?, ?, ?, ?)';
-        db.query(query, [nome, email, senha, dataHoje], (err, result) => {
-            if(err) return res.json({mensagem: "Erro ao cadastrar usuário", erro: err.message});
-
-            res.json({mensagem: "Usuário cadastrado com sucesso", dados: result, success: 1});
-        });
+        bcrypt.hash(senha, 4).then((senhaCriptografada) => {
+            console.log(senhaCriptografada);
+            let query = 'INSERT INTO usuario (nome, email, senha, data_cadastro) VALUES (?, ?, ?, ?)';
+            db.query(query, [nome, email, senhaCriptografada, dataHoje], (err, result) => {
+                if(err) return res.json({mensagem: "Erro ao cadastrar usuário", erro: err.message});
+    
+                res.json({mensagem: "Usuário cadastrado com sucesso", dados: result, success: 1});
+            });
+        })
     });
 }
 
 exports.signIn = (req, res) => {
     const { email, senha } = req.body;
 
-    let query = 'SELECT * FROM usuario WHERE email = ? AND senha = ?';
+    let query = 'SELECT * FROM usuario WHERE email = ?';
 
     db.query(query, [email, senha], (err, result) => {
         if(err) return res.json({mensagem: "Erro no processo de login", erro: err.message});
@@ -46,17 +54,23 @@ exports.signIn = (req, res) => {
 
         const user = result[0];
 
-        const token = jwt.sign(
-            {
-                id: user.idUsuario,
-                nome: user.nome,
-                email: user.email,
-                tipo_usuario: user.tipo_usuario,
-            },
-            secretKey
-        );
-        
-        return res.json({mensagem: "Logado com sucesso!", dados: result, success: 1, token: token});
+        bcrypt.compare(senha, user.senha).then((result) => {
+            if(!result) {
+                return res.json({mensagem: "Verifique o Email e a Senha e tente novamente"});
+            }
+
+            const token = jwt.sign(
+                {
+                    id: user.idUsuario,
+                    nome: user.nome,
+                    email: user.email,
+                    tipo_usuario: user.tipo_usuario,
+                },
+                secretKey
+            );
+            
+            return res.json({mensagem: "Logado com sucesso!", dados: result, success: 1, token: token});
+        });
     });
 }
 

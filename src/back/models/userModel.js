@@ -1,4 +1,5 @@
 const db = require('../db/db_connection');
+const bcrypt = require('bcrypt');
 
 class UserModel {
     getUsers() {
@@ -51,12 +52,14 @@ class UserModel {
     {
         let query = 'UPDATE usuario SET senha = ? WHERE idUsuario = ?';
         return new Promise((resolve, reject) => {
-            db.query(query, [senha, id], (err, result) => {
-                if(err) return reject({mensagem: "Erro ao tentar mudar a senha", erro: err.message, success: 0});
-    
-                return resolve({mensagem: "Senha mudada com sucesso", dados: result, success: 1});
+            bcrypt.hash(senha, 4).then((senhaCriptografada) => { 
+                db.query(query, [senhaCriptografada, id], (err, result) => {
+                    if(err) return reject({mensagem: "Erro ao tentar mudar a senha", erro: err.message, success: 0});
+        
+                    return resolve({mensagem: "Senha mudada com sucesso", dados: result, success: 1});
+                });
             });
-        })
+        });
     }
 }
 
