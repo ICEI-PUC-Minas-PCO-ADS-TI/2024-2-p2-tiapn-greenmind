@@ -19,4 +19,5 @@ router.patch('/api/user/changepassword', userController.changePassword);
 // Rota Cadastro
 // router.post('/api/cadastro', a.signUp)
 
+
 module.exports = router;

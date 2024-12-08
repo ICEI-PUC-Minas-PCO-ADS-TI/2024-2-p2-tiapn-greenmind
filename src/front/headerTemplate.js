@@ -36,7 +36,7 @@ class GreenmindHeader extends HTMLElement {
                         <a href="#">Quiz<br> Ambiental</a>
                         <div class="dropdown-div">
                             <ul>
-                                <li><a href="../../views/quiz-pegada/index.html">Pegada Ecológica.</a></li>
+                                <li><a href="#tema1">Tema 1</a></li>
                                 <li><a href="#tema2">Tema 2</a></li>
                                 <li><a href="#tema3">Tema 3</a></li>
                             </ul>

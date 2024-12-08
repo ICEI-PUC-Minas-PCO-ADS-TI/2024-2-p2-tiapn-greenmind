@@ -4,7 +4,6 @@ const path = require('path');
 const authRoutes = require('./routes/authRoutes');
 const pontosRoutes = require('./routes/pontosRoutes');
 const userRoutes = require('./routes/userRoutes');
-const quizRoutes = require('./routes/quizRoutes');
 
 const app = express();
 const PORT = 3000;
@@ -31,9 +30,6 @@ app.use(authRoutes);
 app.use(pontosRoutes);
 // Rotas usuários
 app.use(userRoutes);
-// Rota para o quiz
-app.use(quizRoutes);
-
 
 // PADRÃO, para rotas não mapeadas.
 app.use((req, res) => {
