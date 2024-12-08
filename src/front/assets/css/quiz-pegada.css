@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+:root
+{
+    --fundo: #F2F2F2;
+    --fundo-secao: #E8E8E8;
+    --verde-span: #9FC131;
+    --texto-header: #ffffff;
+    --texto: #012030;
+    --fundo-trans: 242,242,242;
+}
+
+*
+{
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+b
+{
+    font-weight: 600;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/Pegada Ecologica/imagens_fundo/nature-3808354_1280\ 1.png");
+    color: var(--texto-header);
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-attachment: fixed;
+}
+
+#elementos-principais
+{
+    height: 95vh;
+    width: 100%;
+    margin: -2rem -4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav
+{
+    z-index: 1;
+    display: flex;
+    gap: 2rem;
+    align-self: flex-end;
+}
+
+.nav-link
+{
+    color: var(--texto-header);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nav-link:hover
+{
+    text-decoration: underline;
+}
+
+header h1
+{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+
+header span
+{
+    font-weight: 800;
+    font-size: calc(4rem + 2vw);
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+header p
+{
+    font-size: 1.2rem;
+    width: 60%;
+    margin-top: 1.25rem;
+}
+
+header img
+{
+    display: flex;
+    align-self: flex-end;
+    min-width: 35%;
+}
+
+/* SEÇÃO PRINCIPAL */
+
+main
+{
+    background-color: var(--fundo);
+    color: var(--texto);
+}
+
+main p
+{
+    font-size: 1.25rem;
+}
+
+#secao-1 
+{
+    margin: 0 0 2rem 0;
+    padding: 4rem 0;
+}
+
+#secao-1 p, #secao-1 h2
+{
+    margin: auto;
+    text-align: center;
+}
+
+h2
+{
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main span
+{
+    color: var(--verde-span);
+}
+
+#secao-1 p
+{
+    margin-top: 30px;
+    max-width: 90%;
+}
+
+#secao-1 img
+{
+    display: flex;
+    margin: 2rem auto;
+    max-width: 45%;
+    min-width: 25%;
+}
+
+/* SETUP SUB-SEÇÕES */
+
+#secao-2 section
+{
+    display: flex;
+}
+
+#secao-2 h2
+{
+    margin-bottom: 2rem;
+}
+
+#secao-2 section h3
+{
+    font-size: xx-large;
+}
+
+#secao-2 section:first-of-type,
+#secao-2 section:last-child
+{
+    background-color: var(--fundo-secao);
+}
+
+/* PRIMEIRA SUB-SEÇÃO */
+
+#secao-2 section:first-of-type
+{
+    flex-direction: row-reverse;
+    padding: 4rem;
+    align-items: center;
+    justify-content:center;
+}
+
+#secao-2 section:first-of-type img
+{
+    min-width: 20%;
+}
+
+#secao-2 section:first-of-type div
+{
+    width: 40%;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* SEGUNDA SUB-SEÇÃO */
+
+#secao-2 section:nth-child(3)
+{
+    padding: 1rem 3rem;   
+    align-items: center;
+    justify-content:center;
+}
+
+#secao-2 section:nth-child(3) p
+{
+    width: 80%;
+}
+
+#secao-2 section:nth-child(3) img
+{
+    max-width: 50%;
+}
+
+/* TERCEIRA SUB-SEÇÃO */
+
+#secao-2 section:last-child
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+#secao-2 section:last-child img
+{
+    margin: auto;
+    max-width: 35%;
+}
+
+#secao-2 section:last-child p
+{
+    margin: 2rem auto;
+    width: 60%;
+}
+
+#secao-2 section:last-child h3
+{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 10px;
+}
+
+/* SEÇÃO 3 - ÚLTIMA SEÇÃO */
+
+#secao-3
+{
+    text-align: center;
+    padding: 4rem;
+}
+
+#secao-3 h1
+{
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 2.5rem;
+}
+
+#secao-3 h3
+{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+#secao-3 p
+{
+    width: 85%;
+    margin: auto;
+}
+
+#opcoes
+{
+    display: flex;
+}
+
+#opcoes div
+{
+    max-width: 40%;
+    margin: auto;
+    flex-wrap: column wrap;
+}
+
+/* botões da seção 3 e seus efeitos */
+
+#secao-3 div button
+{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 1.8rem 0 5rem 0;
+    background-color: none;
+    border: 1px solid var(--texto);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+#secao-3 div button:after 
+{
+    position: absolute;
+    content: '»';
+    opacity: 0;  
+    transition: 0.4s;
+    top: -2px;
+    right: 25px;
+    font-size: 2.4rem;
+}
+
+#secao-3 div button:hover
+{
+    padding-right: 2.5rem;
+    padding-left: 2rem;
+    /* box-shadow: 0 5px 10px 0px rgb(182, 182, 182); */
+}
+  
+#secao-3 div button:hover:after 
+{
+    opacity: 1;
+    right: 10px;
+}
+
+#secao-3 a
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#secao-3 a:hover
+{
+    background-color: var(--texto);
+    color: var(--fundo);
+    text-decoration: none;
+}
+
+/* modal fodido */
+
+dialog
+{
+    border: none;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 40%;
+    max-width: 85%;
+    margin: auto;
+    background-color: var(--fundo-secao);
+    text-align: center;
+}
+
+dialog h4
+{
+    font-weight: 600;
+    display: inline;
+}
+
+dialog details
+{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+dialog details a
+{
+    word-break: break-all;
+}
+
+dialog button
+{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    border: .5px solid var(--verde-span);
+    cursor: pointer;
+    margin: 2rem auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+
+    position: relative;
+    width: 150px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+dialog button:before,
+dialog button:after
+{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+dialog button p
+{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--texto);
+}
+
+
+dialog button span {
+    background-color: var(--verde-span);
+    height: 00px;
+    width: 25px;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  dialog button span:nth-child(2),
+  dialog button span:nth-child(4),
+  dialog button span:nth-child(6) {
+    top: 0;
+  }
+  
+  dialog button span:nth-child(2) {
+    left: 25px;
+  }
+  
+  dialog button span:nth-child(4) {
+    left: 75px;
+  }
+  
+  dialog button span:nth-child(6) {
+    left: 125px;
+  }
+  
+  dialog button span:nth-child(1),
+  dialog button span:nth-child(3),
+  dialog button span:nth-child(5) {
+    bottom: 0;
+  }
+  
+  dialog button span:nth-child(1) {
+    left: 0px;
+  }
+  
+  dialog button span:nth-child(3) {
+    left: 50px;
+  }
+  
+  dialog button span:nth-child(5) {
+    left: 100px;
+  }
+  
+  dialog button:hover span {
+    height: calc(60px - 2px);
+  }
+
+.modal.open
+{
+    display: block;
+}
+
+/* ta acabando porra uhulll */
+
+footer,
+footer *
+{
+    color: var(--fundo);
+    text-align: right;
+}
+
+footer
+{
+    padding: 3rem;
+    background-color: var(--texto);
+    min-height: 60vh;
+}
+
+footer div
+{
+    margin: 20px 0 30px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+footer div a
+{
+    font-size: 2rem;
+    transition: all .4s;
+}
+
+footer div a:hover
+{
+    transform: scale(120%);
+}
+
+footer > a
+{
+    margin-left: 20px;
+}
+
+footer > a:hover
+{
+    text-decoration: underline;
+}
+
+details code
+{
+    background-color: gainsboro; 
+    cursor: context-menu;
+}
+
+@media only screen and (max-width: 1050px) 
+{
+    
+    /* SUB-SEÇÃO 3 */
+    #secao-2 section:last-of-type p
+    {
+        width: 90%;
+    }
+    
+    /* SEÇÃO 3 */
+    #secao-3 #opcoes
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #secao-3 #opcoes div
+    {
+        min-width: 50%;
+    }
+    
+    
+    @media only screen and (max-width: 870px)
+    {
+        header h1,
+        header p
+        {
+            margin-left: 5vw;
+            /* text-align: center; */
+        } 
+
+        nav
+        {
+            margin-right: 5vw;
+            font-size: .9rem;
+        }
+        
+        header h1
+        {
+            margin-bottom: 5%;
+        }
+        
+        header p
+        {
+            min-width: 80%;
+            margin-bottom: 15px;
+        }
+    
+        header img
+        {
+            display: none;
+        }
+        
+        header
+        {
+            padding: 2rem 0rem;
+        }
+
+        h2
+        {
+            font-size: 1.5rem;
+        }
+
+        main p
+        {
+            font-size: 1rem;
+        }
+        /* SUB-SEÇÃO 1 */
+        #secao-2 section:first-of-type
+        {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        #secao-2 section:first-of-type div
+        {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+        }
+
+        #secao-2 section:first-of-type img
+        {
+            max-width: 35%;
+        }
+
+
+        /* SUB-SEÇÃO 2 */
+        #secao-2 section:nth-child(3)
+        {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-bottom: 4rem;
+        }
+
+        #secao-2 section:nth-child(3) div
+        {
+            margin: auto;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* SUB-SEÇÃO 3 */
+        #secao-2 section:last-of-type p
+        {
+            width: 100%;
+        }
+
+        #secao-2 section:last-of-type h3
+        {
+            letter-spacing: 3px;
+            font-size: 2rem;
+        }
+
+        #secao-2 section:last-of-type div
+        {
+            min-width: 100%;
+        }
+
+        #secao-2 section:last-of-type
+        {
+            flex-direction: column-reverse;
+        }
+
+        #secao-2 section:nth-child(3) p
+        {
+            width: 100%;
+        }
+
+
+        /* SEÇÃO 3 */
+        #secao-3
+        {
+            padding: 2rem .5rem;
+        }
+
+        #secao-3 #opcoes
+        {
+            padding: 0;
+            width: 100%;
+        }
+
+        #secao-3 #opcoes div
+        {
+            min-width: 80%;
+        }
+
+        #secao-3 p
+        {
+            min-width: 100%;
+        }
+
+        #secao-3 #opcoes button
+        {
+            min-width: 100%;
+        }
+
+        dialog
+        {
+            width: 90%;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 500px)
+    {
+        header h1
+        {
+            font-size: 1.5rem;
+        }
+
+        header span
+        {
+            font-size: calc(3rem + 1.25vw);
+            line-height: 40px;
+        }
+
+        header
+        {
+            padding: 2rem 0rem;
+        }
+
+        footer
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer h2
+        {
+            font-size: 1.1rem;
+        }
+    }
+}
