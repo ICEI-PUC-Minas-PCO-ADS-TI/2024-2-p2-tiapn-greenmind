@@ -14,7 +14,7 @@ exports.signUp = (req, res) => {
         return res.json({mensagem: "Erro! Preencha todos os dados."});
     }
 
-    if(nome.length > 40 || email.length > 50 || senha.length > 15) {
+    if(nome.length > 40 || email.length > 50 || senha.length > 40) {
         return res.json({mensagem: "Erro! Dados inseridos excederam o limite de caracteres."});
     }
 

@@ -3,7 +3,7 @@ CREATE TABLE Usuario (
     idUsuario INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(40) NOT NULL,
     email VARCHAR(50) NOT NULL UNIQUE,
-    senha VARCHAR(30) NOT NULL,
+    senha VARCHAR(300) NOT NULL,
     tipo_usuario VARCHAR(20) NOT NULL DEFAULT "usuario",
     data_cadastro DATE NOT NULL
 );
@@ -83,11 +83,8 @@ CREATE TABLE ResultadosDesafio (
 );
 -- Criação da tabela Ponto de Reciclagem
 CREATE TABLE PontoDeReciclagem (
-    id_ponto_de_reciclagem INTEGER NOT NULL PRIMARY KEY,
-    horario_funcionamento DATETIME,
-    tipo_material VARCHAR(45),
+	id_usuario INTEGER,
     endereco VARCHAR(240) NOT NULL,
-    nome VARCHAR(100),
-    id_usuario INTEGER,
-    FOREIGN KEY (id_usuario) REFERENCES Usuario(idUsuario)
+    nome VARCHAR(100) NOT NULL,
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(idUsuario) ON DELETE CASCADE ON UPDATE CASCADE
 );
