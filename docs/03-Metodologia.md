@@ -28,6 +28,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `sprint-3-BD`: versão para o desenvolvimento dos wireframes e banco de dados, entrega sprint 3
 - `consertando erros`: versão para a correção de erros das sprints anteriores
 - `sprint-4`: versão para o desenvolvimento dos artefatos
+- `sprint-5`: versão para a integração e finalização do projeto
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
@@ -54,6 +55,30 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 #### Sprint 1
+- _Scrum master_: AlunaX
+- Protótipos: AlunoY
+- Testes: AlunoK
+- Documentação: AlunaZ
+  
+#### Sprint 2
+- _Scrum master_: AlunaX
+- Protótipos: AlunoY
+- Testes: AlunoK
+- Documentação: AlunaZ
+
+#### Sprint 3
+- _Scrum master_: AlunaX
+- Protótipos: AlunoY
+- Testes: AlunoK
+- Documentação: AlunaZ
+
+#### Sprint 4
+- _Scrum master_: AlunaX
+- Protótipos: AlunoY
+- Testes: AlunoK
+- Documentação: AlunaZ
+
+#### Sprint 5
 - _Scrum master_: AlunaX
 - Protótipos: AlunoY
 - Testes: AlunoK
