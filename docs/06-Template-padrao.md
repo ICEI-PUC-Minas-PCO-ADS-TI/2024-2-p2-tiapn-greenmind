@@ -4,6 +4,9 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+![wirefreme](https://github.com/user-attachments/assets/ccc53cc3-dcdc-4941-aca5-8412cb283f41)
+
+
 > **Links úteis**:
 >
 > - [CSS website layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
