@@ -6,6 +6,7 @@ const pontosRoutes = require('./routes/pontosRoutes');
 const userRoutes = require('./routes/userRoutes');
 const quizRoutes = require('./routes/quizRoutes');
 const formularioRoutes = require('./routes/form-router');
+const desperdicioAlimentarRoutes = require('./routes/desperdicio-alimentarRoutes');
 
 const app = express();
 const PORT = 3000;
@@ -36,6 +37,8 @@ app.use(userRoutes);
 app.use(quizRoutes);
 // Rota para o formulario
 app.use(formularioRoutes);
+// Rota para desperdício de alimentos
+app.use(desperdicioAlimentarRoutes);
 
 
 // PADRÃO, para rotas não mapeadas.
