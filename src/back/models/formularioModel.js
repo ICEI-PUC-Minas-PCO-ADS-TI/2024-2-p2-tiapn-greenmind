@@ -1,4 +1,4 @@
-const conexao = require("../connection/conexao");
+const conexao = require("../db/db_connection.js");
 
 class FormularioModel {
     listar() {
