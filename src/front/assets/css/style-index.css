@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    background-image: url(../img/fundo\ site.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 160px;
+    color: #ababab;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: white;
+    margin: 10px 0;
+}
+
+.desafios-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto 0;
+}
+
+.desafio-item {
+    text-align: center;
+    background-color: #046b41;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desafio-item:hover {
+    transform: scale(1.05);
+    background-color: #038b54;
+}
+
+.desafio-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.desafio-item:nth-child(odd) {
+    background-color: #034933;
+}
+
+.desafio-item:nth-child(even) {
+    background-color: #055b48;
+}
+
+@media (max-width: 768px) {
+    .desafios-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .desafio-item img {
+        width: 80px;
+        height: 80px;
+    }
+}
