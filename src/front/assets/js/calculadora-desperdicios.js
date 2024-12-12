@@ -39,7 +39,7 @@ form.addEventListener('submit', async (event) => {
 
     const impacto = impactoCO2[item] * quantidadeDesperdiciada;
 
-    await salvarNoBanco(item, quantidadeDesperdiciada, impacto, new Date().toISOString().split("T")[0]);
+    await salvarNoBanco(item, quantidadeDesperdiciada, quantidadeComprada, new Date().toISOString().split("T")[0]);
 
     atualizarResumo(quantidadeComprada, quantidadeDesperdiciada, item, impacto);
     atualizarGrafico();
@@ -73,7 +73,7 @@ function atualizarGrafico() {
 }
 
 // ****************************************
-async function salvarNoBanco(item, quantidadeDesperdiciada, impacto, dataRegistro) {
+async function salvarNoBanco(item, quantidadeDesperdiciada, quantidadeComprada, dataRegistro) {
 
     const response = await fetch(`${backURL}/salvar-dados`, {
         method: 'POST',
@@ -83,7 +83,7 @@ async function salvarNoBanco(item, quantidadeDesperdiciada, impacto, dataRegistr
         body: JSON.stringify({
             item: item,
             quantidadeDesperdiciada: quantidadeDesperdiciada,
-            impacto: impacto,
+            quantidadeComprada: quantidadeComprada,
             dataRegistro: dataRegistro,
             token: localStorage.getItem('token')
         }),
@@ -93,3 +93,45 @@ async function salvarNoBanco(item, quantidadeDesperdiciada, impacto, dataRegistr
         alert('Erro ao salvar os dados.');
     }
 }
+
+async function carregarHistorico() {
+    const tabelaHistorico = document.querySelector('#historico-pedidos tbody');
+    tabelaHistorico.innerHTML = ''; 
+
+    try {
+        const response = await fetch(`${backURL}/historico-dados`, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${localStorage.getItem('token')}`
+            }
+        });
+
+        if (!response.ok) {
+            alert('Erro ao carregar o histórico.');
+            return;
+        }
+
+        console.log(response);
+
+        const dados = await response.json();
+        console.log(dados)
+        dados.forEach(dado => {
+            const linha = document.createElement('tr');
+
+            linha.innerHTML = `
+                <td>${dado.tipo_alimento}</td>
+                <td>${parseFloat(dado.quantidade_comprada).toFixed(2)}</td>
+                <td>${parseFloat(dado.quantidade_desperdicada).toFixed(2)}</td>
+                <td>${new Date(dado.data_registro).toISOString().split("T")[0]}</td>
+            `;
+
+            tabelaHistorico.appendChild(linha);
+        });
+    } catch (error) {
+        console.error('Erro ao buscar histórico:', error);
+        alert('Erro ao buscar os dados do histórico.');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', carregarHistorico);

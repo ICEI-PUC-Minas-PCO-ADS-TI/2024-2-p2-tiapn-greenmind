@@ -6,7 +6,7 @@ const authController = require('../controllers/authController');
 const secretKey = "greenmind";
 
 exports.salvarDados = (req, res) => {
-    const { item, quantidadeDesperdiciada, impacto, dataRegistro, token } = req.body;
+    const { item, quantidadeDesperdiciada, quantidadeComprada, dataRegistro, token } = req.body;
 
     
     if(!authController.isLoggedIn(token)) {
@@ -17,7 +17,7 @@ exports.salvarDados = (req, res) => {
     const idUsuario = jwt.decode(token).id;
 
     const query = `
-    INSERT INTO DesperdiciosAlimentares (data_registro, quantidade_evitada, tipo_alimento, impacto_co2, id_usuario)
+    INSERT INTO DesperdiciosAlimentares (data_registro, quantidade_desperdicada, tipo_alimento, quantidade_comprada, id_usuario)
     VALUES (?, ?, ?, ?, ?)
     `;
 
@@ -25,7 +25,7 @@ exports.salvarDados = (req, res) => {
         dataRegistro,
         quantidadeDesperdiciada,
         item,
-        impacto,
+        quantidadeComprada,
         idUsuario
     ], (err, result) => {
         if(err) {
@@ -37,25 +37,26 @@ exports.salvarDados = (req, res) => {
 }
 
 exports.getHistoricoDados = (req, res) => {
-    const { token } = req.body;
+    const token = req.header('Authorization')?.replace('Bearer ', '');
 
-    const query = `SELECT * FROM DesperdiciosAlimentares WHERE id_usuario = ? ORDER BY data_registro DESC`;
-
+    console.log(token);
+    
     if(!authController.isLoggedIn(token)) {
         return res.status(500).json({message: "Usuário deve estar logado"})
     }
-
+    
     const idUsuario = jwt.decode(token).id;
 
+    const query = `SELECT * FROM DesperdiciosAlimentares WHERE id_usuario = ? ORDER BY data_registro DESC`;
+
     db.query(
-        query,
-        [
+        query, [
             idUsuario
-        ], (err, res) => {
+        ], (err, result) => {
             if(err) {
                 console.error(error);
                 res.status(500).json({ error: 'Erro ao buscar dados históricos' });
             }
-            res.status(200).json(result.rows); 
+            res.status(200).json(result); 
     });
 }
