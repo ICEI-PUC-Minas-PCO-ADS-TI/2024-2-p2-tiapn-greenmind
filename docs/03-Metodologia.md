@@ -55,54 +55,25 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 #### Sprint 1
-- Documentação Contexto: Christian Sena Gomes, Diego Chaves, Gabriel Henrique, Victor Bryan, Samuel Andrade, João Pedro dos Santos, Lara Damas, Marcela Anjos
-- Requisitos: Christian Sena Gomes, Diego Chaves, João Pedro dos Santos
-- Casos de uso: Christian Sena Gomes, Gabriel Henrique, Victor Bryan, Marcela Anjos
-- Personas: Diego Chaves, Victor Bryan, Samuel Andrade, Lara Damas
-- Mapa De Stakeholders: Samuel Andrade,  Lara Damas, Marcela Anjos
-- Slide: João Pedro dos Santos
+- Documentação: Gabriel Henrique, Samuel Neto, Marcela dos Anjos, João Pedro, Victor Bryan, Diego Romero, Lara Damas, Christian Sena
 
-  
 #### Sprint 2
-- AS-IS e TO-BE Água e Luz: Lara Damas, Victor Bryan, Christian Sena Gomes, Diego Chaves
-- AS-IS e TO-BE Alimentos: Lara Damas, Victor Bryan, Marcela Anjos, Samuel Andrade
-- Modelagem processos de negócio (github): Victor Bryan, Christian Sena Gomes, Gabriel Henrique
-- Relatório : João Pedro, Diego Chaves
-- Slides : João Pedro, Samuel Andrade, Gabriel Henrique
-
+- Protótipos: Diego Romero, Lara Damas, Victor Bryan, Christian Sena
+- Documentação: Gabriel Henrique, João Pedro, Marcela dos Anjos, Samuel Neto
 
 #### Sprint 3
-- Figma: Lara Melo Damas, Samuel Andrade Neto, Marcela Anjos
-- Userflow : Lara Melo Damas, Diego Chaves, Marcela Anjos
-- Jornada Do Usuário: Lara Melo Damas, Samuel Andrade Neto, Diego Chaves , João Pedro dos Santos
-- Diagrama de Classes: Christian Sena Gomes, Marcela Anjos
-- Diagrama Pé de Galinha: Christian Sena Gomes, Gabriel Henrique
-- Scripts Banco de Dados: Christian Sena Gomes
-- Minimundo: Samuel Andrade Neto, Diego Chaves, Gabriel Henrique
-- Scripts Banco de Dados: Diego Chaves
-- Slide: João Pedro dos Santos, Victor Bryan, Gabriel Henrique
-- Diagrama Entidade Relacionamento (Peter Chen): João Pedro dos Santos, Victor Bryan, Gabriel Henrique
-- Relatório: João Pedro dos Santos, Victor Bryan
-
+- Protótipos: Christian Sena, Gabriel Henrique, João Pedro, Diego Romero
+- Documentação: Samuel Neto, Lara Damas, Marcela dos Anjos, Victor Bryan
 
 #### Sprint 4
-- Tela Home: Lara Melo Damas
-- Paginas de Conteúdo: Lara Melo Damas
-- Pontos de Reciclgem: Diego Chaves
-- Tela e API OpenStreetMap: Diego Chaves
-- Tela Desperdício de Alimento: João Pedro
-- Pegada Ecológica: Gabriel Henrique
-- Tela Login e Cadastro: Christian Sena Gomes
-- CRUD Login e Cadastro: Christian Sena Gomes
-- Tela De Consumo De Agua: Samuel Andrade
-- Tela De Consumo De Luz: Samuel Andrade
-
+- _Scrum master_: Christian Sena
+- Testes: Gabriel Henrique, Diego Romero, Lara Damas, Victor Bryan
+- Documentação: Marcela dos Anjos, Samuel Neto, João Pedro
 
 #### Sprint 5
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+- _Scrum master_: Christian Sena
+- Testes: Gabriel Henrique, Diego Romero, Lara Damas, Victor Bryan
+- Documentação: Marcela dos Anjos, Samuel Neto, João Pedro
 
 ###  Quadro de tarefas
 
@@ -210,6 +181,16 @@ Atualizado em: 21/11/2024
 | Christian Sena Gomes      | CRUD Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Samuel Andrade     | Tela De Consumo De Agua   | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
 | Samuel Andrade      | Tela De Consumo De Luz    | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+
+#### Sprint 5
+
+Atualizado em: 12/12/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Gabriel Henrique        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 08/12/2024      |
+| Gabriel Henrique        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+| Gabriel Henrique        | Documentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
 
 
 
