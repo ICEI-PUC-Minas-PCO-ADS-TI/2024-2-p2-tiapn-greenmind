@@ -8,7 +8,9 @@ const db = mysql.createConnection({
     port: "" // Porta. Por padrão, eu deixo vazio.
 });
 
-db.connect((err) => {
+var conn=mysql.createConnection({host:"greenmind-db-server.mysql.database.azure.com", user:"nwwatgofht", password:"senha!23", database:"greenmindtestesprint4", port:3306});
+
+conn.connect((err) => {
     if(err) {
         console.log("Erro ao tentar se conectar com o banco de dados!" + err.stack);
         console.log("Certifique-se de que o banco de dados foi iniciado corretamente e de que as credenciais estão corretas.\n" + err.stack);
@@ -17,4 +19,4 @@ db.connect((err) => {
     console.log("Conectado com o banco de dados");
 });
 
-module.exports = db;
+module.exports = conn;
