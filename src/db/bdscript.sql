@@ -53,14 +53,13 @@ CREATE TABLE Desafio (
 );
 -- Criação da tabela Desperdícios Alimentares
 CREATE TABLE DesperdiciosAlimentares (
-    id_reducao INTEGER NOT NULL,
-    data_registro DATE,
-    quantidade_evitada DECIMAL NOT NULL,
-    tipo_alimento VARCHAR(45),
-    local_descarte VARCHAR(45),
+    id_reducao SERIAL PRIMARY KEY,
+    data_registro DATE NOT NULL,
+    quantidade_desperdicada DECIMAL NOT NULL, 
+    tipo_alimento VARCHAR(45) NOT NULL,
+    quantidade_comprada DECIMAL NOT NULL,
     id_usuario INTEGER NOT NULL,
-    PRIMARY KEY (id_reducao, id_usuario),
-    FOREIGN KEY (id_usuario) REFERENCES Usuario(idUsuario)
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(idUsuario) 
 );
 -- Criação da tabela Consumo
 CREATE TABLE Consumo (
