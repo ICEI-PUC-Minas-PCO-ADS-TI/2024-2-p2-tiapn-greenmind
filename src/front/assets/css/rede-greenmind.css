@@ -171,6 +171,54 @@
         font-size: 16px;
     }
   }
+  .project {
+    margin-bottom: 30px; /* Espaço entre as seções de projetos */
+    padding-bottom: 20px; /* Espaçamento inferior para cada seção */
+    border-bottom: 1px solid #ccc; /* Linha fina para separar os projetos */
+    display: flex; /* Alinha imagem e texto lado a lado */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    justify-content: flex-start; /* Alinha os itens no início (à esquerda) */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+  }
+  
+  /* Estilo para a imagem dentro dos projetos */
+  .project img {
+    width: 200px; /* Define o tamanho fixo para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+  }
+  
+  /* Estilo para a informação dos projetos */
+  .project-info {
+    text-align: left; /* Alinha o texto à esquerda */
+    color: #333; /* Cor do texto */
+    flex: 1; /* Faz com que o texto ocupe o espaço restante */
+  }
+  
+  .project-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .project-info a {
+    color: #75B843;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .project-info a:hover {
+    color: #4CAF50;
+  }
+  
   
   footer {
     background-color: #53765f; /* Cor de fundo */
