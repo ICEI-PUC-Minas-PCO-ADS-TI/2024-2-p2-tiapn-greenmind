@@ -191,6 +191,9 @@ Atualizado em: 12/12/2024
 | Gabriel Henrique        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 08/12/2024      |
 | Gabriel Henrique        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
 | Gabriel Henrique        | Documentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+| João Pedro      | CRUD Desperdício Alimento  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| João Pedro        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| João Pedro        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
 
 
 
@@ -227,9 +230,9 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind|
 | Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de interface                | Figma                              | http://....                            |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
+| Projeto de interface                | Figma                              |https://www.figma.com/design/EYfykzn72BVDNQFwjevTCi|
+| Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/projects?query=is%3Aopen|
 | Hospedagem                          | Vercel                             | http://....                            |
  
