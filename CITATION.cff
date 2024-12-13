@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: Please cite this software using these metadata.
-title: Coloque aqui o título do seu trabalho
+title: GreenMind
 authors:
   - family-names: Sena Gomes
     given-names: Christian
@@ -25,9 +25,9 @@ authors:
   - name-suffix: Professora
     affiliation: PUC Minas    
 keywords:
-    - coloque aqui a palavra-chave 1
-    - coloque aqui a palavra-chave 2
-    - coloque aqui a palavra-chave 3
+    - Educação
+    - Sustentabilidade
+    - Reciclagem
 repository-code: https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/tree/main
 license: CC-BY-4.0
 version: 1.0.0
