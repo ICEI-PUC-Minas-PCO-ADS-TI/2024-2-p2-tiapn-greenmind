@@ -231,6 +231,44 @@ footer p {
   }
 }
 
+/* Título Integrantes */
+.integrantes-title {
+  font-size: 36px; /* Mesmo tamanho que o título "NOSSA EQUIPE" */
+  font-weight: bold;
+  color: #4CAF50; /* Mesma cor do título "NOSSA EQUIPE" */
+  margin-bottom: 20px;
+  text-align: center; /* Alinha o título ao centro */
+}
+
+/* Bloco de integrantes */
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* Permite que os membros se ajustem em duas linhas */
+  margin-bottom: 40px;
+}
+
+/* Estilo dos integrantes */
+.team-member {
+  text-align: center;
+}
+
+/* Estilo da imagem do integrante */
+.team-member img {
+  width: 150px; /* Tamanho da imagem */
+  height: 150px; /* Tamanho da imagem */
+  border-radius: 50%; /* Faz a imagem ficar em formato circular */
+  object-fit: cover; /* Faz a imagem se ajustar corretamente */
+  margin-bottom: 10px;
+}
+
+/* Estilo do nome do integrante */
+.team-member p {
+  font-size: 16px;
+  color: #333;
+} 
+
 /* Título INTEGRANTES */
 .about-team h3 {
   font-size: 36px; /* Mesmo tamanho que o título "NOSSA EQUIPE" */

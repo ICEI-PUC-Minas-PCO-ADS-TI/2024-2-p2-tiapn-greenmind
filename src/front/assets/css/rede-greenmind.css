@@ -1,12 +1,12 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  /* Navbar */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
 .navbar {
   display: flex;
   align-items: center; /* Centraliza verticalmente */
@@ -45,9 +45,9 @@
 /* Menu */
 .menu {
   display: flex;
-  align-items: center; /* Centraliza verticalmente os itens do menu */
-  justify-content: center; /* Centraliza horizontalmente os itens */
-  width: 100%; /* Faz o menu ocupar toda a largura */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .menu-item {
@@ -59,16 +59,16 @@
   color: #FFF;
   text-decoration: none;
   font-size: 18px;
-  text-align: center; /* Centraliza o texto no item */
-  display: flex; /* Ativa o flexbox para o link */
-  align-items: center; /* Centraliza verticalmente o texto */
-  justify-content: center; /* Centraliza horizontalmente o texto */
-  transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .menu-item a:hover {
-  color: #75B843; /* Cor destacada no hover */
-  transform: scale(1.1); /* Zoom leve no texto */
+  color: #75B843;
+  transform: scale(1.1);
 }
 
 /* Dropdown menu */
@@ -77,171 +77,239 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%); /* Centraliza horizontalmente */
+  transform: translateX(-50%);
   background-color: #75B843;
   padding: 15px;
   border-radius: 5px;
-  animation: fadeIn 0.3s ease; /* Animação de fade */
-  min-width: 200px; /* Largura mínima para os dropdowns */
+  animation: fadeIn 0.3s ease;
+  min-width: 200px;
 }
 
 .menu-item:hover .dropdown-content {
   display: block;
 }
 
-/* Ajusta a posição dos links dentro dos dropdowns */
 .dropdown-content a {
   display: block;
   color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
-  text-align: center; /* Centraliza o texto nos links */
-  transition: background-color 0.3s ease; /* Transição suave */
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .dropdown-content a:hover {
-  background-color: #b1dc90; /* Fundo mais claro no hover */
+  background-color: #b1dc90;
 }
 
-  
-  /* Imagem de fundo no topo */
-  .background-image img {
-    width: 100%;
-    height: 40vh; /* Controla a altura da imagem */
-    object-fit: cover;
-    position: relative;
-    z-index: -1;
+/* Imagem de fundo no topo */
+.background-image img {
+  width: 100%;
+  height: 40vh; /* Controla a altura da imagem */
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+/* Título "CONHEÇA O GREENMIND" */
+.conheca-greenmind {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Seção Nossa Equipe */
+.about-team {
+  padding: 80px 20px 20px;
+  text-align: center;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-team h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.about-team p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 20px; /* Ajusta a espessura da navbar em telas menores */
+    height: 80px; /* Ajusta a altura da navbar em telas menores */
   }
-  
-  /* Título "CONHEÇA O GREENMIND" */
+
+  .menu-item {
+    margin: 0 15px; /* Diminui o espaçamento entre os itens do menu */
+  }
+
   .conheca-greenmind {
-    position: absolute;
-    top: 32%;
-    left: 10%;
-    transform: translateY(-50%);
-    text-align: left;
-    font-size: 48px;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0;
+    font-size: 32px;
   }
-  
-  /* Seção Nossa Equipe */
-  .about-team {
-    padding: 80px 20px 20px;
-    text-align: center;
-    color: #333;
-    max-width: 900px;
-    margin: 0 auto;
-    line-height: 1.8;
-  }
-  
+
   .about-team h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #4CAF50;
-    margin-bottom: 20px;
+    font-size: 28px;
   }
-  
+
   .about-team p {
-    font-size: 18px;
-    color: #666;
-  }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .navbar {
-        padding: 20px 20px; /* Ajusta a espessura da navbar em telas menores */
-        height: 80px; /* Ajusta a altura da navbar em telas menores */
-    }
-  
-    .menu-item {
-        margin: 0 15px; /* Diminui o espaçamento entre os itens do menu */
-    }
-  
-    .conheca-greenmind {
-        font-size: 32px;
-    }
-  
-    .about-team h2 {
-        font-size: 28px;
-    }
-  
-    .about-team p {
-        font-size: 16px;
-    }
-  }
-  .project {
-    margin-bottom: 30px; /* Espaço entre as seções de projetos */
-    padding-bottom: 20px; /* Espaçamento inferior para cada seção */
-    border-bottom: 1px solid #ccc; /* Linha fina para separar os projetos */
-    display: flex; /* Alinha imagem e texto lado a lado */
-    align-items: center; /* Alinha verticalmente os itens no centro */
-    justify-content: flex-start; /* Alinha os itens no início (à esquerda) */
-    gap: 20px; /* Espaço entre a imagem e o texto */
-  }
-  
-  /* Estilo para a imagem dentro dos projetos */
-  .project img {
-    width: 200px; /* Define o tamanho fixo para a imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Bordas arredondadas para as imagens */
-  }
-  
-  /* Estilo para a informação dos projetos */
-  .project-info {
-    text-align: left; /* Alinha o texto à esquerda */
-    color: #333; /* Cor do texto */
-    flex: 1; /* Faz com que o texto ocupe o espaço restante */
-  }
-  
-  .project-info h3 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #4CAF50;
-    margin-bottom: 10px;
-  }
-  
-  .project-info p {
     font-size: 16px;
-    color: #666;
-    margin-bottom: 15px;
   }
-  
-  .project-info a {
-    color: #75B843;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+}
+
+/* Seção de Projetos */
+.project {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd; /* Linha separadora */
+  display: flex;
+  flex-direction: row; /* Muda o layout para linha */
+  justify-content: center;
+  opacity: 0; /* Inicialmente escondido */
+  transform: translateY(50px); /* Inicialmente fora da tela */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Animação suave */
+}
+
+.project.active {
+  opacity: 1; /* Torna visível quando a classe active é adicionada */
+  transform: translateY(0); /* Traz para a posição normal */
+}
+
+/* Alinhamento alternado (ziguezague) */
+.project:nth-child(odd) {
+  flex-direction: row-reverse; /* Para a seção ímpar, o conteúdo vai para a direita */
+  margin-right: 800px; /* Move a seção ímpar bem para a direita */
+}
+
+.project:nth-child(even) {
+  flex-direction: row; /* Para a seção par, o conteúdo vai para a esquerda */
+  margin-left: 800px; /* Move a seção par bem para a esquerda */
+}
+
+/* Alinhar a primeira e terceira seção à direita, e a segunda à esquerda */
+.project:nth-child(1) {
+  margin-right: 1000px; /* Primeira seção mais à direita */
+}
+
+.project:nth-child(2) {
+  margin-left: 1000px; /* Segunda seção mais à esquerda */
+}
+
+.project:nth-child(3) {
+  margin-right: 1000px; /* Terceira seção mais à direita */
+}
+
+/* Estilo para a imagem dentro dos projetos */
+.project img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Espaçamento entre a imagem e o texto */
+  margin-left: 20px; /* Dá espaço entre a imagem e o conteúdo textual */
+}
+
+/* Estilo para a informação dos projetos */
+.project-info {
+  text-align: left;
+  color: #333;
+  flex: 1;
+  max-width: 600px; /* Limita a largura do conteúdo textual */
+}
+
+.project-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-info a {
+  color: #75B843;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-info a:hover {
+  color: #4CAF50;
+}
+
+/* Animação de fade-in para as seções */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
   }
-  
-  .project-info a:hover {
-    color: #4CAF50;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  
-  footer {
-    background-color: #53765f; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    text-align: center;
-    padding: 40px 0; /* Aumenta o espaçamento interno */
-    margin-top: 50px; /* Espaçamento superior */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .footer-images {
-    display: flex;
-    justify-content: center; /* Centraliza as imagens horizontalmente */
-    gap: 100px; /* Espaço entre as imagens */
-    margin-bottom: 20px; /* Espaço entre as imagens e o texto */
+
+  .project:nth-child(odd) {
+    align-items: center;
   }
-  
-  .footer-images img {
-    height: 50px; /* Define a altura das imagens */
-    width: auto; /* Mantém a proporção das imagens */
+
+  .project:nth-child(even) {
+    align-items: center;
   }
-  
-  footer p {
-    font-size: 14px;
-    margin-top: 10px; /* Espaçamento entre o texto e as imagens */
+
+  .project img {
+    margin-left: 0;
   }
-  
+
+  .project-info {
+    max-width: 100%; /* Remover a limitação de largura */
+  }
+}
+
+footer {
+  background-color: #53765f; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center;
+  padding: 40px 0; /* Aumenta o espaçamento interno */
+  margin-top: 50px; /* Espaçamento superior */
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  gap: 100px; /* Espaço entre as imagens */
+  margin-bottom: 20px; /* Espaço entre as imagens e o texto */
+}
+
+.footer-images img {
+  height: 50px; /* Define a altura das imagens */
+  width: auto; /* Mantém a proporção das imagens */
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 10px; /* Espaçamento entre o texto e as imagens */
+}

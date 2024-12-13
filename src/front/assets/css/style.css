@@ -45,9 +45,9 @@
 /* Menu */
 .menu {
   display: flex;
-  align-items: center; /* Centraliza verticalmente os itens do menu */
-  justify-content: center; /* Centraliza horizontalmente os itens */
-  width: 100%; /* Faz o menu ocupar toda a largura */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .menu-item {
@@ -59,16 +59,16 @@
   color: #FFF;
   text-decoration: none;
   font-size: 18px;
-  text-align: center; /* Centraliza o texto no item */
-  display: flex; /* Ativa o flexbox para o link */
-  align-items: center; /* Centraliza verticalmente o texto */
-  justify-content: center; /* Centraliza horizontalmente o texto */
-  transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .menu-item a:hover {
-  color: #75B843; /* Cor destacada no hover */
-  transform: scale(1.1); /* Zoom leve no texto */
+  color: #75B843;
+  transform: scale(1.1);
 }
 
 /* Dropdown menu */
@@ -77,32 +77,30 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%); /* Centraliza horizontalmente */
+  transform: translateX(-50%);
   background-color: #75B843;
   padding: 15px;
   border-radius: 5px;
-  animation: fadeIn 0.3s ease; /* Animação de fade */
-  min-width: 200px; /* Largura mínima para os dropdowns */
+  animation: fadeIn 0.3s ease;
+  min-width: 200px;
 }
 
 .menu-item:hover .dropdown-content {
   display: block;
 }
 
-/* Ajusta a posição dos links dentro dos dropdowns */
 .dropdown-content a {
   display: block;
   color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
-  text-align: center; /* Centraliza o texto nos links */
-  transition: background-color 0.3s ease; /* Transição suave */
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .dropdown-content a:hover {
-  background-color: #b1dc90; /* Fundo mais claro no hover */
+  background-color: #b1dc90;
 }
-
 
 /* Conteúdo Principal */
 .content {
