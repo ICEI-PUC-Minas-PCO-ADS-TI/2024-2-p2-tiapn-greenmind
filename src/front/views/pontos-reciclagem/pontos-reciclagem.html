@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos de Reciclagem - GreenMind</title>
+    <link rel="stylesheet" href="../../assets/css/pontos-reciclagem.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h2>Pontos de Reciclagem </h2>
+        <form class="recycling-form">
+            <label for="state-select">Selecione o Estado:</label>
+            <select id="state-select" class="input-box" onchange="updateCities()">
+               
+                <option value="">Selecione o estado</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+
+            <label for="city-select">Selecione a Cidade:</label>
+            <select id="city-select" class="input-box">
+                <option value="">Selecione a cidade</option>
+            </select>
+
+            <button type="button" onclick="showRecyclingCenters()" class="button">Buscar</button>
+        </form>
+    </div>
+
+    <div class="main-content">
+        <div id="map"></div>
+    </div>
+    <div class="favorites-section">
+        <h3>Locais Favoritos</h3>
+        <ul id="favorites-list"></ul>
+    </div>
+
+    <script src="../../assets/js/pontos-reciclagem.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+<footer>Todos os Direitos Reservados Green Mind</footer>
+</html>

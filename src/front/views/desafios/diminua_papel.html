@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diminua o Uso de Papel</title>
+    <link rel="stylesheet" href="../../assets/css/style-diminua_papel.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diminua o Uso de Papel</h1>
+        <p>
+            Reduzir o uso de papel é uma maneira simples e eficaz de contribuir para a sustentabilidade. 
+            Escolha alternativas digitais e reutilize materiais sempre que possível.
+        </p>
+
+        <h2>Práticas Sustentáveis</h2>
+        <form id="paperForm">
+            <label>
+                <input type="checkbox" value="Usar anotações digitais ao invés de papel"> Usar anotações digitais ao invés de papel
+            </label><br>
+            <label>
+                <input type="checkbox" value="Reutilizar papel já impresso para rascunhos"> Reutilizar papel já impresso para rascunhos
+            </label><br>
+            <label>
+                <input type="checkbox" value="Imprimir documentos apenas quando necessário"> Imprimir documentos apenas quando necessário
+            </label><br>
+            <label>
+                <input type="checkbox" value="Utilizar frente e verso para imprimir ou copiar"> Utilizar frente e verso para imprimir ou copiar
+            </label><br>
+            <label>
+                <input type="checkbox" value="Assinar documentos digitalmente"> Assinar documentos digitalmente
+            </label><br>
+            <button type="button" onclick="registrarCompromissos()">Registrar Compromissos</button>
+        </form>
+
+        <h2>Compromissos Registrados:</h2>
+        <ul id="commitmentList"></ul>
+
+        <div id="statusMessage"></div>
+    </div>
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>

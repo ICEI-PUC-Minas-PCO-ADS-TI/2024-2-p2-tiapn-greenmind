@@ -1,30 +1,34 @@
 cff-version: 1.2.0
 message: Please cite this software using these metadata.
-title: Coloque aqui o título do seu trabalho
+title: GreenMind
 authors:
-  - family-names: Sobrenome do aluno 1
-    given-names: Nome do aluno 1 
-  - family-names: Sobrenome do aluno 2
-    given-names: Nome do aluno 2 
-  - family-names: Sobrenome do aluno 3
-    given-names: Nome do aluno 3 
-  - family-names: Sobrenome do aluno 4
-    given-names: Nome do aluno 4 
-  - family-names: Sobrenome do aluno 5
-    given-names: Nome do aluno 5 
-  - family-names: Sobrenome do aluno 6
-    given-names: Nome do aluno 6 
+  - family-names: Sena Gomes
+    given-names: Christian
+  - family-names: Ribeiro Chaves
+    given-names: Diego Romero
+  - family-names: dos Santos Martins
+    given-names: João Pedro 
+  - family-names: Duarte Ferraz
+    given-names: Gabriel Henrique
+  - family-names: Melo Damas
+    given-names: Lara
+  - family-names: Ferreira dos Anjos
+    given-names: Marcela
+  - family-names: Ferreira Lopes
+    given-names: Victor Bryan
+  - family-names: Andrade Neto
+    given-names: Samuel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Sobrenome do(a) professor(a)
-    given-names: Nome do(a) professor(a)
+    family-names: Soares Vieira Vasconcelos
+    given-names: Amália
   - name-suffix: Professora
     affiliation: PUC Minas    
 keywords:
-    - coloque aqui a palavra-chave 1
-    - coloque aqui a palavra-chave 2
-    - coloque aqui a palavra-chave 3
-repository-code: coloque o link do seu repositório
+    - Educação
+    - Sustentabilidade
+    - Reciclagem
+repository-code: https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/tree/main
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2024-08-01

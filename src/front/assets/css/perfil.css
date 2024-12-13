@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1500px;
+    margin: 50px auto;
+}
+
+.topo {
+    background: url("../img/folhas.png") top center no-repeat;
+    background-size: 100%;
+}
+
+.topo h1 {
+    color: white;
+    text-transform: uppercase;
+    margin: 100px 60px;
+    padding-bottom: 50px;
+}
+
+main h1 {
+    text-align: center;
+    color: #028026;
+}
+
+main .nome-logout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .opcao {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main .opcoes-perfil, main .opcoes-admin {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 40px;
+}
+
+main .opcoes-perfil input, main .opcoes-admin input {
+    padding: 10px 15px;
+    /* width: 500px; */
+}
+
+main .opcoes-perfil button, main .opcoes-admin button {
+    padding: 10px 20px;
+}
+
+main .opcoes-admin {
+    /* display: none; */
+}
+
+main .opcao{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 90%;
+}
+
+main .opcoes-admin .opcao-admin h2 {
+    text-align: center;
+}
+
+main .opcoes-admin .opcao-admin .usuario {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* flex: 1; */
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+main .opcoes-admin .opcao-admin .usuario button {
+    padding: 10px 20px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+
+@media (max-width: 800px) {
+    .topo h1 {
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 600px) {
+    .topo h1 {
+        display: none;
+    }
+    /* main .opcoes-perfil input, main .opcoes-admin input {
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    main .opcoes-perfil .opcao-perfil button, main .opcoes-admin button {
+        justify-self: center;
+        width: 300px;
+    } */
+}

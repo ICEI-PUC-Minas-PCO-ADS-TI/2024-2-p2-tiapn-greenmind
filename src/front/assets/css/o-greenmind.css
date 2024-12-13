@@ -1,0 +1,200 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+   
+ /* Navbar */
+.navbar {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: space-between; /* Espaçamento entre logo e menu */
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 100px;
+  transition: all 0.3s ease-in-out; /* Animação suave ao rolar */
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.9); /* Fundo mais escuro ao rolar */
+  height: 80px; /* Altura reduzida */
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Logo */
+.logo img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease; /* Animação de zoom no logo */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Efeito de zoom no hover */
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente os itens do menu */
+  justify-content: center; /* Centraliza horizontalmente os itens */
+  width: 100%; /* Faz o menu ocupar toda a largura */
+}
+
+.menu-item {
+  margin: 0 30px;
+  position: relative;
+}
+
+.menu-item a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center; /* Centraliza o texto no item */
+  display: flex; /* Ativa o flexbox para o link */
+  align-items: center; /* Centraliza verticalmente o texto */
+  justify-content: center; /* Centraliza horizontalmente o texto */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+}
+
+.menu-item a:hover {
+  color: #75B843; /* Cor destacada no hover */
+  transform: scale(1.1); /* Zoom leve no texto */
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  background-color: #75B843;
+  padding: 15px;
+  border-radius: 5px;
+  animation: fadeIn 0.3s ease; /* Animação de fade */
+  min-width: 200px; /* Largura mínima para os dropdowns */
+}
+
+.menu-item:hover .dropdown-content {
+  display: block;
+}
+
+/* Ajusta a posição dos links dentro dos dropdowns */
+.dropdown-content a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center; /* Centraliza o texto nos links */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.dropdown-content a:hover {
+  background-color: #b1dc90; /* Fundo mais claro no hover */
+}
+
+   
+  /* Imagem de fundo no topo */
+  .background-image img {
+    width: 100%;
+    height: 40vh; /* Controla a altura da imagem */
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+  }
+   
+  /* Título "CONHEÇA O GREENMIND" */
+  .conheca-greenmind {
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+  }
+   
+  /* Seção Nossa Equipe */
+  .about-team {
+    padding: 80px 20px 20px;
+    text-align: center;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+   
+  .about-team h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+   
+  .about-team p {
+    font-size: 18px;
+    color: #666;
+  }
+   
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 20px 20px; /* Ajuste responsivo */
+      height: 80px;
+    }
+   
+    .menu-item {
+      margin: 0 15px;
+    }
+   
+    .conheca-greenmind {
+      font-size: 32px;
+    }
+   
+    .about-team h2 {
+      font-size: 28px;
+    }
+   
+    .about-team p {
+      font-size: 16px;
+    }
+  }
+   
+
+  footer {
+    background-color: #53765f; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    padding: 40px 0; /* Aumenta o espaçamento interno */
+    margin-top: 50px; /* Espaçamento superior */
+  }
+  
+  .footer-images {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 100px; /* Espaço entre as imagens */
+    margin-bottom: 20px; /* Espaço entre as imagens e o texto */
+  }
+  
+  .footer-images img {
+    height: 50px; /* Define a altura das imagens */
+    width: auto; /* Mantém a proporção das imagens */
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-top: 10px; /* Espaçamento entre o texto e as imagens */
+  }
+  

@@ -1,0 +1,163 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #333;
+    background-image: url(../img/fundo\ site.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container {
+    background-color: #2c6e49;
+    padding: 60px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 60%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    margin: 50px auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(../img/sinal-de-reciclagem.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recycling-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(97, 71, 71, 0.2);
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.favorites-section {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 600px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #2c6e49;
+    text-align: center;
+}
+
+.favorites-section h3 {
+    color: #2c6e49;
+    margin: 0 0 10px;
+}
+
+#favorites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favorites-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.liked {
+    color: #FF6347;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    color: white;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 40px;
+        font-size: inherit;
+    }
+    .favorites-section {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .favorites-section {
+        width: 80%;
+    }
+    #map {
+        height: 300px; 
+    }
+    .button {
+        max-width: 100%;
+    }
+}

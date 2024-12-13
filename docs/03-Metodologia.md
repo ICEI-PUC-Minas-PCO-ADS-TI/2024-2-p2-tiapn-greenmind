@@ -14,10 +14,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A r
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind                        |
 | Projeto de interface                | Figma                              | https://www.figma.com/files/team/1409007676093007271/recents-and-sharing/recently-viewed?fuid=1352005878152333410                            |
 | Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/15                           |
-| Diagrama de caso de uso         |                    | https://...                           |
-| DER (Peter Chen)           |                   | https://...                           |
-| DER (Pé de galinha)           |                     | https://....                           |
-| Scripts SQL           | GitHub Projects                    | https://....                           |
 | Hospedagem                          | Vercel                             | http://....                            |
 
 ## Controle de versão
@@ -30,7 +26,9 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `documentacao`: versão da entrega da sprint 1 documentada
 - `documentacao sprint-2`: versão da entrega da sprint 2 documentada
 - `sprint-3-BD`: versão para o desenvolvimento dos wireframes e banco de dados, entrega sprint 3
-- `concertando erros`: versão para a correção de erros das sprints anteriores
+- `consertando erros`: versão para a correção de erros das sprints anteriores
+- `sprint-4`: versão para o desenvolvimento dos artefatos
+- `sprint-5`: versão para a integração e finalização do projeto
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
@@ -57,10 +55,25 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 #### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+- Documentação: Gabriel Henrique, Samuel Neto, Marcela dos Anjos, João Pedro, Victor Bryan, Diego Romero, Lara Damas, Christian Sena
+
+#### Sprint 2
+- Protótipos: Diego Romero, Lara Damas, Victor Bryan, Christian Sena
+- Documentação: Gabriel Henrique, João Pedro, Marcela dos Anjos, Samuel Neto
+
+#### Sprint 3
+- Protótipos: Christian Sena, Gabriel Henrique, João Pedro, Diego Romero
+- Documentação: Samuel Neto, Lara Damas, Marcela dos Anjos, Victor Bryan
+
+#### Sprint 4
+- _Scrum master_: Christian Sena
+- Testes: Gabriel Henrique, Diego Romero, Lara Damas, Victor Bryan
+- Documentação: Marcela dos Anjos, Samuel Neto, João Pedro
+
+#### Sprint 5
+- _Scrum master_: Christian Sena
+- Testes: Gabriel Henrique, Diego Romero, Lara Damas, Victor Bryan
+- Documentação: Marcela dos Anjos, Samuel Neto, João Pedro
 
 ###  Quadro de tarefas
 
@@ -152,6 +165,38 @@ Atualizado em: 20/10/2024
 | Marcela Anjos      | Userflow   | 17/10/2024     | 20/10/2024 | ✔️    | 17/10/2024      |
 | Marcela Anjos      | Diagrama de Classes  | 11/10/2024     | 20/10/2024 | ✔️    |   18/10/2024     |
 
+#### Sprint 4
+
+Atualizado em: 21/11/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Lara Melo Damas        | Tela Home  | 10/10/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Lara Melo Damas        | Paginas de Conteúdo | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Diego Chaves        | Pontos de Reciclgem  | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Diego Chaves        | Tela e API OpenStreetMap  | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| João Pedro      | Tela Desperdício de Alimento    | 15/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Gabriel Henrique      | Pegada Ecológica    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Christian Sena Gomes      | Tela Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Christian Sena Gomes      | CRUD Login e Cadastro    | 13/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Samuel Andrade     | Tela De Consumo De Agua   | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+| Samuel Andrade      | Tela De Consumo De Luz    | 10/11/2024     | 21/11/2024 | ✔️    | 21/11/2024      |
+
+#### Sprint 5
+
+Atualizado em: 12/12/2024
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Gabriel Henrique        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 08/12/2024      |
+| Gabriel Henrique        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+| Gabriel Henrique        | Documentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+| João Pedro      | CRUD Desperdício Alimento  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| João Pedro        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| João Pedro        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+
+
+
 
 
 Legenda:
@@ -185,9 +230,9 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de interface                | Figma                              | http://....                            |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind|
+| Documentos do projeto               | Word                             | http://....                            |
+| Projeto de interface                | Figma                              |https://www.figma.com/design/EYfykzn72BVDNQFwjevTCi|
+| Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/projects?query=is%3Aopen|
 | Hospedagem                          | Vercel                             | http://....                            |
  

@@ -1,0 +1,466 @@
+@font-face {
+  font-family:'Montserrat' ;
+  src: url(Montserrat-Variable.ttf)format('truetype');
+}
+body {
+    margin: 0%;
+    height: 100%;
+  
+
+  }
+  header{
+    padding: 0px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/folhas.jpg");
+    display: flex;
+    align-items: end;
+    background-image: linear-gradient(to right  black, white);
+  }
+  
+  .carta {
+    margin-top: -40%;
+    margin-left: 40%;
+    height: 100%;
+    width: 46%;
+    background-size: 100% 100%;
+    border-radius: 50px;
+    
+  }
+  
+  
+  .face {
+    width: 100%;
+    height: 100%;
+ 
+    
+    backface-visibility: hidden; /* Esconde a parte traseira quando não está visível */
+    display: flex;
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s ease; /* Efeito de rotação suave */
+  }
+  
+  .frente {
+    background-color: rgb(19, 70, 52);
+    color: rgb(245, 239, 239);
+    height: 64vh;
+  }
+  
+  .verso {
+    margin-top: -77%;
+    height: 64vh;
+    background-color:white;
+    color: rgb(12, 12, 12);
+    transform: rotateY(180deg); /* Inicialmente escondida */
+    display: block;
+  }
+  
+  .carta.flipped .frente {
+    transform: rotateY(180deg); /* Rotaciona para o lado oposto */
+  }
+  
+  .carta.flipped .verso {
+    transform: rotateY(0deg); /* Torna o verso visível */
+  }
+  #r1{
+    color: blue;
+  }
+  h1{
+    font-size: 2.8vw;
+    padding: 10px;
+    color: aliceblue;
+    font-family:'Montserrat';
+  }
+  #r2{
+    color: rgb(17, 17, 197);
+  }
+  h2{
+    font-size: 2.5vw;
+    color: rgb(6, 94, 6);
+    font-style: italic;
+    font-family:'Montserrat';
+    text-wrap: wrap ;
+    padding-left: 2%;
+  }
+  h3{
+    font-size: 1.8vw;
+    margin-top: -5px;
+    color: aliceblue;
+    font-family:'Montserrat';
+  }
+  h6{
+    font-size: 1.5vw;
+    
+    margin-top: -5%;
+    color: rgb(84, 148, 95);
+    font-family:'Montserrat';
+  }
+  h5{
+    font-size: 2vw;
+    color: rgb(84, 148, 95);
+    font-family:'Montserrat';
+    padding: 2%;
+  }
+  
+  section{
+    
+   margin-top: 10%;
+     height: 500px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 2%;
+  }
+  div{
+  
+    text-align: center;
+    
+    justify-content:center;
+  }
+
+  
+  
+  #Teste{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    grid-template-columns: 1fr, 1fr ;
+    grid-auto-rows: 60px;
+    text-wrap: wrap;
+  }
+  #t1{
+  
+    grid-column: 1/3;
+    
+  }
+  #t2{
+    
+    grid-column: 1/3;
+  }
+  #t3{
+    
+    grid-column: 1/2;
+  }
+  #t4{
+    margin-top: 20px;
+    grid-column: 1/2;
+  }
+  #t5{
+    
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  #t6{
+    margin-top: 20px;
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+ 
+  #t11{
+    margin-top: 3%;
+    grid-column: 1/3;
+    font-size: 20px;
+  
+  
+  
+  }
+  #cx1{
+    display: grid;
+      grid-template-columns: 1fr;
+  }
+  p{
+    margin-bottom: 2em;
+  }
+  #resultadoa{
+    margin-top: 50px;
+    margin-left: 10%;
+    grid-column: 1/3;
+    background-color: aliceblue;
+    border-radius:5px;
+    font-size: 2vw;
+    height: 40px;
+    width: 80%;
+    box-shadow: 10px 10px 10px black;
+    color: blue;
+  
+  }
+  
+  #botoes1{
+    width: 100%;
+    height: 40px;
+  
+  }
+  button{
+    color: rgb(241, 247, 242);
+    font-size: 20px;
+    background-color: rgb(19, 70, 52);
+    box-shadow: 10px 10px 10px black;
+  }
+  #bta{
+    margin-top: 15%;
+    background-color: aliceblue;
+    color: blue;
+  }
+input{
+  font-size: 1.5vw;
+}
+
+
+
+@media (min-width: 456px) and (max-width: 818px) {
+  /* Estilos aplicados somente para larguras entre 768px e 1024px */
+  section{
+    margin-top: 20px;
+    margin-left: 0px;
+     height: 700px;
+     width: 100%;
+     
+  
+     border-radius: 50px;
+     padding: 2%;
+ 
+   }
+   h1{
+     text-align: center;
+     font-size: 5vw;
+     padding: 10%;
+     color: aliceblue;
+     font-family:'Montserrat';
+     
+   }
+   h2{
+     font-size: 5vw;
+     color: rgb(6, 94, 6);
+     font-style: italic;
+     font-family:'Montserrat';
+     text-wrap: wrap ;
+     padding-left: 2%;
+     text-align: center;
+   }
+   h3{
+     font-size: 4vw;
+     margin-top: -5px;
+     color: rgb(236, 243, 238);
+     text-align: center;
+     
+     
+   }
+   h6{
+     font-size: 3.2vw;
+     text-align: center;
+     margin-top: -5%;
+     color: rgb(33, 133, 8);
+     font-family:'Montserrat';
+   }
+   h5{
+     font-size: 5vw;
+     color: rgb(84, 148, 95);
+     font-family:'Montserrat';
+     padding: 2%;
+     text-align: center;
+   }
+   button{
+     font-size: 5vw;
+   }
+   #t2{
+   
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 98%;
+ 
+   }
+   #resultadoa{
+     margin-top: 60px;
+     margin-left: 5%;
+     width: 75vw;
+     background-color: aliceblue;
+     border-radius:5px;
+     font-size: 5vw;
+     height: 40px;
+     box-shadow: 5px 5px 5px black;
+   }
+   input{
+     font-size: 3.2vw;
+   }
+   
+
+
+
+   .carta {
+     margin-top: 0%;
+     margin-left: 5%;
+     height: 100%;
+     width: 90%;
+    
+     background-size: 100% 100%;
+     border-radius: 50px;
+     
+   }
+   
+   
+   .face {
+     width: 100%;
+     height: 100%;
+  
+     
+     backface-visibility: hidden; /* Esconde a parte traseira quando não está visível */
+     display: flex;
+     
+     font-size: 1.5rem;
+     font-weight: bold;
+     border-radius: 50px;
+     box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+     transition: transform 0.6s ease; /* Efeito de rotação suave */
+   }
+   
+   .frente {
+     margin-top: -10%;
+     background-color: rgb(19, 70, 52);
+     color: rgb(245, 239, 239);
+     height: 58vh;
+   }
+   
+   .verso {
+     
+     margin-top: -80%;
+     width: 85vw;
+     height: 58vh;
+     background-color:white;
+     color: rgb(12, 12, 12);
+     transform: rotateY(180deg); /* Inicialmente escondida */
+     display: block;
+   }
+
+
+}
+
+
+  
+  
+  @media screen and (max-width: 455px) {
+    section{
+     margin-top: 20px;
+     margin-left: 0px;
+      height: 700px;
+      width: 100%;
+      border-radius: 50px;
+      padding: 2%;
+  
+    }
+    h1{
+      text-align: center;
+      font-size: 5vw;
+      padding: 10%;
+      color: aliceblue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+    h2{
+      font-size: 5vw;
+      color: rgb(6, 94, 6);
+      font-style: italic;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-wrap: wrap ;
+      padding-left: 2%;
+      text-align: center;
+    }
+    h3{
+      font-size: 4vw;
+      margin-top: -5px;
+      color: rgb(236, 243, 238);
+      text-align: center;
+      
+      
+    }
+    h6{
+      font-size: 3.2vw;
+      text-align: center;
+      margin-top: -5%;
+      color: rgb(33, 133, 8);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h5{
+      font-size: 5vw;
+      color: rgb(84, 148, 95);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 2%;
+      text-align: center;
+    }
+    button{
+      font-size: 5vw;
+    }
+    #t2{
+    
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 98%;
+  
+    }
+    #resultadoa{
+      margin-top: 60px;
+      margin-left: 5%;
+      width: 75vw;
+      background-color: aliceblue;
+      border-radius:5px;
+      font-size: 5vw;
+      height: 40px;
+      box-shadow: 5px 5px 5px black;
+    }
+    input{
+      font-size: 3.2vw;
+    }
+    
+
+
+
+    .carta {
+      margin-top: 0%;
+      margin-left: 5%;
+      height: 100%;
+      width: 90%;
+     
+      background-size: 100% 100%;
+      border-radius: 50px;
+      
+    }
+    
+    
+    .face {
+      width: 100%;
+      height: 100%;
+   
+      
+      backface-visibility: hidden; /* Esconde a parte traseira quando não está visível */
+      display: flex;
+      
+      font-size: 1.5rem;
+      font-weight: bold;
+      border-radius: 50px;
+      box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+      transition: transform 0.6s ease; /* Efeito de rotação suave */
+    }
+    
+    .frente {
+      margin-top: -10%;
+      background-color: rgb(19, 70, 52);
+      color: rgb(245, 239, 239);
+      height: 45vh;
+    }
+    
+    .verso {
+      
+      margin-top: -110%;
+      width: 85vw;
+      height: 45vh;
+      background-color:white;
+      color: rgb(12, 12, 12);
+      transform: rotateY(180deg); /* Inicialmente escondida */
+      display: block;
+    }
+  
+  }
+  
+  

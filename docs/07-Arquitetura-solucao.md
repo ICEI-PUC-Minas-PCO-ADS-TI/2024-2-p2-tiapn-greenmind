@@ -8,22 +8,15 @@
 O diagrama de classes ilustra graficamente a estrutura do software e como cada uma das classes estará interligada. Essas classes servem de modelo para materializar os objetos que serão executados na memória.
 ![diagramaClasses](images/diagramaclass.png)
 
-> **Links úteis**:
-> - [Diagramas de classes - documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-class)
-> - [O que é um diagrama de classe UML?](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
-##  Modelo de dados
+
+##  Modelo ER
 
 ![Modelo de dados](./images/diagramapeter.svg)
 
 
 
-### Modelo ER
 
-O Modelo ER representa, por meio de um diagrama, como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
-
-> **Links úteis**:
-> - [Como fazer um diagrama entidade relacionamento](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ### Esquema relacional
 
@@ -35,8 +28,6 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 ![Modelo relacional](images/diagramapedegalinha.png "Modelo relacional")
 ---
 
-> **Links úteis**:
-> - [Criando um modelo relacional - documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/12.0.0?topic=designer-creating-relational-model)
 
 ### Modelo físico
 
@@ -202,11 +193,6 @@ Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](.
 
 Explique como a hospedagem e o lançamento da plataforma foram realizados.
 
-> **Links úteis**:
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando seu site no Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de software
 
@@ -224,7 +210,4 @@ Nós da GreenMind temos como base para nortear o desenvolvimento do nosso projet
 - **Confidencialidade:** Um site tem que garantir que os seus dados confidenciais e os dados dos seus usuários vão estar protegidose isso é de extrema importância para que nós forneçamos valor aos usuários e não dor de cabeça.
 - **Interoperabilidade:** Visto que o GreenMind possui banco de dados, back-end e front-end é importante que a troca de informações e o trabalho em conjunto entre essas diferentes partes aconteça.
 
-> **Links úteis**:
-> - [ISO/IEC 25010:2011 - Systems and Software Engineering — Systems and Software Quality Requirements and Evaluation (SQuaRE) — System and Software Quality Models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de software - Engenharia de Software](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209)
+

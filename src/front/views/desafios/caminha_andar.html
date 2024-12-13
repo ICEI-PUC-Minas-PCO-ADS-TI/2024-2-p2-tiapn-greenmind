@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminhar ou Ande de Bicicleta</title>
+    <link rel="stylesheet" href="../../assets/css/style-caminhar_andar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caminhar ou Ande de Bicicleta</h1>
+        <p>
+            Pequenas mudanças no dia a dia podem fazer uma grande diferença. 
+            Caminhar ou andar de bicicleta não só melhora sua saúde, mas também 
+            reduz a emissão de gases poluentes no meio ambiente. Registre seus trajetos aqui!
+        </p>
+
+        <div class="input-container">
+            <label for="distance">Distância percorrida (em km):</label>
+            <input type="number" id="distance" placeholder="Ex.: 5">
+        </div>
+
+        <div class="input-container">
+            <label for="mode">Modo de transporte:</label>
+            <select id="mode">
+                <option value="bicicleta">Bicicleta</option>
+                <option value="caminhada">Caminhada</option>
+            </select>
+        </div>
+
+        <button onclick="registrarTrajeto()">Registrar Trajeto</button>
+
+        <div id="statusMessage"></div>
+    </div>
+
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>

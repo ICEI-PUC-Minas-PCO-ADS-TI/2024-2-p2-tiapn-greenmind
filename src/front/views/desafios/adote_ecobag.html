@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote uma Ecobag</title>
+    <link rel="stylesheet" href="../../assets/css/style-adote_ecobag.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adote uma Ecobag</h1>
+        <p>
+            Reduzir o consumo de plástico começa com pequenas mudanças no dia a dia. 
+            Substitua as sacolas plásticas descartáveis por ecobags reutilizáveis nas compras. 
+            Vamos calcular o impacto dessa escolha ao longo do mês!
+        </p>
+
+        <div class="input-container">
+            <label for="bagsAvoided">Quantas sacolas plásticas você evitou hoje?</label>
+            <input type="number" id="bagsAvoided" placeholder="Ex.: 5">
+        </div>
+
+        <button onclick="registrarUso()">Registrar Uso</button>
+
+        <h2>Seu Impacto:</h2>
+        <ul id="impactList"></ul>
+
+        <div id="statusMessage"></div>
+    </div>
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>

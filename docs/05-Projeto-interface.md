@@ -44,7 +44,8 @@ Para o projeto Green Mind, foram desenvolvidas jornadas de usuário, chamadas de
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
-![Exemplo de wireframe](images/wireframe.png)
+![wirefreme](https://github.com/user-attachments/assets/3c8e8531-b570-4f35-8590-0304e6e5c6ff)
+
  
 > **Links úteis**:
 > - [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135)

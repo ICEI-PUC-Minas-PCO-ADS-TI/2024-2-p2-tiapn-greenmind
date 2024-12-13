@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>agua</title>
+  <link rel="stylesheet" href="../../assets/css/desperdicio-agua.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>CONSUMO INTELIGENTE</h1>
+  </header>
+  <main>
+    <h2>ACOMPANHE A REDUÇÃO <br>DO SEU CONSUMO</h2>
+    <h5>Com nossa nova ferramenta para <br> reduzir seu consumo de Água e Luz.</h5>
+  </main>
+  <div class="carta">
+    <div class="face frente">
+      <section id="Teste">
+        <div id="t1">
+          <h3>01 - Consumo de Água.</h3>
+          <h6>Digite o consumo em métros cúbicos m<sup>3</sup>.</h6>
+        </div>
+        <div id="t2">
+          <form id="cx1">
+            <label for="litros"></label>
+            <input type="number" id="litros" name="litros" min="0" max="10000" step="0" value="0">
+          </form>
+        </div>
+        <div id="t3">
+          <h3>02 - Dias de uso.</h3>
+          <h6>Quantidade de dias de uso</h6>
+        </div>
+        <div id="t4">
+          <form>
+            <label for="diasUso"></label>
+            <input type="number" id="diasUso" name="diasUso" min="1" max="365" step="1" value="0">
+          </form>
+        </div>
+        <div id="t5">
+          <h3>03 - Horas de uso</h3>
+          <h6>Quantidade de horas de uso por dia</h6>
+        </div>
+        <div id="t6">
+          <form>
+            <label for="HoraUso"></label>
+            <input type="number" id="HoraUso" name="HoraUso" min="1" max="24" step="1" value="0">
+          </form>
+        </div>
+        <div id="t11">
+          <button type="button" id="btn-calcular" onclick="calcularConsumoa()">Calcular Desperdício</button>
+        </div>
+      </section>
+    </div>
+    <div class="face verso">
+      <h1 id="r1">Resultado</h1>
+      <h3 id="r2">Consumo do mês</h3>
+      <div id="resultadoa"></div>
+      <button id="bta" type="button" id="btn-virar" onclick="virar()">Calcular Novamente</button>
+    </div>
+  </div>
+
+  <script src="../../assets/js/desperdicio-agua-energia.js"></script>
+</body>
+</html>

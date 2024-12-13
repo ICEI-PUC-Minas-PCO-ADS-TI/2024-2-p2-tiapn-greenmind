@@ -15,6 +15,7 @@
 ## Instalação do Site
 
 É necessário implantá-lo em um servidor web de sua preferência. Existem diversos servidores web gratuitos que podem ser utilizados, tal como GitHub Pages (GitHub.IO), Vercel, Render, Netlify, Surge.sh, entre outros. [Insira o endereço eletrônico público para acessá-lo.] 
+https://black-sand-0215d6b10.4.azurestaticapps.net
 
 ## Histórico de versões
 
