@@ -228,7 +228,7 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind|
-| Documentos do projeto               | Word                             | http://....                            |
+| Documentos do projeto               | Word                             |[ http://.... ](https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/tree/main/docs|                           |
 | Projeto de interface                | Figma                              |https://www.figma.com/design/EYfykzn72BVDNQFwjevTCi|
 | Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/projects?query=is%3Aopen|
 | Hospedagem                          | azure                             |https://calm-river-08c26c71e.4.azurestaticapps.net|                           |
