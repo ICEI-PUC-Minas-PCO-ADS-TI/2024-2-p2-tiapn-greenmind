@@ -13,6 +13,8 @@ var id = 0
 var questoes_selecionadas = []
 var opcaoSelecionada = false;
 
+const backURL = "backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net";
+
 // questõs que vão ser perguntadas
 const Questions = [
     {
@@ -211,7 +213,7 @@ async function finalizar() {
         respostas: questoes_juntas // String com as respostas selecionadas
     };
 
-    const apiUrl = "http://localhost:3000/api/analiseQuiz";
+    const apiUrl = `${backURL}/api/analiseQuiz`;
 
     try {
         // Fazer a requisição para a API

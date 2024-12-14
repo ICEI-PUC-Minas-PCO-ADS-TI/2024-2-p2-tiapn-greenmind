@@ -1,6 +1,6 @@
 const ctx = document.getElementById('grafico-despesas').getContext('2d');
 let chart = null;
-const backURL = "http://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api"
+const backURL = "https://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api"
 
 const form = document.getElementById('desperdicio-form');
 const resumoLista = document.getElementById('resumo-lista');

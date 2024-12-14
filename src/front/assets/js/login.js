@@ -1,5 +1,5 @@
 // URL depende se as rotas vão ser pelo express ou diretamente pelos arquivos (usando live server)
-const backURL = "http://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api/login";
+const backURL = "https://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api/login";
 
 let email = document.querySelector("#email");
 let senha = document.querySelector("#senha");
