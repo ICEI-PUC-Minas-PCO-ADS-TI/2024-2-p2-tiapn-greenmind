@@ -106,6 +106,67 @@ Isso motiva a criação da nossa plataforma para a propagação de informações
 | **Necessidades**                 | - Acesso fácil a informações sobre práticas de reciclagem. <br>- Ferramentas para divulgar eventos e promover engajamento. |
 | **Motivação**                    | - Impactar positivamente sua comunidade através da conscientização ambiental e ações coletivas. |
 
+# Persona 5: Educador de Ciências
+
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Educador de Ciências                                                          |
+| **Idade**                        | Variada (ensino fundamental e médio)                                           |
+| **Profissão**                    | Educador de Ciências                                                           |
+| **Objetivos Principais**         | - Ensinar práticas sustentáveis aos alunos. <br>- Utilizar recursos didáticos interativos sobre sustentabilidade. |
+| **Objetivos do Serviço**         | - Ter acesso a planos de aula e materiais complementares sobre sustentabilidade. <br>- Aplicar práticas sustentáveis em sala de aula de forma eficaz. |
+| **Objetos Usados**               | - Computador <br>- Projetor <br>- Materiais didáticos impressos <br>- Smartphone     |
+| **Tratamento Ideal**             | - Fornecer conteúdo atualizado e relevante sobre sustentabilidade. <br>- Oferecer recursos pedagógicos de fácil aplicação. |
+| **Necessidades**                 | - Acesso a planos de aula e atividades interativas para engajar os alunos. <br>- Exemplos de práticas sustentáveis aplicáveis em sala de aula. |
+| **Motivação**                    | - Ensinar conceitos sustentáveis para a nova geração de forma envolvente e impactante. |
+
+---
+
+# Persona 6: Designer Gráfico
+
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Designer Gráfico                                                               |
+| **Idade**                        | 25-40 anos                                                                     |
+| **Profissão**                    | Designer Gráfico                                                               |
+| **Objetivos Principais**         | - Integrar práticas sustentáveis em projetos de design. <br>- Criar soluções sustentáveis para clientes. |
+| **Objetivos do Serviço**         | - Obter informações sobre design sustentável e práticas ecológicas aplicáveis. <br>- Acessar tutoriais de design gráfico sustentável. |
+| **Objetos Usados**               | - Computador <br>- Software de design gráfico (ex: Photoshop, Illustrator) <br>- Smartphone |
+| **Tratamento Ideal**             | - Oferecer exemplos práticos e tutoriais sobre design sustentável. <br>- Fornecer materiais educativos sobre alternativas ecológicas em design. |
+| **Necessidades**                 | - Exemplos de design gráfico sustentável. <br>- Ferramentas e recursos educativos sobre práticas ecológicas no design. |
+| **Motivação**                    | - Criar um impacto positivo por meio do design, promovendo soluções criativas e sustentáveis. |
+
+---
+
+# Persona 7: Gestor de Empresa
+
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Gestor de Empresa                                                             |
+| **Idade**                        | 30-50 anos                                                                     |
+| **Profissão**                    | Gestor de Empresa                                                              |
+| **Objetivos Principais**         | - Adotar práticas sustentáveis na gestão da empresa. <br>- Melhorar a imagem ambiental da empresa. |
+| **Objetivos do Serviço**         | - Obter informações sobre sustentabilidade para aplicar em práticas empresariais. <br>- Implementar práticas de economia circular e redução de impacto ambiental. |
+| **Objetos Usados**               | - Computador <br>- Smartphone <br>- Relatórios de impacto ambiental            |
+| **Tratamento Ideal**             | - Oferecer guias claros sobre como adotar sustentabilidade nas empresas. <br>- Apresentar exemplos de empresas que implementaram com sucesso soluções sustentáveis. |
+| **Necessidades**                 | - Diretrizes claras sobre como tornar a empresa mais sustentável. <br>- Ferramentas para monitorar o impacto ambiental das operações. |
+| **Motivação**                    | - Reduzir a pegada de carbono da empresa e melhorar a imagem no mercado, adotando práticas sustentáveis. |
+
+---
+
+# Persona 8: Profissional de Tecnologia
+
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Profissional de Tecnologia                                                     |
+| **Idade**                        | 25-40 anos                                                                     |
+| **Profissão**                    | Desenvolvedor de Software, Engenheiro de TI                                    |
+| **Objetivos Principais**         | - Explorar inovações tecnológicas para a sustentabilidade. <br>- Aplicar soluções tecnológicas para reduzir impactos ambientais. |
+| **Objetivos do Serviço**         | - Obter informações sobre tecnologias sustentáveis. <br>- Conhecer inovações tecnológicas que podem contribuir para práticas ambientais positivas. |
+| **Objetos Usados**               | - Computador <br>- Smartphone <br>- Ferramentas de desenvolvimento de software |
+| **Tratamento Ideal**             | - Fornecer conteúdo sobre inovações tecnológicas sustentáveis e suas aplicações. <br>- Apresentar casos de empresas de tecnologia que utilizam soluções sustentáveis. |
+| **Necessidades**                 | - Acesso a estudos de caso e artigos sobre tecnologias sustentáveis. <br>- Ferramentas e recursos sobre como integrar sustentabilidade nos projetos de tecnologia. |
+| **Motivação**                    | - Aplicar soluções tecnológicas para promover um futuro mais sustentável. |
 
 
 
