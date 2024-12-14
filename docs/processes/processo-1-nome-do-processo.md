@@ -2,7 +2,7 @@
 
 O processo de Redução de Consumo de Água e Energia pode ser aprimorado em diversos aspectos. Algumas oportunidades de melhoria incluem: a automação da coleta de dados, maior engajamento dos alunos no monitoramento do consumo, uso de tecnologia para fornecer feedback em tempo real, e ajustes contínuos nas estratégias com base em análises mais precisas. Além disso, a integração de relatórios digitais e a implementação de um sistema de acompanhamento das metas podem garantir uma maior eficácia na redução do desperdício
  
-![Exemplo de um Modelo BPMN do PROCESSO 1](docs/images/process1tobe.png "Modelo BPMN do Processo 1.")
+docs/images/process1tobe.png
 
 
 _Os tipos de dados a serem utilizados são:_
