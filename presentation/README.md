@@ -9,7 +9,7 @@ Coloque aqui o conjunto de slides.
 
 >Link da Apresentação.
 >
-
+https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/blob/sprint-4/presentation/Presentation%20GreenMind.pdf
 
 > **Links úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
