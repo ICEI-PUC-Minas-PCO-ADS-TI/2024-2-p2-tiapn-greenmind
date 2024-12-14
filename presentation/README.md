@@ -7,7 +7,9 @@
 
 Coloque aqui o conjunto de slides.
 
-> O arquivo deve estar no formato PDF e conter a apresentação completa do projeto, abordando todos os itens trabalhados nos demais artefatos. 
+> Link da Apresentação.
+>
+> https://www.canva.com/design/DAGShVKiUWA/3TIhx5vMyFcVlDulGCprOA/view?utm_content=DAGShVKiUWA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h66ef4bf0fe
 
 > **Links úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
