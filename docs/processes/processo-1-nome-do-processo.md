@@ -1,8 +1,9 @@
 ### 3.3.1 Processo 1 – NOME DO PROCESSO
 
 O processo de Redução de Consumo de Água e Energia pode ser aprimorado em diversos aspectos. Algumas oportunidades de melhoria incluem: a automação da coleta de dados, maior engajamento dos alunos no monitoramento do consumo, uso de tecnologia para fornecer feedback em tempo real, e ajustes contínuos nas estratégias com base em análises mais precisas. Além disso, a integração de relatórios digitais e a implementação de um sistema de acompanhamento das metas podem garantir uma maior eficácia na redução do desperdício
- 
-docs/images/process1tobe.png
+
+ ![processo1asis](https://github.com/user-attachments/assets/272e3e68-704a-4a62-851c-8d98abd52c6e)
+
 
 
 _Os tipos de dados a serem utilizados são:_
