@@ -5,16 +5,7 @@
 
 A metodologia de trabalho adotada para o projeto "GreenMind" segue princípios ágeis com foco no Scrum, permitindo uma abordagem flexível e iterativa. A equipe se organiza em sprints curtos, possibilitando entregas contínuas e ajustes ao longo do desenvolvimento.
 
-## Relação de ambientes de trabalho
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
-
-| Ambiente                            | Plataforma                         | Link de acesso                         |
-|-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind                        |
-| Projeto de interface                | Figma                              | https://www.figma.com/files/team/1409007676093007271/recents-and-sharing/recently-viewed?fuid=1352005878152333410                            |
-| Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PCO-ADS-TI/projects/15                           |
-| Hospedagem                          | Vercel                             | http://....                            |
+                     |
 
 ## Controle de versão
 
@@ -194,6 +185,12 @@ Atualizado em: 12/12/2024
 | João Pedro      | CRUD Desperdício Alimento  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
 | João Pedro        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
 | João Pedro        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+| Diego Chaves      | CRUD Pontos de Reciclagem  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| Diego Chaves        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| Diego Chaves        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
+| Christian Sena     | CRUD Pagina Login e Cadastro  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| Christian Sena        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 11/12/2024      |
+| Christian Sena        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
 
 
 
@@ -234,5 +231,5 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 | Documentos do projeto               | Word                             | http://....                            |
 | Projeto de interface                | Figma                              |https://www.figma.com/design/EYfykzn72BVDNQFwjevTCi|
 | Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/projects?query=is%3Aopen|
-| Hospedagem                          | Vercel                             | http://....                            |
+| Hospedagem                          | azure                             |https://calm-river-08c26c71e.4.azurestaticapps.net|                           |
  
