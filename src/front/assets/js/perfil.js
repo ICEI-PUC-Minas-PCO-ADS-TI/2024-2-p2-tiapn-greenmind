@@ -1,6 +1,6 @@
 const user = document.querySelector("#user");
 const token = localStorage.getItem("token");
-const backURL = "https://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api/user";
+const backURL = "http://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api/user";
 
 const logoutBtn = document.querySelector("#logout-btn");
 

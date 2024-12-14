@@ -1,6 +1,6 @@
 async function carregarPerguntas() {
     try {
-      const response = await fetch("https://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/formulario");
+      const response = await fetch("http://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/formulario");
       const perguntas = await response.json();
   
       const formContainer = document.getElementById("quiz-container");
