@@ -2,7 +2,8 @@
  
 O processo de Redução de Desperdícios Alimentares apresenta diversas oportunidades de melhoria, tais como: maior eficiência na coleta de informações sobre os alimentos desperdiçados, automação na análise das causas do desperdício, e maior engajamento nas ações educativas e práticas de conscientização. Além disso, a implementação de um monitoramento contínuo com feedback em tempo real poderia otimizar a tomada de decisões e a aplicação de novas estratégias para garantir que os objetivos de redução sejam atingidos de forma mais eficiente.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](docs/images/process2tobe.png "Modelo BPMN do Processo 2.")
+![processo2asis](https://github.com/user-attachments/assets/b6b13078-0345-4a76-bc61-e77834e8af50)
+
 
 
 #### Detalhamento das atividades
