@@ -9,7 +9,7 @@ Coloque aqui o conjunto de slides.
 
 > Link da Apresentação.
 >
-> https://www.canva.com/design/DAGShVKiUWA/3TIhx5vMyFcVlDulGCprOA/view?utm_content=DAGShVKiUWA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h66ef4bf0fe
+>https://www.canva.com/design/DAGSGogRD54/m6QY_oJIrEuYosboKkeNKA/view?utm_content=DAGSGogRD54&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h05d18d5394
 
 > **Links úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
