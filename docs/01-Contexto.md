@@ -25,61 +25,68 @@ De acordo com o G1, o Brasil ficou na posição de número 81 do índice de dese
 
 ## Público-alvo
 
-Professores da área, ativistas, estudantes, público geral interessado em sustentabilidade
 
-Personas
+# Persona 1: João, 16 anos, Estudante do Ensino Médio
 
-Persona 1: João, 16 anos, Estudante do Ensino Médio
-Campo	Descrição
-Nome	João
-Idade	16 anos
-Profissão	Estudante do Ensino Médio
-Objetivos Principais	- Aprender sobre práticas sustentáveis para projetos escolares.- Aplicar esses conhecimentos em casa.
-Objetivos do Serviço	- Obter informações práticas e acessíveis que sejam relevantes para sua faixa etária.- Aplicar as práticas sustentáveis no seu dia a dia.
-Objetos Usados	- Caderno- Livros escolares- Smartphone- Laptop
-Tratamento Ideal	- Empatia e encorajamento.- Conteúdos interativos e educativos, com temas que chamem sua atenção e sejam divertidos.
-Necessidades	- Acesso fácil e direto a conteúdos relacionados à sustentabilidade.- Sugestões práticas e aplicáveis em sua rotina escolar e doméstica.
-Motivação	- Protagonismo no aprendizado e ações sustentáveis para melhorar sua vida e o ambiente.
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | João                                                                          |
+| **Idade**                        | 16 anos                                                                       |
+| **Profissão**                    | Estudante do Ensino Médio                                                     |
+| **Objetivos Principais**         | - Aprender sobre práticas sustentáveis para projetos escolares. <br>- Aplicar esses conhecimentos em casa. |
+| **Objetivos do Serviço**         | - Obter informações práticas e acessíveis que sejam relevantes para sua faixa etária. <br>- Aplicar as práticas sustentáveis no seu dia a dia. |
+| **Objetos Usados**               | - Caderno <br>- Livros escolares <br>- Smartphone <br>- Laptop                    |
+| **Tratamento Ideal**             | - Empatia e encorajamento. <br>- Conteúdos interativos e educativos, com temas que chamem sua atenção e sejam divertidos. |
+| **Necessidades**                 | - Acesso fácil e direto a conteúdos relacionados à sustentabilidade. <br>- Sugestões práticas e aplicáveis em sua rotina escolar e doméstica. |
+| **Motivação**                    | - Protagonismo no aprendizado e ações sustentáveis para melhorar sua vida e o ambiente. |
 
+---
 
-Persona 2: Maria, 32 anos, Engenheira Ambiental
-Campo	Descrição
-Nome	Maria
-Idade	32 anos
-Profissão	Engenheira Ambiental
-Objetivos Principais	- Manter-se atualizada sobre novas práticas sustentáveis.- Aplicar esses conhecimentos em sua vida profissional e pessoal.
-Objetivos do Serviço	- Acesso a informações técnicas e práticas de sustentabilidade.- Ferramentas que ajudem a integrar práticas sustentáveis no trabalho e na vida pessoal.
-Objetos Usados	- Documentos técnicos- Laptop- Smartphone
-Tratamento Ideal	- Profissionalismo e respeito ao seu nível de conhecimento.- Conteúdo de alta qualidade e com dados técnicos.
-Necessidades	- Atualizações sobre tendências e inovações em sustentabilidade.- Conteúdo técnico e estratégias aplicáveis para a área de atuação.
-Motivação	- Progresso na sua carreira e melhoria contínua na implementação de soluções sustentáveis.
+# Persona 2: Maria, 32 anos, Engenheira Ambiental
 
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Maria                                                                         |
+| **Idade**                        | 32 anos                                                                       |
+| **Profissão**                    | Engenheira Ambiental                                                          |
+| **Objetivos Principais**         | - Manter-se atualizada sobre novas práticas sustentáveis. <br>- Aplicar esses conhecimentos em sua vida profissional e pessoal. |
+| **Objetivos do Serviço**         | - Acesso a informações técnicas e práticas de sustentabilidade. <br>- Ferramentas que ajudem a integrar práticas sustentáveis no trabalho e na vida pessoal. |
+| **Objetos Usados**               | - Documentos técnicos <br>- Laptop <br>- Smartphone                              |
+| **Tratamento Ideal**             | - Profissionalismo e respeito ao seu nível de conhecimento. <br>- Conteúdo de alta qualidade e com dados técnicos. |
+| **Necessidades**                 | - Atualizações sobre tendências e inovações em sustentabilidade. <br>- Conteúdo técnico e estratégias aplicáveis para a área de atuação. |
+| **Motivação**                    | - Progresso na sua carreira e melhoria contínua na implementação de soluções sustentáveis. |
 
-Persona 3: Ana, 45 anos, Dona de Casa
-Campo	Descrição
-Nome	Ana
-Idade	45 anos
-Profissão	Dona de Casa
-Objetivos Principais	- Aprender maneiras econômicas de aplicar a sustentabilidade no cotidiano.
-Objetivos do Serviço	- Obter dicas práticas para incorporar a sustentabilidade em sua rotina diária.- Aplicar soluções rápidas e fáceis em casa.
-Objetos Usados	- Utensílios domésticos- Smartphone- Computador de mesa
-Tratamento Ideal	- Empatia e praticidade.- Soluções rápidas e simples que possam ser aplicadas no seu dia a dia.
-Necessidades	- Guias simples e acessíveis sobre práticas sustentáveis.- Soluções que não exijam grandes mudanças no seu estilo de vida.
-Motivação	- Melhorar a qualidade de vida e reduzir custos através da sustentabilidade.
+---
 
+# Persona 3: Ana, 45 anos, Dona de Casa
 
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Ana                                                                           |
+| **Idade**                        | 45 anos                                                                       |
+| **Profissão**                    | Dona de Casa                                                                  |
+| **Objetivos Principais**         | - Aprender maneiras econômicas de aplicar a sustentabilidade no cotidiano.    |
+| **Objetivos do Serviço**         | - Obter dicas práticas para incorporar a sustentabilidade em sua rotina diária. <br>- Aplicar soluções rápidas e fáceis em casa. |
+| **Objetos Usados**               | - Utensílios domésticos <br>- Smartphone <br>- Computador de mesa                |
+| **Tratamento Ideal**             | - Empatia e praticidade. <br>- Soluções rápidas e simples que possam ser aplicadas no seu dia a dia. |
+| **Necessidades**                 | - Guias simples e acessíveis sobre práticas sustentáveis. <br>- Soluções que não exijam grandes mudanças no seu estilo de vida. |
+| **Motivação**                    | - Melhorar a qualidade de vida e reduzir custos através da sustentabilidade.  |
 
-Persona 4: Lucas Martins, 20 anos, Estudante Universitário e Jovem Ativista Ambiental
-Campo	Descrição
-Nome	Lucas Martins
-Idade	20 anos
-Profissão	Estudante Universitário e Jovem Ativista Ambiental
-Objetivos Principais	- Promover ações de conscientização ambiental.- Expandir seu conhecimento sobre práticas sustentáveis.- Organizar eventos comunitários de coleta seletiva.
-Objetivos do Serviço	- Utilizar o mapa de pontos de reciclagem.- Organizar eventos e ações comunitárias.- Aprender mais sobre reciclagem e redução de desperdício.
-Objetos Usados	- Smartphone- Computador- Aplicativos de redes sociais- Materiais educativos sobre reciclagem e sustentabilidade
-Tratamento Ideal	- Oferecer recursos interativos e educativos, como quizzes e desafios.- Ferramentas para planejar e compartilhar eventos.
-Necessidades	- Acesso fácil a informações sobre práticas de reciclagem.- Ferramentas para divulgar eventos e promover engajamento.
-Motivação	- Impactar positivamente sua comunidade através da conscientização ambiental e ações coletivas.
+---
+
+# Persona 4: Lucas Martins, 20 anos, Estudante Universitário e Jovem Ativista Ambiental
+
+| **Campo**                       | **Descrição**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **Nome**                         | Lucas Martins                                                                 |
+| **Idade**                        | 20 anos                                                                       |
+| **Profissão**                    | Estudante Universitário e Jovem Ativista Ambiental                           |
+| **Objetivos Principais**         | - Promover ações de conscientização ambiental. <br>- Expandir seu conhecimento sobre práticas sustentáveis. <br>- Organizar eventos comunitários de coleta seletiva. |
+| **Objetivos do Serviço**         | - Utilizar o mapa de pontos de reciclagem. <br>- Organizar eventos e ações comunitárias. <br>- Aprender mais sobre reciclagem e redução de desperdício. |
+| **Objetos Usados**               | - Smartphone <br>- Computador <br>- Aplicativos de redes sociais <br>- Materiais educativos sobre reciclagem e sustentabilidade |
+| **Tratamento Ideal**             | - Oferecer recursos interativos e educativos, como quizzes e desafios. <br>- Ferramentas para planejar e compartilhar eventos. |
+| **Necessidades**                 | - Acesso fácil a informações sobre práticas de reciclagem. <br>- Ferramentas para divulgar eventos e promover engajamento. |
+| **Motivação**                    | - Impactar positivamente sua comunidade através da conscientização ambiental e ações coletivas. |
 
 
 
