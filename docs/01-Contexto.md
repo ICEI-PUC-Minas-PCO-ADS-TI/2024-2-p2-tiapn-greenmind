@@ -169,28 +169,6 @@ Isso motiva a criação da nossa plataforma para a propagação de informações
 | **Motivação**                    | - Aplicar soluções tecnológicas para promover um futuro mais sustentável. |
 
 
-
-# Persona: Designer Gráfico Sustentável
-
-## Digitais
-
-- **Software de design, blogs e sites sobre design sustentável, vídeos tutoriais, redes sociais para designers.**
-
-## Objetivos Chave
-
-- **Integrar práticas sustentáveis em seus projetos de design gráfico e em sua vida pessoal.**
-
-## Por que Ele Precisa do Serviço
-
-- **Para aprender e aplicar soluções sustentáveis que sejam criativas e viáveis tanto para seus clientes quanto para seus projetos pessoais.**
-
-## Como Devemos Tratá-lo
-
-- **Ofereça recursos e tutoriais sobre design gráfico sustentável**, com ideias práticas para integrar práticas ecológicas em seus projetos.
-- **Forneça exemplos de casos de sucesso e ferramentas** que facilitem a aplicação dessas práticas em seu trabalho diário.
-
----
-
 # Mapa de Stakeholders
 
 ## Pessoas Fundamentais
