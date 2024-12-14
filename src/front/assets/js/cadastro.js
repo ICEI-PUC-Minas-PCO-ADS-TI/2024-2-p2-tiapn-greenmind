@@ -1,5 +1,5 @@
 // URL depende se as rotas vão ser pelo express ou diretamente pelos arquivos (usando live server)
-const backURL = "http://localhost:3000/api/cadastro";
+const backURL = "http://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api/cadastro";
 
 let nome = document.querySelector("#nome");
 let email = document.querySelector("#email");

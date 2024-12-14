@@ -10,7 +10,7 @@ else {
 }
 //////////////
 
-const backURL = "http://localhost:3000/api/pontosreciclagem";
+const backURL = "http://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net/api/pontosreciclagem";
 let map;
 if(localStorage.getItem("pontos-favoritos") == null) {
     localStorage.setItem("pontos-favoritos", JSON.stringify([]));
