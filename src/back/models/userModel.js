@@ -1,5 +1,5 @@
 const db = require('../db/db_connection');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 class UserModel {
     getUsers() {

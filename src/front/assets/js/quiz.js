@@ -13,7 +13,7 @@ var id = 0
 var questoes_selecionadas = []
 var opcaoSelecionada = false;
 
-const backURL = "backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net";
+const backURL = "https://backend-greenmind-degdgcebgvesfua9.brazilsouth-01.azurewebsites.net";
 
 // questõs que vão ser perguntadas
 const Questions = [

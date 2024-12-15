@@ -1,9 +1,6 @@
 const db = require('../db/db_connection');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
 const authController = require('../controllers/authController');
-
-const secretKey = "greenmind";
 
 exports.salvarDados = (req, res) => {
     const { item, quantidadeDesperdiciada, quantidadeComprada, dataRegistro, token } = req.body;

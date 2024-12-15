@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/647c914b-87f6-4313-b772-2094d11f2cf0/resourceGroups/greenmind_group/providers/Microsoft.Web/sites/backend-greenmind",
+    "appService.deploySubpath": "src\\back"
+}

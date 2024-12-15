@@ -7,9 +7,10 @@ const userRoutes = require('./routes/userRoutes');
 const quizRoutes = require('./routes/quizRoutes');
 const formularioRoutes = require('./routes/form-router');
 const desperdicioAlimentarRoutes = require('./routes/desperdicio-alimentarRoutes');
+const { env } = require('process');
 
 const app = express();
-const PORT = 3000;
+const PORT = env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
