@@ -220,6 +220,10 @@ function showRecyclingCenters() {
 
 // Adiciona o ponto de reciclagem aos favoritos
 function addToFavorites(name, address) {
+    if(favorites.some(fav => fav.nome === name)) {
+        alert(`${name} já está nos favoritos.`);
+        return;
+    }
     fetch(backURL, {
         method: "POST",
         headers: {
@@ -235,16 +239,13 @@ function addToFavorites(name, address) {
     }).then((dados) => {
         if(dados.success) {
             console.log("sucesso");
-            if (!favorites.some(fav => fav.nome === name)) {
-                favorites.push({ nome: name, endereco: address });
-                updateFavoritesList();
-                alert(`${name} foi adicionado aos favoritos!`);
-            } else {
-                alert(`${name} já está nos favoritos.`);
-            }
+            favorites.push({ nome: name, endereco: address });
+            updateFavoritesList();
+            alert(`${name} foi adicionado aos favoritos!`);
         }
         else {
             console.log(dados);
+            alert(dados.mensagem);
         }
     })
 }
