@@ -1,10 +1,11 @@
 const mysql = require('mysql2');
+const { env } = require('process');
 
 const db = mysql.createConnection({
-    host: "dbserver-greenmind.mysql.database.azure.com",
-    user: "diego", // SUBSTITUA pelo seu usuário no banco de dados
-    password: "r@mero123", // SUBSTITUA pela sua senha no banco de dados
-    database: "greenmindtestesprint4",
+    host: env.DB_HOST || "localhost",
+    user: env.DB_USER || "root", // SUBSTITUA pelo seu usuário no banco de dados
+    password: env.DB_PASSWORD || "root", // SUBSTITUA pela sua senha no banco de dados
+    database: env.DB_DATABASE || "greenmindtestesprint4",
     port: "" // Porta. Por padrão, eu deixo vazio.
 });
 
