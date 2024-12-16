@@ -45,7 +45,7 @@ exports.signIn = (req, res) => {
 
     let query = 'SELECT * FROM usuario WHERE email = ?';
 
-    db.query(query, [email, senha], (err, result) => {
+    db.query(query, [email], (err, result) => {
         if(err) return res.json({mensagem: "Erro no processo de login", erro: err.message});
 
         if(result.length == 0) {
@@ -56,7 +56,7 @@ exports.signIn = (req, res) => {
 
         bcrypt.compare(senha, user.senha).then((result) => {
             if(!result) {
-                return res.json({mensagem: "Verifique o Email e a Senha e tente novamente"});
+                return res.json({mensagem: "Verifique o Email e a Senha e tente novamente."});
             }
 
             const token = jwt.sign(
