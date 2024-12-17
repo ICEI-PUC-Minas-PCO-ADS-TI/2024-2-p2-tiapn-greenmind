@@ -40,7 +40,7 @@ O processo visa a redução de desperdícios em um ambiente educacional, utiliza
 
 [PROCESSO 1 - Redução de Consumo de Água e Luz](https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/blob/063da2819be98f09505c51b18673aa3f13300af4/docs/processes/processo-1-reducao-de-consumo-de-agua-e-energia.md)
 
-[PROCESSO 2 - Redução de Desperdícios Alimentares](./processes/processo-2-nome-do-processo.md "Detalhamento do processo 2.")
+[PROCESSO 2 - Redução de Desperdícios Alimentares](https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/blob/063da2819be98f09505c51b18673aa3f13300af4/docs/processes/processo-1-reducao-de-consumo-de-agua-e-energia.md)
 
 ## Indicadores de desempenho
 
