@@ -38,9 +38,9 @@ O processo visa a redução de desperdícios em um ambiente educacional, utiliza
 
 ## Modelagem dos processos
 
-[PROCESSO 1 - Nome do processo](./processes/processo-1-nome-do-processo.md "Detalhamento do processo 1.")
+[PROCESSO 1 - Redução de Consumo de Água e Luz](./processes/processo-1-nome-do-processo.md "Detalhamento do processo 1.")
 
-[PROCESSO 2 - Nome do processo](./processes/processo-2-nome-do-processo.md "Detalhamento do processo 2.")
+[PROCESSO 2 - Redução de Desperdícios Alimentares](./processes/processo-2-nome-do-processo.md "Detalhamento do processo 2.")
 
 ## Indicadores de desempenho
 
