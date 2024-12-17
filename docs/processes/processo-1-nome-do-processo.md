@@ -1,4 +1,4 @@
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Redução de Consumo de Água e Energia
 
 O processo de Redução de Consumo de Água e Energia pode ser aprimorado em diversos aspectos. Algumas oportunidades de melhoria incluem: a automação da coleta de dados, maior engajamento dos alunos no monitoramento do consumo, uso de tecnologia para fornecer feedback em tempo real, e ajustes contínuos nas estratégias com base em análises mais precisas. Além disso, a integração de relatórios digitais e a implementação de um sistema de acompanhamento das metas podem garantir uma maior eficácia na redução do desperdício
 
