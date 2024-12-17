@@ -179,6 +179,7 @@ Atualizado em: 12/12/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Gabriel Henrique        | CRUD Pegada Ecológica  | 22/11/2024     | 12/12/2024 | ✔️    | 08/12/2024      |
 | Gabriel Henrique        | Integração  | 22/11/2024     | 12/12/2024 | ✔️    | 08/12/2024      |
 | Gabriel Henrique        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
 | Gabriel Henrique        | Documentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
@@ -193,31 +194,12 @@ Atualizado em: 12/12/2024
 | Christian Sena        | Apresentação  | 22/11/2024     | 12/12/2024 | ✔️    | 12/12/2024      |
 
 
-
-
-
 Legenda:
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado
 - ❌: não iniciado
 
-
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
-
-### Processo
-
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links úteis**:
-> - [Planejamento e gestão ágil de projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Como criar backlogs no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
@@ -228,8 +210,8 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind|
-| Documentos do projeto               | Word                             |[ http://.... ](https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/tree/main/docs|                           |
+| Documentos do projeto               | GitHub                            |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/tree/main/docs|
 | Projeto de interface                | Figma                              |https://www.figma.com/design/EYfykzn72BVDNQFwjevTCi|
 | Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2024-2-p2-tiapn-greenmind/projects?query=is%3Aopen|
-| Hospedagem                          | azure                             |https://calm-river-08c26c71e.4.azurestaticapps.net|                           |
+| Hospedagem                          | Azure                             |https://calm-river-08c26c71e.4.azurestaticapps.net|                           |
  
