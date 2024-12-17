@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – Redução de Desperdícios Alimentares
  
 O processo de Redução de Desperdícios Alimentares apresenta diversas oportunidades de melhoria, tais como: maior eficiência na coleta de informações sobre os alimentos desperdiçados, automação na análise das causas do desperdício, e maior engajamento nas ações educativas e práticas de conscientização. Além disso, a implementação de um monitoramento contínuo com feedback em tempo real poderia otimizar a tomada de decisões e a aplicação de novas estratégias para garantir que os objetivos de redução sejam atingidos de forma mais eficiente.
 
