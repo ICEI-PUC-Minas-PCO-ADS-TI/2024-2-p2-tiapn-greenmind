@@ -191,7 +191,7 @@ Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](.
   
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foram realizados.
+Foi no Azure, com uma aplicação web para o back end, um servidor de banco de dados para o banco de dados e uma aplicação estática para o frontend.
 
 
 ## Qualidade de software
