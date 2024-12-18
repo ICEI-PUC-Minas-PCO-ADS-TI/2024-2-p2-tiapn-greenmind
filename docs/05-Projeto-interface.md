@@ -68,24 +68,3 @@ A tela "Pegada Ecológica" apresenta uma explicação sobre o conceito de pegada
 
 A imagem representa a Tela Home do projeto "GreenMind", com um design que evoca sustentabilidade. No topo, há um menu com opções como "Conheça o GreenMind", "Artigos e Dicas", "Quiz Ambiental", entre outros, reforçando o foco da plataforma em práticas conscientes e educação ambiental.
 ![imagem_2024-10-20_235320879](https://github.com/user-attachments/assets/8ed7a4c7-d677-4f4f-b75a-a8c041e5c16c)
-
-###  Telas do processo 1
-
-Descrição da tela relativa à atividade 1 do processo 1.
-
-> Insira aqui a tela da atividade 1
-
-Descrição da tela relativa à atividade 2 do processo 1.
-
-> Insira aqui a tela da atividade 2
-
-
-### Telas do processo 2
-
-Descrição da tela relativa à atividade 1 do processo 2.
-
-> Insira aqui a tela da atividade 1
-
-Descrição da tela relativa à atividade 2 do processo 2.
-
-> Insira aqui a tela da atividade 2
