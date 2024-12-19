@@ -18,12 +18,10 @@ authors:
     given-names: Victor Bryan
   - family-names: Andrade Neto
     given-names: Samuel
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: Soares Vieira Vasconcelos
-    given-names: Amália
   - name-suffix: Professora
-    affiliation: PUC Minas    
+    affiliation: PUC Minas
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália  
 keywords:
     - Educação
     - Sustentabilidade
